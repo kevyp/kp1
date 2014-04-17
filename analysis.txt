@@ -82,6 +82,7 @@ net.databinder % dispatch-core                     blocks nothing but itself
 org.parboiled % parboiled                          blocks nothing but itself
 org.scalafx % scalafx                              blocks nothing but itself
 org.squeryl % squeryl                              blocks nothing but itself
+
 Disclaimer: This tool only regards `test` dependencies if they are part of the pom.
 It contains a fixed list of libraries and won't detect any releases of libraries not on
 this list.
