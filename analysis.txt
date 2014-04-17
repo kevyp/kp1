@@ -1,4 +1,4 @@
- 8 libraries available for Scala 2.11
+ 9 libraries available for Scala 2.11
 
 akka-actor                       1 versions, latest: 2.3.2
 scala-xml                        1 versions, latest: 1.0.1
@@ -7,7 +7,8 @@ scala-swing                      1 versions, latest: 1.0.1
 async                            1 versions, latest: 0.9.1
 scalacheck                       2 versions, latest: 1.11.3
 raptureIO                        1 versions, latest: 0.9.1
-shapeless                        1 versions, latest: 1.2.4
+scalaz                           1 versions, latest: 7.0.6
+shapeless                        2 versions, latest: 2.0.0
 
 Libraries missing
 
@@ -15,7 +16,7 @@ scalatest                       0 missing dependencies, deepest chain: 0
 squeryl                         0 missing dependencies, deepest chain: 0 
 lift-json                       0 missing dependencies, deepest chain: 0 
 twitter-json                    0 missing dependencies, deepest chain: 0 
-scalaz                          0 missing dependencies, deepest chain: 0 
+argonaut                        0 missing dependencies, deepest chain: 0 
 parboiled                       0 missing dependencies, deepest chain: 0 
 parboiled2                      0 missing dependencies, deepest chain: 0 
 scopt                           0 missing dependencies, deepest chain: 0 
@@ -23,23 +24,22 @@ scala-arm                       0 missing dependencies, deepest chain: 0
 scala-stm                       0 missing dependencies, deepest chain: 0 
 scallop                         0 missing dependencies, deepest chain: 0 
 scalafx                         0 missing dependencies, deepest chain: 0 
+platform-executing              0 missing dependencies, deepest chain: 0 
 algebird-core                   0 missing dependencies, deepest chain: 0 
 dispatch-core                   0 missing dependencies, deepest chain: 0 
 twirl-api                       0 missing dependencies, deepest chain: 0 
 slick                           1 missing dependencies, deepest chain: 1 com.typesafe.slick % slick
 spray-json                      1 missing dependencies, deepest chain: 1 org.parboiled % parboiled-scala
-argonaut                        1 missing dependencies, deepest chain: 1 org.scalaz % scalaz-core
 spire                           1 missing dependencies, deepest chain: 1 org.spire-math % spire-macros
 scalate-core                    1 missing dependencies, deepest chain: 1 org.fusesource.scalate % scalate-util
-platform-executing              1 missing dependencies, deepest chain: 1 org.scalaz % scalaz-core
 unfiltered                      1 missing dependencies, deepest chain: 1 net.databinder % unfiltered-util
+specs2                          2 missing dependencies, deepest chain: 2 org.specs2 % specs2-matcher -> org.specs2 % specs2-common
 json4s-native                   2 missing dependencies, deepest chain: 2 org.json4s % json4s-core -> org.json4s % json4s-ast
 json-lenses                     2 missing dependencies, deepest chain: 2 io.spray % spray-json -> org.parboiled % parboiled-scala
+ghscala                         2 missing dependencies, deepest chain: 2 com.github.xuwei-k % httpz -> io.argonaut % argonaut
 scalatra                        3 missing dependencies, deepest chain: 1 org.scalatra % scalatra-common
 kiama                           3 missing dependencies, deepest chain: 1 org.bitbucket.inkytonik.dsprofile % dsprofile
 play-json                       4 missing dependencies, deepest chain: 2 com.typesafe.play % play-iteratees -> org.scala-stm % scala-stm
-specs2                          5 missing dependencies, deepest chain: 5 org.specs2 % specs2-matcher -> org.specs2 % specs2-common -> org.scalaz % scalaz-concurrent -> org.scalaz % scalaz-effect -> org.scalaz % scalaz-core
-ghscala                         5 missing dependencies, deepest chain: 4 com.github.xuwei-k % httpz -> org.scalaz % scalaz-concurrent -> org.scalaz % scalaz-effect -> org.scalaz % scalaz-core
 scalding-core                   5 missing dependencies, deepest chain: 1 com.twitter % bijection-core
 spray-can                       5 missing dependencies, deepest chain: 4 io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
 finagle-core                    7 missing dependencies, deepest chain: 4 com.twitter % util-jvm -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
@@ -49,7 +49,6 @@ spray-routing                  20 missing dependencies, deepest chain: 5 io.spra
 Blocking modules
 
 org.parboiled % parboiled-scala                    blocks  4 libraries: spray-json, json-lenses, spray-can, spray-routing
-org.scalaz % scalaz-core                           blocks  4 libraries: argonaut, platform-executing, specs2, ghscala
 com.typesafe.akka % akka-osgi                      blocks  2 libraries: spray-can, spray-routing
 com.typesafe.play % play-functional                blocks  2 libraries: play-json, spray-routing
 com.typesafe.play % play-datacommons               blocks  2 libraries: play-json, spray-routing
@@ -63,6 +62,7 @@ com.twitter % bijection-core                       blocks  1 libraries: scalding
 com.twitter % scalding-date                        blocks  1 libraries: scalding-core
 com.twitter % algebird-core                        blocks  1 libraries: scalding-core
 com.typesafe.slick % slick                         blocks  1 libraries: slick
+io.argonaut % argonaut                             blocks  1 libraries: ghscala
 io.spray % twirl-api                               blocks  1 libraries: spray-routing
 net.databinder % unfiltered-util                   blocks  1 libraries: unfiltered
 net.liftweb % lift-json                            blocks  1 libraries: spray-routing
@@ -73,9 +73,11 @@ org.fusesource.scalate % scalate-util              blocks  1 libraries: scalate-
 org.rogach % scallop                               blocks  1 libraries: kiama
 org.scalatra % scalatra-common                     blocks  1 libraries: scalatra
 org.scalatra.rl % rl                               blocks  1 libraries: scalatra
+org.specs2 % specs2-common                         blocks  1 libraries: specs2
 org.spire-math % spire-macros                      blocks  1 libraries: spire
 com.github.scopt % scopt                           blocks nothing but itself
 com.jsuereth % scala-arm                           blocks nothing but itself
+com.nocandysw % platform-executing                 blocks nothing but itself
 net.databinder % dispatch-core                     blocks nothing but itself
 org.parboiled % parboiled                          blocks nothing but itself
 org.scalafx % scalafx                              blocks nothing but itself
