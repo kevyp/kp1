@@ -1,10 +1,11 @@
- 9 libraries available for Scala 2.11
+10 libraries available for Scala 2.11
 
 akka-actor                       1 versions, latest: 2.3.2
 scala-xml                        1 versions, latest: 1.0.1
 scala-parser-combinators         1 versions, latest: 1.0.1
 scala-swing                      1 versions, latest: 1.0.1
 async                            1 versions, latest: 0.9.1
+scalatest                        1 versions, latest: 2.1.3
 scalacheck                       2 versions, latest: 1.11.3
 raptureIO                        1 versions, latest: 0.9.1
 scalaz                           1 versions, latest: 7.0.6
@@ -12,7 +13,6 @@ shapeless                        2 versions, latest: 2.0.0
 
 Libraries missing
 
-scalatest                       0 missing dependencies, deepest chain: 0 
 squeryl                         0 missing dependencies, deepest chain: 0 
 lift-json                       0 missing dependencies, deepest chain: 0 
 twitter-json                    0 missing dependencies, deepest chain: 0 
@@ -81,5 +81,52 @@ com.nocandysw % platform-executing                 blocks nothing but itself
 net.databinder % dispatch-core                     blocks nothing but itself
 org.parboiled % parboiled                          blocks nothing but itself
 org.scalafx % scalafx                              blocks nothing but itself
-org.scalatest % scalatest                          blocks nothing but itself
 org.squeryl % squeryl                              blocks nothing but itself
+Disclaimer: This tool only regards `test` dependencies if they are part of the pom.
+It contains a fixed list of libraries and won't detect any releases of libraries not on
+this list.
+
+These libraries are currently checked (name, organization % module):
+    
+akka-actor                com.typesafe.akka % akka-actor
+algebird-core             com.twitter % algebird-core
+argonaut                  io.argonaut % argonaut
+async                     org.scala-lang.modules % scala-async
+dispatch-core             net.databinder % dispatch-core
+finagle-core              com.twitter % finagle-core
+ghscala                   com.github.xuwei-k % ghscala-core
+json-lenses               net.virtual-void % json-lenses
+json4s-native             org.json4s % json4s-native
+kiama                     com.googlecode.kiama % kiama
+lift-json                 net.liftweb % lift-json
+ostrich                   com.twitter % ostrich
+parboiled                 org.parboiled % parboiled-scala
+parboiled2                org.parboiled % parboiled
+platform-executing        com.nocandysw % platform-executing
+play-json                 com.typesafe.play % play-json
+raptureIO                 com.propensive % rapture-io
+scala-arm                 com.jsuereth % scala-arm
+scala-parser-combinators  org.scala-lang.modules % scala-parser-combinators
+scala-stm                 org.scala-stm % scala-stm
+scala-swing               org.scala-lang.modules % scala-swing
+scala-xml                 org.scala-lang.modules % scala-xml
+scalacheck                org.scalacheck % scalacheck
+scalafx                   org.scalafx % scalafx
+scalate-core              org.fusesource.scalate % scalate-core
+scalatest                 org.scalatest % scalatest
+scalatra                  org.scalatra % scalatra
+scalaz                    org.scalaz % scalaz-core
+scalding-core             com.twitter % scalding-core
+scallop                   org.rogach % scallop
+scopt                     com.github.scopt % scopt
+shapeless                 com.chuusai % shapeless
+slick                     com.typesafe % slick
+specs2                    org.specs2 % specs2-core
+spire                     org.spire-math % spire
+spray-can                 io.spray % spray-can
+spray-json                io.spray % spray-json
+spray-routing             io.spray % spray-routing
+squeryl                   org.squeryl % squeryl
+twirl-api                 io.spray % twirl-api
+twitter-json              com.twitter % scala-json
+unfiltered                net.databinder % unfiltered
