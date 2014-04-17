@@ -1,4 +1,4 @@
- 7 libraries available for Scala 2.11
+ 8 libraries available for Scala 2.11
 
 akka-actor                       1 versions, latest: 2.3.2
 scala-xml                        1 versions, latest: 1.0.1
@@ -6,6 +6,7 @@ scala-parser-combinators         1 versions, latest: 1.0.1
 scala-swing                      1 versions, latest: 1.0.1
 async                            1 versions, latest: 0.9.1
 scalacheck                       2 versions, latest: 1.11.3
+raptureIO                        1 versions, latest: 0.9.1
 shapeless                        1 versions, latest: 1.2.4
 
 Libraries missing
