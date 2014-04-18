@@ -1,4 +1,4 @@
-13 libraries available for Scala 2.11
+14 libraries available for Scala 2.11
 
 akka-actor                       1 versions, latest: 2.3.2
 scala-xml                        1 versions, latest: 1.0.1
@@ -12,6 +12,7 @@ raptureIO                        1 versions, latest: 0.9.1
 scalaz                           1 versions, latest: 7.0.6
 shapeless                        2 versions, latest: 2.0.0
 scopt                            1 versions, latest: 3.2.0
+scala-stm                        1 versions, latest: 0.7
 platform-executing               1 versions, latest: 0.5.0
 
 Libraries missing
@@ -23,7 +24,6 @@ argonaut                        0 missing dependencies, deepest chain: 0
 parboiled                       0 missing dependencies, deepest chain: 0 
 parboiled2                      0 missing dependencies, deepest chain: 0 
 scala-arm                       0 missing dependencies, deepest chain: 0 
-scala-stm                       0 missing dependencies, deepest chain: 0 
 scallop                         0 missing dependencies, deepest chain: 0 
 scalafx                         0 missing dependencies, deepest chain: 0 
 algebird-core                   0 missing dependencies, deepest chain: 0 
@@ -37,23 +37,23 @@ unfiltered                      1 missing dependencies, deepest chain: 1 net.dat
 json4s-native                   2 missing dependencies, deepest chain: 2 org.json4s % json4s-core -> org.json4s % json4s-ast
 json-lenses                     2 missing dependencies, deepest chain: 2 io.spray % spray-json -> org.parboiled % parboiled-scala
 ghscala                         2 missing dependencies, deepest chain: 2 com.github.xuwei-k % httpz -> io.argonaut % argonaut
+play-json                       3 missing dependencies, deepest chain: 1 com.typesafe.play % play-iteratees
 scalatra                        3 missing dependencies, deepest chain: 1 org.scalatra % scalatra-common
 kiama                           3 missing dependencies, deepest chain: 1 org.bitbucket.inkytonik.dsprofile % dsprofile
-play-json                       4 missing dependencies, deepest chain: 2 com.typesafe.play % play-iteratees -> org.scala-stm % scala-stm
 scalding-core                   5 missing dependencies, deepest chain: 1 com.twitter % bijection-core
 spray-can                       5 missing dependencies, deepest chain: 4 io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
 finagle-core                    7 missing dependencies, deepest chain: 4 com.twitter % util-jvm -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
 ostrich                         7 missing dependencies, deepest chain: 4 com.twitter % util-logging -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
-spray-routing                  20 missing dependencies, deepest chain: 5 io.spray % spray-can -> io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
+spray-routing                  19 missing dependencies, deepest chain: 5 io.spray % spray-can -> io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
 
 Blocking modules
 
 org.parboiled % parboiled-scala                    blocks  4 libraries: spray-json, json-lenses, spray-can, spray-routing
 com.typesafe.akka % akka-osgi                      blocks  2 libraries: spray-can, spray-routing
 com.typesafe.play % play-functional                blocks  2 libraries: play-json, spray-routing
+com.typesafe.play % play-iteratees                 blocks  2 libraries: play-json, spray-routing
 com.typesafe.play % play-datacommons               blocks  2 libraries: play-json, spray-routing
 org.json4s % json4s-ast                            blocks  2 libraries: json4s-native, spray-routing
-org.scala-stm % scala-stm                          blocks  2 libraries: play-json, spray-routing
 org.scala-tools.testing % specs                    blocks  2 libraries: finagle-core, ostrich
 com.twitter % scalding-args                        blocks  1 libraries: scalding-core
 com.twitter % chill                                blocks  1 libraries: scalding-core
