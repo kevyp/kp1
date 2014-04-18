@@ -1,4 +1,4 @@
-12 libraries available for Scala 2.11
+13 libraries available for Scala 2.11
 
 akka-actor                       1 versions, latest: 2.3.2
 scala-xml                        1 versions, latest: 1.0.1
@@ -11,6 +11,7 @@ scalacheck                       2 versions, latest: 1.11.3
 raptureIO                        1 versions, latest: 0.9.1
 scalaz                           1 versions, latest: 7.0.6
 shapeless                        2 versions, latest: 2.0.0
+scopt                            1 versions, latest: 3.2.0
 platform-executing               1 versions, latest: 0.5.0
 
 Libraries missing
@@ -21,7 +22,6 @@ twitter-json                    0 missing dependencies, deepest chain: 0
 argonaut                        0 missing dependencies, deepest chain: 0 
 parboiled                       0 missing dependencies, deepest chain: 0 
 parboiled2                      0 missing dependencies, deepest chain: 0 
-scopt                           0 missing dependencies, deepest chain: 0 
 scala-arm                       0 missing dependencies, deepest chain: 0 
 scala-stm                       0 missing dependencies, deepest chain: 0 
 scallop                         0 missing dependencies, deepest chain: 0 
@@ -74,7 +74,6 @@ org.rogach % scallop                               blocks  1 libraries: kiama
 org.scalatra % scalatra-common                     blocks  1 libraries: scalatra
 org.scalatra.rl % rl                               blocks  1 libraries: scalatra
 org.spire-math % spire-macros                      blocks  1 libraries: spire
-com.github.scopt % scopt                           blocks nothing but itself
 com.jsuereth % scala-arm                           blocks nothing but itself
 net.databinder % dispatch-core                     blocks nothing but itself
 org.parboiled % parboiled                          blocks nothing but itself
