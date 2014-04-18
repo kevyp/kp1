@@ -1,4 +1,4 @@
-16 libraries available for Scala 2.11
+21 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                       1 versions: 2.3.2
 scala-xml                        1 versions: 1.0.1
@@ -9,6 +9,7 @@ scala-logging-slf4j              1 versions: 2.0.3
 scalatest                        1 versions: 2.1.3
 specs2                           1 versions: 2.3.11
 scalacheck                       2 versions: 1.11.3, 1.10.1
+scalikejdbc-interpolation        1 versions: 2.0.0-beta1
 raptureIO                        1 versions: 0.9.1
 scalaz                           1 versions: 7.0.6
 shapeless                        2 versions: 2.0.0, 1.2.4
@@ -16,9 +17,14 @@ scopt                            1 versions: 3.2.0
 scala-stm                        1 versions: 0.7
 platform-executing               1 versions: 0.5.0
 nscala-time                      1 versions: 1.0.0
+nalloc                           1 versions: 0.1.0
+MacWire                          1 versions: 0.6
+scalamacrodebug                  1 versions: 0.4
+twirl-api                        1 versions: 0.7.0
 
 Libraries missing
 
+f0                             has no previous version to analyze
 squeryl                         0 missing dependencies, deepest chain: 0 
 lift-json                       0 missing dependencies, deepest chain: 0 
 twitter-json                    0 missing dependencies, deepest chain: 0 
@@ -28,13 +34,15 @@ parboiled2                      0 missing dependencies, deepest chain: 0
 scala-arm                       0 missing dependencies, deepest chain: 0 
 scallop                         0 missing dependencies, deepest chain: 0 
 scalafx                         0 missing dependencies, deepest chain: 0 
+scalafx                         0 missing dependencies, deepest chain: 0 
+scrimage                        0 missing dependencies, deepest chain: 0 
 algebird-core                   0 missing dependencies, deepest chain: 0 
 dispatch-core                   0 missing dependencies, deepest chain: 0 
-twirl-api                       0 missing dependencies, deepest chain: 0 
 slick                           1 missing dependencies, deepest chain: 1 com.typesafe.slick % slick
 spray-json                      1 missing dependencies, deepest chain: 1 org.parboiled % parboiled-scala
 spire                           1 missing dependencies, deepest chain: 1 org.spire-math % spire-macros
 scalate-core                    1 missing dependencies, deepest chain: 1 org.fusesource.scalate % scalate-util
+monifu                          1 missing dependencies, deepest chain: 1 org.monifu % monifu-core
 unfiltered                      1 missing dependencies, deepest chain: 1 net.databinder % unfiltered-util
 json4s-native                   2 missing dependencies, deepest chain: 2 org.json4s % json4s-core -> org.json4s % json4s-ast
 json-lenses                     2 missing dependencies, deepest chain: 2 io.spray % spray-json -> org.parboiled % parboiled-scala
@@ -46,7 +54,7 @@ scalding-core                   5 missing dependencies, deepest chain: 1 com.twi
 spray-can                       5 missing dependencies, deepest chain: 4 io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
 finagle-core                    7 missing dependencies, deepest chain: 4 com.twitter % util-jvm -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
 ostrich                         7 missing dependencies, deepest chain: 4 com.twitter % util-logging -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
-spray-routing                  19 missing dependencies, deepest chain: 5 io.spray % spray-can -> io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
+spray-routing                  18 missing dependencies, deepest chain: 5 io.spray % spray-can -> io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
 
 Blocking modules
 
@@ -65,22 +73,49 @@ com.twitter % scalding-date                        blocks  1 libraries: scalding
 com.twitter % algebird-core                        blocks  1 libraries: scalding-core
 com.typesafe.slick % slick                         blocks  1 libraries: slick
 io.argonaut % argonaut                             blocks  1 libraries: ghscala
-io.spray % twirl-api                               blocks  1 libraries: spray-routing
 net.databinder % unfiltered-util                   blocks  1 libraries: unfiltered
 net.liftweb % lift-json                            blocks  1 libraries: spray-routing
 org.bitbucket.inkytonik.dsinfo % dsinfo            blocks  1 libraries: kiama
 org.bitbucket.inkytonik.dsprofile % dsprofile      blocks  1 libraries: kiama
 org.clapper % grizzled-slf4j                       blocks  1 libraries: scalatra
 org.fusesource.scalate % scalate-util              blocks  1 libraries: scalate-core
+org.monifu % monifu-core                           blocks  1 libraries: monifu
 org.rogach % scallop                               blocks  1 libraries: kiama
 org.scalatra % scalatra-common                     blocks  1 libraries: scalatra
 org.scalatra.rl % rl                               blocks  1 libraries: scalatra
 org.spire-math % spire-macros                      blocks  1 libraries: spire
 com.jsuereth % scala-arm                           blocks nothing but itself
+com.sksamuel.scrimage % scrimage                   blocks nothing but itself
 net.databinder % dispatch-core                     blocks nothing but itself
 org.parboiled % parboiled                          blocks nothing but itself
 org.scalafx % scalafx                              blocks nothing but itself
 org.squeryl % squeryl                              blocks nothing but itself
+
+Sbt config lines for all available libraries in alphabetic order
+
+"com.chuusai" %% "shapeless" % "1.2.4"
+"com.chuusai" %% "shapeless" % "2.0.0"
+"com.github.nscala-time" %% "nscala-time" % "1.0.0"
+"com.github.scopt" %% "scopt" % "3.2.0"
+"com.nocandysw" %% "platform-executing" % "0.5.0"
+"com.propensive" %% "rapture-io" % "0.9.1"
+"com.softwaremill.macwire" %% "macros" % "0.6"
+"com.softwaremill.scalamacrodebug" %% "macros" % "0.4"
+"com.typesafe.akka" %% "akka-actor" % "2.3.2"
+"com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
+"io.spray" %% "twirl-api" % "0.7.0"
+"org.nalloc" %% "optional" % "0.1.0"
+"org.scala-lang.modules" %% "scala-async" % "0.9.1"
+"org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.1"
+"org.scala-lang.modules" %% "scala-swing" % "1.0.1"
+"org.scala-lang.modules" %% "scala-xml" % "1.0.1"
+"org.scala-stm" %% "scala-stm" % "0.7"
+"org.scalacheck" %% "scalacheck" % "1.10.1"
+"org.scalacheck" %% "scalacheck" % "1.11.3"
+"org.scalatest" %% "scalatest" % "2.1.3"
+"org.scalaz" %% "scalaz-core" % "7.0.6"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta1"
+"org.specs2" %% "specs2-core" % "2.3.11"
 
 Disclaimer: This tool only regards "test" dependencies if they are part of the pom.
 It contains a fixed list of libraries and will only detect any releases for those
@@ -88,17 +123,21 @@ It contains a fixed list of libraries and will only detect any releases for thos
 
 These libraries are currently checked (name, organization % module):
     
+MacWire                   com.softwaremill.macwire % macros
 akka-actor                com.typesafe.akka % akka-actor
 algebird-core             com.twitter % algebird-core
 argonaut                  io.argonaut % argonaut
 async                     org.scala-lang.modules % scala-async
 dispatch-core             net.databinder % dispatch-core
+f0                        com.clarifi % f0
 finagle-core              com.twitter % finagle-core
 ghscala                   com.github.xuwei-k % ghscala-core
 json-lenses               net.virtual-void % json-lenses
 json4s-native             org.json4s % json4s-native
 kiama                     com.googlecode.kiama % kiama
 lift-json                 net.liftweb % lift-json
+monifu                    org.monifu % monifu
+nalloc                    org.nalloc % optional
 nscala-time               com.github.nscala-time % nscala-time
 ostrich                   com.twitter % ostrich
 parboiled                 org.parboiled % parboiled-scala
@@ -114,13 +153,17 @@ scala-swing               org.scala-lang.modules % scala-swing
 scala-xml                 org.scala-lang.modules % scala-xml
 scalacheck                org.scalacheck % scalacheck
 scalafx                   org.scalafx % scalafx
+scalafx                   org.scalafx % scalafx
+scalamacrodebug           com.softwaremill.scalamacrodebug % macros
 scalate-core              org.fusesource.scalate % scalate-core
 scalatest                 org.scalatest % scalatest
 scalatra                  org.scalatra % scalatra
 scalaz                    org.scalaz % scalaz-core
 scalding-core             com.twitter % scalding-core
+scalikejdbc-interpolation org.scalikejdbc % scalikejdbc-interpolation
 scallop                   org.rogach % scallop
 scopt                     com.github.scopt % scopt
+scrimage                  com.sksamuel.scrimage % scrimage
 shapeless                 com.chuusai % shapeless
 slick                     com.typesafe % slick
 specs2                    org.specs2 % specs2-core
