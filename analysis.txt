@@ -1,4 +1,4 @@
-23 libraries available for Scala 2.11 (see the end for sbt config lines)
+24 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                       1 versions: 2.3.2
 scala-xml                        1 versions: 1.0.1
@@ -22,6 +22,7 @@ nalloc                           1 versions: 0.1.0
 MacWire                          1 versions: 0.6
 scalamacrodebug                  1 versions: 0.4
 dispatch-core                    1 versions: 0.8.10
+unfiltered                       1 versions: 0.7.1
 twirl-api                        1 versions: 0.7.0
 
 Libraries missing
@@ -43,7 +44,6 @@ spray-json                      1 missing dependencies, deepest chain: 1 org.par
 spire                           1 missing dependencies, deepest chain: 1 org.spire-math % spire-macros
 scalate-core                    1 missing dependencies, deepest chain: 1 org.fusesource.scalate % scalate-util
 monifu                          1 missing dependencies, deepest chain: 1 org.monifu % monifu-core
-unfiltered                      1 missing dependencies, deepest chain: 1 net.databinder % unfiltered-util
 json4s-native                   2 missing dependencies, deepest chain: 2 org.json4s % json4s-core -> org.json4s % json4s-ast
 json-lenses                     2 missing dependencies, deepest chain: 2 io.spray % spray-json -> org.parboiled % parboiled-scala
 ghscala                         2 missing dependencies, deepest chain: 2 com.github.xuwei-k % httpz -> io.argonaut % argonaut
@@ -73,7 +73,6 @@ com.twitter % scalding-date                        blocks  1 libraries: scalding
 com.twitter % algebird-core                        blocks  1 libraries: scalding-core
 com.typesafe.slick % slick                         blocks  1 libraries: slick
 io.argonaut % argonaut                             blocks  1 libraries: ghscala
-net.databinder % unfiltered-util                   blocks  1 libraries: unfiltered
 net.liftweb % lift-json                            blocks  1 libraries: spray-routing
 org.bitbucket.inkytonik.dsinfo % dsinfo            blocks  1 libraries: kiama
 org.bitbucket.inkytonik.dsprofile % dsprofile      blocks  1 libraries: kiama
@@ -103,6 +102,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "io.spray" %% "twirl-api" % "0.7.0"
 "net.databinder" %% "dispatch-core" % "0.8.10"
+"net.databinder" %% "unfiltered" % "0.7.1"
 "org.nalloc" %% "optional" % "0.1.0"
 "org.rogach" %% "scallop" % "0.9.5"
 "org.scala-lang.modules" %% "scala-async" % "0.9.1"
