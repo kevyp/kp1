@@ -1,4 +1,4 @@
-22 libraries available for Scala 2.11 (see the end for sbt config lines)
+23 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                       1 versions: 2.3.2
 scala-xml                        1 versions: 1.0.1
@@ -21,6 +21,7 @@ nscala-time                      1 versions: 1.0.0
 nalloc                           1 versions: 0.1.0
 MacWire                          1 versions: 0.6
 scalamacrodebug                  1 versions: 0.4
+dispatch-core                    1 versions: 0.8.10
 twirl-api                        1 versions: 0.7.0
 
 Libraries missing
@@ -37,7 +38,6 @@ scalafx                         0 missing dependencies, deepest chain: 0
 scalafx                         0 missing dependencies, deepest chain: 0 
 scrimage                        0 missing dependencies, deepest chain: 0 
 algebird-core                   0 missing dependencies, deepest chain: 0 
-dispatch-core                   0 missing dependencies, deepest chain: 0 
 slick                           1 missing dependencies, deepest chain: 1 com.typesafe.slick % slick
 spray-json                      1 missing dependencies, deepest chain: 1 org.parboiled % parboiled-scala
 spire                           1 missing dependencies, deepest chain: 1 org.spire-math % spire-macros
@@ -85,7 +85,6 @@ org.scalatra.rl % rl                               blocks  1 libraries: scalatra
 org.spire-math % spire-macros                      blocks  1 libraries: spire
 com.jsuereth % scala-arm                           blocks nothing but itself
 com.sksamuel.scrimage % scrimage                   blocks nothing but itself
-net.databinder % dispatch-core                     blocks nothing but itself
 org.parboiled % parboiled                          blocks nothing but itself
 org.scalafx % scalafx                              blocks nothing but itself
 org.squeryl % squeryl                              blocks nothing but itself
@@ -103,6 +102,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-actor" % "2.3.2"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "io.spray" %% "twirl-api" % "0.7.0"
+"net.databinder" %% "dispatch-core" % "0.8.10"
 "org.nalloc" %% "optional" % "0.1.0"
 "org.rogach" %% "scallop" % "0.9.5"
 "org.scala-lang.modules" %% "scala-async" % "0.9.1"
