@@ -38,13 +38,13 @@ parboiled                       0 missing dependencies, deepest chain: 0
 parboiled2                      0 missing dependencies, deepest chain: 0 
 scala-arm                       0 missing dependencies, deepest chain: 0 
 scalafx                         0 missing dependencies, deepest chain: 0 
+ghscala                         0 missing dependencies, deepest chain: 0 
 scalafx                         0 missing dependencies, deepest chain: 0 
 algebird-core                   0 missing dependencies, deepest chain: 0 
 slick                           1 missing dependencies, deepest chain: 1 com.typesafe.slick % slick
 spray-json                      1 missing dependencies, deepest chain: 1 org.parboiled % parboiled-scala
 spire                           1 missing dependencies, deepest chain: 1 org.spire-math % spire-macros
 scalate-core                    1 missing dependencies, deepest chain: 1 org.fusesource.scalate % scalate-util
-ghscala                         1 missing dependencies, deepest chain: 1 com.github.xuwei-k % httpz
 monifu                          1 missing dependencies, deepest chain: 1 org.monifu % monifu-core
 json4s-native                   2 missing dependencies, deepest chain: 2 org.json4s % json4s-core -> org.json4s % json4s-ast
 json-lenses                     2 missing dependencies, deepest chain: 2 io.spray % spray-json -> org.parboiled % parboiled-scala
@@ -65,7 +65,6 @@ com.typesafe.play % play-iteratees                 blocks  2 libraries: play-jso
 com.typesafe.play % play-datacommons               blocks  2 libraries: play-json, spray-routing
 org.json4s % json4s-ast                            blocks  2 libraries: json4s-native, spray-routing
 org.scala-tools.testing % specs                    blocks  2 libraries: finagle-core, ostrich
-com.github.xuwei-k % httpz                         blocks  1 libraries: ghscala
 com.twitter % scalding-args                        blocks  1 libraries: scalding-core
 com.twitter % chill                                blocks  1 libraries: scalding-core
 com.twitter % scala-json                           blocks  1 libraries: ostrich
@@ -80,6 +79,7 @@ org.monifu % monifu-core                           blocks  1 libraries: monifu
 org.scalatra % scalatra-common                     blocks  1 libraries: scalatra
 org.scalatra.rl % rl                               blocks  1 libraries: scalatra
 org.spire-math % spire-macros                      blocks  1 libraries: spire
+com.github.xuwei-k % ghscala-core                  blocks nothing but itself
 com.jsuereth % scala-arm                           blocks nothing but itself
 org.parboiled % parboiled                          blocks nothing but itself
 org.scalafx % scalafx                              blocks nothing but itself
