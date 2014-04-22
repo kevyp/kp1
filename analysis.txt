@@ -48,8 +48,8 @@ scalate-core                    1 missing dependencies, deepest chain: 1 org.fus
 monifu                          1 missing dependencies, deepest chain: 1 org.monifu % monifu-core
 json4s-native                   2 missing dependencies, deepest chain: 2 org.json4s % json4s-core -> org.json4s % json4s-ast
 json-lenses                     2 missing dependencies, deepest chain: 2 io.spray % spray-json -> org.parboiled % parboiled-scala
+scalatra                        2 missing dependencies, deepest chain: 1 org.scalatra % scalatra-common
 play-json                       3 missing dependencies, deepest chain: 1 com.typesafe.play % play-iteratees
-scalatra                        3 missing dependencies, deepest chain: 1 org.scalatra % scalatra-common
 scalding-core                   5 missing dependencies, deepest chain: 1 com.twitter % bijection-core
 spray-can                       5 missing dependencies, deepest chain: 4 io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
 finagle-core                    7 missing dependencies, deepest chain: 4 com.twitter % util-jvm -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
@@ -77,7 +77,6 @@ org.clapper % grizzled-slf4j                       blocks  1 libraries: scalatra
 org.fusesource.scalate % scalate-util              blocks  1 libraries: scalate-core
 org.monifu % monifu-core                           blocks  1 libraries: monifu
 org.scalatra % scalatra-common                     blocks  1 libraries: scalatra
-org.scalatra.rl % rl                               blocks  1 libraries: scalatra
 org.spire-math % spire-macros                      blocks  1 libraries: spire
 com.github.xuwei-k % ghscala-core                  blocks nothing but itself
 com.jsuereth % scala-arm                           blocks nothing but itself
