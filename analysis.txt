@@ -1,6 +1,9 @@
-34 libraries available for Scala 2.11 (see the end for sbt config lines)
+37 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                       1 versions: 2.3.2
+akka-osgi                        1 versions: 2.3.2
+akka-slf4j                       1 versions: 2.3.2
+akka-testkit                     1 versions: 2.3.2
 scala-xml                        1 versions: 1.0.1
 scala-parser-combinators         1 versions: 1.0.1
 scala-swing                      1 versions: 1.0.1
@@ -38,9 +41,6 @@ twirl-api                        1 versions: 0.7.0
 Libraries missing
 
 f0                             has no previous version to analyze
-akka-osgi                       0 missing dependencies, deepest chain: 0 
-akka-slf4j                      0 missing dependencies, deepest chain: 0 
-akka-testkit                    0 missing dependencies, deepest chain: 0 
 squeryl                         0 missing dependencies, deepest chain: 0 
 lift-json                       0 missing dependencies, deepest chain: 0 
 twitter-json                    0 missing dependencies, deepest chain: 0 
@@ -52,18 +52,18 @@ spire                           1 missing dependencies, deepest chain: 1 org.spi
 scalate-core                    1 missing dependencies, deepest chain: 1 org.fusesource.scalate % scalate-util
 scalatra                        2 missing dependencies, deepest chain: 1 org.scalatra % scalatra-common
 play-json                       3 missing dependencies, deepest chain: 1 com.typesafe.play % play-iteratees
-spray-can                       4 missing dependencies, deepest chain: 4 io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
+spray-can                       3 missing dependencies, deepest chain: 3 io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util
 scalding-core                   5 missing dependencies, deepest chain: 1 com.twitter % bijection-core
 finagle-core                    7 missing dependencies, deepest chain: 4 com.twitter % util-jvm -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
 ostrich                         7 missing dependencies, deepest chain: 4 com.twitter % util-logging -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
-spray-routing                  12 missing dependencies, deepest chain: 5 io.spray % spray-can -> io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util -> com.typesafe.akka % akka-osgi
+spray-routing                  11 missing dependencies, deepest chain: 4 io.spray % spray-can -> io.spray % spray-io -> io.spray % spray-http -> io.spray % spray-util
 
 Blocking modules
 
-com.typesafe.akka % akka-osgi                      blocks  2 libraries: spray-can, spray-routing
 com.typesafe.play % play-functional                blocks  2 libraries: play-json, spray-routing
 com.typesafe.play % play-iteratees                 blocks  2 libraries: play-json, spray-routing
 com.typesafe.play % play-datacommons               blocks  2 libraries: play-json, spray-routing
+io.spray % spray-util                              blocks  2 libraries: spray-can, spray-routing
 org.scala-tools.testing % specs                    blocks  2 libraries: finagle-core, ostrich
 com.twitter % scalding-args                        blocks  1 libraries: scalding-core
 com.twitter % chill                                blocks  1 libraries: scalding-core
@@ -79,8 +79,6 @@ org.scalatra % scalatra-common                     blocks  1 libraries: scalatra
 org.spire-math % spire-macros                      blocks  1 libraries: spire
 com.github.xuwei-k % ghscala-core                  blocks nothing but itself
 com.jsuereth % scala-arm                           blocks nothing but itself
-com.typesafe.akka % akka-testkit                   blocks nothing but itself
-com.typesafe.akka % akka-slf4j                     blocks nothing but itself
 org.squeryl % squeryl                              blocks nothing but itself
 
 Sbt config lines for all available libraries in alphabetic order
@@ -96,6 +94,9 @@ Sbt config lines for all available libraries in alphabetic order
 "com.softwaremill.macwire" %% "macros" % "0.6"
 "com.softwaremill.scalamacrodebug" %% "macros" % "0.4"
 "com.typesafe.akka" %% "akka-actor" % "2.3.2"
+"com.typesafe.akka" %% "akka-osgi" % "2.3.2"
+"com.typesafe.akka" %% "akka-slf4j" % "2.3.2"
+"com.typesafe.akka" %% "akka-testkit" % "2.3.2"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
