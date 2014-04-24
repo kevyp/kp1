@@ -1,4 +1,4 @@
-39 libraries available for Scala 2.11 (see the end for sbt config lines)
+40 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                       1 versions: 2.3.2
 akka-osgi                        1 versions: 2.3.2
@@ -18,6 +18,7 @@ json4s-native                    1 versions: 3.2.9
 argonaut                         1 versions: 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
+spire                            1 versions: 0.7.4
 scalaz                           1 versions: 7.0.6
 shapeless                        2 versions: 2.0.0, 1.2.4
 parboiled                        1 versions: 1.1.6
@@ -50,7 +51,6 @@ scala-arm                       0 missing dependencies, deepest chain: 0
 ghscala                         0 missing dependencies, deepest chain: 0 
 algebird-core                   0 missing dependencies, deepest chain: 0 
 slick                           1 missing dependencies, deepest chain: 1 com.typesafe.slick % slick
-spire                           1 missing dependencies, deepest chain: 1 org.spire-math % spire-macros
 scalate-core                    1 missing dependencies, deepest chain: 1 org.fusesource.scalate % scalate-util
 scalatra                        2 missing dependencies, deepest chain: 1 org.scalatra % scalatra-common
 play-json                       3 missing dependencies, deepest chain: 1 com.typesafe.play % play-iteratees
@@ -74,7 +74,6 @@ com.typesafe.slick % slick                         blocks  1 libraries: slick
 org.clapper % grizzled-slf4j                       blocks  1 libraries: scalatra
 org.fusesource.scalate % scalate-util              blocks  1 libraries: scalate-core
 org.scalatra % scalatra-common                     blocks  1 libraries: scalatra
-org.spire-math % spire-macros                      blocks  1 libraries: spire
 com.github.xuwei-k % ghscala-core                  blocks nothing but itself
 com.jsuereth % scala-arm                           blocks nothing but itself
 net.liftweb % lift-json                            blocks nothing but itself
@@ -129,6 +128,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta2"
 "org.specs2" %% "specs2-core" % "2.3.11"
+"org.spire-math" %% "spire" % "0.7.4"
 
 Disclaimer: This tool only regards "test" dependencies if they are part of the pom.
 It contains a fixed list of libraries and will only detect any releases for those
