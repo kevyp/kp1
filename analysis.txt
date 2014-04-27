@@ -51,8 +51,8 @@ scala-arm                       0 missing dependencies, deepest chain: 0
 ghscala                         0 missing dependencies, deepest chain: 0 
 algebird-core                   0 missing dependencies, deepest chain: 0 
 slick                           1 missing dependencies, deepest chain: 1 com.typesafe.slick % slick
+scalatra                        1 missing dependencies, deepest chain: 1 org.scalatra % scalatra-common
 scalate-core                    1 missing dependencies, deepest chain: 1 org.fusesource.scalate % scalate-util
-scalatra                        2 missing dependencies, deepest chain: 1 org.scalatra % scalatra-common
 play-json                       3 missing dependencies, deepest chain: 1 com.typesafe.play % play-iteratees
 scalding-core                   5 missing dependencies, deepest chain: 1 com.twitter % bijection-core
 finagle-core                    7 missing dependencies, deepest chain: 4 com.twitter % util-jvm -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
@@ -71,7 +71,6 @@ com.typesafe.play % play-functional                blocks  1 libraries: play-jso
 com.typesafe.play % play-iteratees                 blocks  1 libraries: play-json
 com.typesafe.play % play-datacommons               blocks  1 libraries: play-json
 com.typesafe.slick % slick                         blocks  1 libraries: slick
-org.clapper % grizzled-slf4j                       blocks  1 libraries: scalatra
 org.fusesource.scalate % scalate-util              blocks  1 libraries: scalate-core
 org.scalatra % scalatra-common                     blocks  1 libraries: scalatra
 com.github.xuwei-k % ghscala-core                  blocks nothing but itself
