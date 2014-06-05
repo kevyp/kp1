@@ -9,13 +9,13 @@ scala-parser-combinators         1 versions: 1.0.1
 scala-swing                      1 versions: 1.0.1
 async                            1 versions: 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                        7 versions: 2.2.0-RC1, 2.2.0-M1, 2.1.7, 2.1.6, 2.1.5, ... [2 more]
+scalatest                        8 versions: 2.2.0-RC2, 2.2.0-RC1, 2.2.0-M1, 2.1.7, 2.1.6, ... [3 more]
 specs2                           2 versions: 2.3.12, 2.3.11
 scalacheck                       3 versions: 1.11.4, 1.11.3, 1.10.1
 scalikejdbc-interpolation        8 versions: 2.0.1, 2.0.0, 2.0.0-RC3, 2.0.0-RC2, 2.0.0-RC1, ... [3 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
-play-json                       25 versions: 2.4-2014-06-04-7dd0229, 2.4-2014-06-03-7dd0229, 2.4-2014-06-02-75daadf, 2.4-2014-06-01-75daadf, 2.4-2014-05-31-6b07c6e, ... [20 more]
+play-json                       26 versions: 2.4-2014-06-05-84bb608, 2.4-2014-06-04-7dd0229, 2.4-2014-06-03-7dd0229, 2.4-2014-06-02-75daadf, 2.4-2014-06-01-75daadf, ... [21 more]
 argonaut                         1 versions: 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
@@ -122,6 +122,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-02-75daadf"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-03-7dd0229"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-04-7dd0229"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-05-84bb608"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -178,6 +179,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "2.1.7"
 "org.scalatest" %% "scalatest" % "2.2.0-M1"
 "org.scalatest" %% "scalatest" % "2.2.0-RC1"
+"org.scalatest" %% "scalatest" % "2.2.0-RC2"
 "org.scalatra" %% "scalatra" % "2.3.0.RC3"
 "org.scalatra.scalate" %% "scalate-core" % "1.7.0"
 "org.scalaz" %% "scalaz-core" % "7.0.6"
