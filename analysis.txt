@@ -15,7 +15,7 @@ scalacheck                       3 versions: 1.11.4, 1.11.3, 1.10.1
 scalikejdbc-interpolation        8 versions: 2.0.1, 2.0.0, 2.0.0-RC3, 2.0.0-RC2, 2.0.0-RC1, ... [3 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
-play-json                       29 versions: 2.4-2014-06-08-7710fb0, 2.4-2014-06-07-177faff, 2.4-2014-06-06-177faff, 2.4-2014-06-05-84bb608, 2.4-2014-06-04-7dd0229, ... [24 more]
+play-json                       30 versions: 2.4-2014-06-09-7710fb0, 2.4-2014-06-08-7710fb0, 2.4-2014-06-07-177faff, 2.4-2014-06-06-177faff, 2.4-2014-06-05-84bb608, ... [25 more]
 argonaut                         1 versions: 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
@@ -35,8 +35,8 @@ platform-executing               1 versions: 0.5.0
 nscala-time                      2 versions: 1.2.0, 1.0.0
 nalloc                           1 versions: 0.1.0
 f0                               1 versions: 1.1.2
-scrimage                         2 versions: 1.3.21, 1.3.20
-monifu                          18 versions: 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1, ... [13 more]
+scrimage                         3 versions: 1.4.0, 1.3.21, 1.3.20
+monifu                          21 versions: 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1, ... [16 more]
 MacWire                          1 versions: 0.6
 scalamacrodebug                  1 versions: 0.4
 kiama                            2 versions: 1.6.0, 1.5.3
@@ -87,6 +87,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.propensive" %% "rapture-io" % "0.9.1"
 "com.sksamuel.scrimage" %% "scrimage" % "1.3.20"
 "com.sksamuel.scrimage" %% "scrimage" % "1.3.21"
+"com.sksamuel.scrimage" %% "scrimage" % "1.4.0"
 "com.softwaremill.macwire" %% "macros" % "0.6"
 "com.softwaremill.scalamacrodebug" %% "macros" % "0.4"
 "com.typesafe.akka" %% "akka-actor" % "2.3.2"
@@ -126,6 +127,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-06-177faff"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-07-177faff"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-08-7710fb0"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-09-7710fb0"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -150,6 +152,9 @@ Sbt config lines for all available libraries in alphabetic order
 "org.monifu" %% "monifu" % "0.13.0-M1"
 "org.monifu" %% "monifu" % "0.13.0-M2"
 "org.monifu" %% "monifu" % "0.13.0-M3"
+"org.monifu" %% "monifu" % "0.13.0-RC1"
+"org.monifu" %% "monifu" % "0.13.0-RC2"
+"org.monifu" %% "monifu" % "0.13.0-RC3"
 "org.monifu" %% "monifu" % "0.6"
 "org.monifu" %% "monifu" % "0.6.1"
 "org.monifu" %% "monifu" % "0.7.0"
