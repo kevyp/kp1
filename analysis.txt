@@ -15,7 +15,7 @@ scalacheck                       3 versions: 1.11.4, 1.11.3, 1.10.1
 scalikejdbc-interpolation        9 versions: 2.0.2, 2.0.1, 2.0.0, 2.0.0-RC3, 2.0.0-RC2, ... [4 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
-play-json                       32 versions: 2.4-2014-06-11-bd5be36, 2.4-2014-06-10-52ab2bb, 2.4-2014-06-09-7710fb0, 2.4-2014-06-08-7710fb0, 2.4-2014-06-07-177faff, ... [27 more]
+play-json                       33 versions: 2.4-2014-06-12-2fa2b2b, 2.4-2014-06-11-bd5be36, 2.4-2014-06-10-52ab2bb, 2.4-2014-06-09-7710fb0, 2.4-2014-06-08-7710fb0, ... [28 more]
 argonaut                         1 versions: 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
@@ -130,6 +130,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-09-7710fb0"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-10-52ab2bb"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-11-bd5be36"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-12-2fa2b2b"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
