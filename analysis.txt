@@ -16,7 +16,7 @@ squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation        9 versions: 2.0.2, 2.0.1, 2.0.0, 2.0.0-RC3, 2.0.0-RC2, ... [4 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
-play-json                       37 versions: 2.4-2014-06-16-2e25c69, 2.4-2014-06-15-2e25c69, 2.4-2014-06-14-ea7daf3, 2.4-2014-06-13-2fa2b2b, 2.4-2014-06-12-2fa2b2b, ... [32 more]
+play-json                       38 versions: 2.4-2014-06-17-4a1fede, 2.4-2014-06-16-2e25c69, 2.4-2014-06-15-2e25c69, 2.4-2014-06-14-ea7daf3, 2.4-2014-06-13-2fa2b2b, ... [33 more]
 argonaut                         1 versions: 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
@@ -29,7 +29,7 @@ scopt                            1 versions: 3.2.0
 scala-arm                        1 versions: 1.4
 scala-stm                        1 versions: 0.7
 scallop                          1 versions: 0.9.5
-scalafx                          2 versions: 8.0.0-R4, 1.0.0-R8
+scalafx                          4 versions: 8.0.5-R5, 8.0.0-R4, 2.2.60-R9, 1.0.0-R8
 scalatra                         2 versions: 2.3.0.RC3, 2.3.0
 scalate-core                     1 versions: 1.7.0
 platform-executing               1 versions: 0.5.0
@@ -134,6 +134,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-14-ea7daf3"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-15-2e25c69"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-16-2e25c69"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-17-4a1fede"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -189,7 +190,9 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalacheck" %% "scalacheck" % "1.11.3"
 "org.scalacheck" %% "scalacheck" % "1.11.4"
 "org.scalafx" %% "scalafx" % "1.0.0-R8"
+"org.scalafx" %% "scalafx" % "2.2.60-R9"
 "org.scalafx" %% "scalafx" % "8.0.0-R4"
+"org.scalafx" %% "scalafx" % "8.0.5-R5"
 "org.scalatest" %% "scalatest" % "2.1.3"
 "org.scalatest" %% "scalatest" % "2.1.4"
 "org.scalatest" %% "scalatest" % "2.1.5"
