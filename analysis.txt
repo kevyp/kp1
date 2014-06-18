@@ -16,8 +16,8 @@ squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation        9 versions: 2.0.2, 2.0.1, 2.0.0, 2.0.0-RC3, 2.0.0-RC2, ... [4 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
-play-json                       38 versions: 2.4-2014-06-17-4a1fede, 2.4-2014-06-16-2e25c69, 2.4-2014-06-15-2e25c69, 2.4-2014-06-14-ea7daf3, 2.4-2014-06-13-2fa2b2b, ... [33 more]
-argonaut                         1 versions: 6.0.4
+play-json                       39 versions: 2.4-2014-06-18-9282597, 2.4-2014-06-17-4a1fede, 2.4-2014-06-16-2e25c69, 2.4-2014-06-15-2e25c69, 2.4-2014-06-14-ea7daf3, ... [34 more]
+argonaut                         2 versions: 6.1-M3, 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
 spire                            2 versions: 0.7.5, 0.7.4
@@ -135,12 +135,14 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-15-2e25c69"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-16-2e25c69"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-17-4a1fede"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-18-9282597"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.1"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2"
 "io.argonaut" %% "argonaut" % "6.0.4"
+"io.argonaut" %% "argonaut" % "6.1-M3"
 "io.spray" %% "spray-can" % "1.3.1-20140423"
 "io.spray" %% "spray-json" % "1.2.6"
 "io.spray" %% "spray-routing" % "1.3.1-20140423"
