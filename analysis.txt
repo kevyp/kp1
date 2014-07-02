@@ -1,9 +1,9 @@
 47 libraries available for Scala 2.11 (see the end for sbt config lines)
 
-akka-actor                       2 versions: 2.3.3, 2.3.2
-akka-osgi                        2 versions: 2.3.3, 2.3.2
-akka-slf4j                       2 versions: 2.3.3, 2.3.2
-akka-testkit                     2 versions: 2.3.3, 2.3.2
+akka-actor                       3 versions: 2.3.4, 2.3.3, 2.3.2
+akka-osgi                        3 versions: 2.3.4, 2.3.3, 2.3.2
+akka-slf4j                       3 versions: 2.3.4, 2.3.3, 2.3.2
+akka-testkit                     3 versions: 2.3.4, 2.3.3, 2.3.2
 scala-xml                        2 versions: 1.0.2, 1.0.1
 scala-parser-combinators         1 versions: 1.0.1
 scala-swing                      1 versions: 1.0.1
@@ -13,16 +13,16 @@ scalatest                        9 versions: 2.2.0, 2.2.0-RC2, 2.2.0-RC1, 2.2.0-
 specs2                           3 versions: 2.3.12-scalaz-7.1.0-M7, 2.3.12, 2.3.11
 scalacheck                       3 versions: 1.11.4, 1.11.3, 1.10.1
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
-scalikejdbc-interpolation       10 versions: 2.0.3, 2.0.2, 2.0.1, 2.0.0, 2.0.0-RC3, ... [5 more]
+scalikejdbc-interpolation       11 versions: 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, ... [6 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
 lift-json                        1 versions: 2.6-M4
-play-json                       43 versions: 2.4-2014-06-23-ebcf2bb, 2.4-2014-06-21-b644dbf, 2.4-2014-06-20-3aed064, 2.4-2014-06-19-bf049f5, 2.4-2014-06-18-9282597, ... [38 more]
+play-json                       52 versions: 2.4-2014-07-02-157e8b3, 2.4-2014-07-01-01a501e, 2.4-2014-06-30-a37d3cc, 2.4-2014-06-29-5094d7a, 2.4-2014-06-28-5094d7a, ... [47 more]
 argonaut                         2 versions: 6.1-M3, 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
 spire                            2 versions: 0.7.5, 0.7.4
-scalaz                           2 versions: 7.1.0-M7, 7.0.6
+scalaz                           3 versions: 7.1.0-RC1, 7.1.0-M7, 7.0.6
 shapeless                        2 versions: 2.0.0, 1.2.4
 parboiled                        1 versions: 1.1.6
 parboiled2                       3 versions: 2.0.0, 2.0.0-RC2, 2.0.0-RC1
@@ -44,8 +44,8 @@ scalamacrodebug                  1 versions: 0.4
 kiama                            2 versions: 1.6.0, 1.5.3
 dispatch-core                    1 versions: 0.8.10
 unfiltered                       2 versions: 0.8.0, 0.7.1
-spray-routing                    1 versions: 1.3.1-20140423
-spray-can                        1 versions: 1.3.1-20140423
+spray-routing                    2 versions: 1.3.1-20140423, 1.3.1
+spray-can                        2 versions: 1.3.1-20140423, 1.3.1
 twirl-api                        1 versions: 0.7.0
 
 Libraries missing
@@ -91,15 +91,20 @@ Sbt config lines for all available libraries in alphabetic order
 "com.softwaremill.scalamacrodebug" %% "macros" % "0.4"
 "com.typesafe.akka" %% "akka-actor" % "2.3.2"
 "com.typesafe.akka" %% "akka-actor" % "2.3.3"
+"com.typesafe.akka" %% "akka-actor" % "2.3.4"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.2"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.3"
+"com.typesafe.akka" %% "akka-osgi" % "2.3.4"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.2"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.3"
+"com.typesafe.akka" %% "akka-slf4j" % "2.3.4"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.2"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.3"
+"com.typesafe.akka" %% "akka-testkit" % "2.3.4"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC1"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC2"
 "com.typesafe.play" %% "play-json" % "2.3.0"
+"com.typesafe.play" %% "play-json" % "2.3.1"
 "com.typesafe.play" %% "play-json" % "2.4-2014-05-15-69b2537"
 "com.typesafe.play" %% "play-json" % "2.4-2014-05-15-b4f8cc8"
 "com.typesafe.play" %% "play-json" % "2.4-2014-05-16-be37f8a"
@@ -140,6 +145,14 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-20-3aed064"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-21-b644dbf"
 "com.typesafe.play" %% "play-json" % "2.4-2014-06-23-ebcf2bb"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-25-db4a398"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-26-760704d"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-27-5094d7a"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-28-5094d7a"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-29-5094d7a"
+"com.typesafe.play" %% "play-json" % "2.4-2014-06-30-a37d3cc"
+"com.typesafe.play" %% "play-json" % "2.4-2014-07-01-01a501e"
+"com.typesafe.play" %% "play-json" % "2.4-2014-07-02-157e8b3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -147,8 +160,10 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2"
 "io.argonaut" %% "argonaut" % "6.0.4"
 "io.argonaut" %% "argonaut" % "6.1-M3"
+"io.spray" %% "spray-can" % "1.3.1"
 "io.spray" %% "spray-can" % "1.3.1-20140423"
 "io.spray" %% "spray-json" % "1.2.6"
+"io.spray" %% "spray-routing" % "1.3.1"
 "io.spray" %% "spray-routing" % "1.3.1-20140423"
 "io.spray" %% "twirl-api" % "0.7.0"
 "net.databinder" %% "dispatch-core" % "0.8.10"
@@ -215,6 +230,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatra.scalate" %% "scalate-core" % "1.7.0"
 "org.scalaz" %% "scalaz-core" % "7.0.6"
 "org.scalaz" %% "scalaz-core" % "7.1.0-M7"
+"org.scalaz" %% "scalaz-core" % "7.1.0-RC1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta3"
@@ -225,6 +241,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.3"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.4"
 "org.specs2" %% "specs2-core" % "2.3.11"
 "org.specs2" %% "specs2-core" % "2.3.12"
 "org.specs2" %% "specs2-core" % "2.3.12-scalaz-7.1.0-M7"
