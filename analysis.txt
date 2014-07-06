@@ -9,7 +9,7 @@ scala-parser-combinators         1 versions: 1.0.1
 scala-swing                      1 versions: 1.0.1
 async                            1 versions: 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       11 versions: 2.2.1-M2, 2.2.1-M1, 2.2.0, 2.2.0-RC2, 2.2.0-RC1, ... [6 more]
+scalatest                       12 versions: 2.2.1-M3, 2.2.1-M2, 2.2.1-M1, 2.2.0, 2.2.0-RC2, ... [7 more]
 specs2                           3 versions: 2.3.12-scalaz-7.1.0-M7, 2.3.12, 2.3.11
 scalacheck                       3 versions: 1.11.4, 1.11.3, 1.10.1
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
@@ -17,7 +17,7 @@ scalikejdbc-interpolation       11 versions: 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
 lift-json                        1 versions: 2.6-M4
-play-json                       55 versions: 2.4-2014-07-05-a6fe863, 2.4-2014-07-04-a6fe863, 2.4-2014-07-03-0fb3c88, 2.4-2014-07-02-157e8b3, 2.4-2014-07-01-01a501e, ... [50 more]
+play-json                       56 versions: 2.4-2014-07-06-ce2dfb3, 2.4-2014-07-05-a6fe863, 2.4-2014-07-04-a6fe863, 2.4-2014-07-03-0fb3c88, 2.4-2014-07-02-157e8b3, ... [51 more]
 argonaut                         2 versions: 6.1-M3, 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
@@ -156,6 +156,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-03-0fb3c88"
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-04-a6fe863"
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-05-a6fe863"
+"com.typesafe.play" %% "play-json" % "2.4-2014-07-06-ce2dfb3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -230,6 +231,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "2.2.0"
 "org.scalatest" %% "scalatest" % "2.2.1-M1"
 "org.scalatest" %% "scalatest" % "2.2.1-M2"
+"org.scalatest" %% "scalatest" % "2.2.1-M3"
 "org.scalatra" %% "scalatra" % "2.3.0"
 "org.scalatra" %% "scalatra" % "2.3.0.RC3"
 "org.scalatra.scalate" %% "scalate-core" % "1.7.0"
