@@ -16,8 +16,8 @@ squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       14 versions: 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, ... [9 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
-lift-json                        1 versions: 2.6-M4
-play-json                       81 versions: 2.4-2014-07-29-4647d65, 2.4-2014-07-28-bc4bc11, 2.4-2014-07-26-6ce3cef, 2.4-2014-07-25-6ce3cef, 2.4-2014-07-24-7216074, ... [76 more]
+lift-json                        2 versions: 2.6-RC1, 2.6-M4
+play-json                       82 versions: 2.4-2014-07-30-36fb6e2, 2.4-2014-07-29-4647d65, 2.4-2014-07-28-bc4bc11, 2.4-2014-07-26-6ce3cef, 2.4-2014-07-25-6ce3cef, ... [77 more]
 argonaut                         2 versions: 6.1-M3, 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
@@ -183,6 +183,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-26-6ce3cef"
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-28-bc4bc11"
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-29-4647d65"
+"com.typesafe.play" %% "play-json" % "2.4-2014-07-30-36fb6e2"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -200,6 +201,7 @@ Sbt config lines for all available libraries in alphabetic order
 "net.databinder" %% "unfiltered" % "0.7.1"
 "net.databinder" %% "unfiltered" % "0.8.0"
 "net.liftweb" %% "lift-json" % "2.6-M4"
+"net.liftweb" %% "lift-json" % "2.6-RC1"
 "net.virtual-void" %% "json-lenses" % "0.5.4"
 "org.json4s" %% "json4s-native" % "3.2.10"
 "org.json4s" %% "json4s-native" % "3.2.9"
