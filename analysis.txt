@@ -9,7 +9,7 @@ scala-parser-combinators         2 versions: 1.0.2, 1.0.1
 scala-swing                      1 versions: 1.0.1
 async                            2 versions: 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       12 versions: 2.2.1-M3, 2.2.1-M2, 2.2.1-M1, 2.2.0, 2.2.0-RC2, ... [7 more]
+scalatest                       13 versions: 2.2.1, 2.2.1-M3, 2.2.1-M2, 2.2.1-M1, 2.2.0, ... [8 more]
 specs2                           5 versions: 2.3.13-scalaz-7.1.0-RC1, 2.3.13, 2.3.12-scalaz-7.1.0-M7, 2.3.12, 2.3.11
 scalacheck                       9 versions: 1.9, 1.8, 1.11.5, 1.11.4, 1.11.3, ... [4 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
@@ -17,12 +17,12 @@ scalikejdbc-interpolation       14 versions: 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
 lift-json                        2 versions: 2.6-RC1, 2.6-M4
-play-json                       83 versions: 2.4-2014-07-31-36fb6e2, 2.4-2014-07-30-36fb6e2, 2.4-2014-07-29-4647d65, 2.4-2014-07-28-bc4bc11, 2.4-2014-07-26-6ce3cef, ... [78 more]
+play-json                       84 versions: 2.4-2014-08-01-5b94b4a, 2.4-2014-07-31-36fb6e2, 2.4-2014-07-30-36fb6e2, 2.4-2014-07-29-4647d65, 2.4-2014-07-28-bc4bc11, ... [79 more]
 argonaut                         2 versions: 6.1-M3, 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
 spire                            4 versions: 0.8.2, 0.8.0, 0.7.5, 0.7.4
-scalaz                           4 versions: 7.1.0-RC2, 7.1.0-RC1, 7.1.0-M7, 7.0.6
+scalaz                           5 versions: 7.1.0, 7.1.0-RC2, 7.1.0-RC1, 7.1.0-M7, 7.0.6
 shapeless                        2 versions: 2.0.0, 1.2.4
 parboiled                        1 versions: 1.1.6
 parboiled2                       3 versions: 2.0.0, 2.0.0-RC2, 2.0.0-RC1
@@ -185,6 +185,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-29-4647d65"
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-30-36fb6e2"
 "com.typesafe.play" %% "play-json" % "2.4-2014-07-31-36fb6e2"
+"com.typesafe.play" %% "play-json" % "2.4-2014-08-01-5b94b4a"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -269,6 +270,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "2.2.1-M1"
 "org.scalatest" %% "scalatest" % "2.2.1-M2"
 "org.scalatest" %% "scalatest" % "2.2.1-M3"
+"org.scalatest" %% "scalatest" % "2.2.1"
 "org.scalatra" %% "scalatra" % "2.3.0"
 "org.scalatra" %% "scalatra" % "2.3.0.RC3"
 "org.scalatra.scalate" %% "scalate-core" % "1.7.0"
@@ -276,6 +278,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalaz" %% "scalaz-core" % "7.1.0-M7"
 "org.scalaz" %% "scalaz-core" % "7.1.0-RC1"
 "org.scalaz" %% "scalaz-core" % "7.1.0-RC2"
+"org.scalaz" %% "scalaz-core" % "7.1.0"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta3"
