@@ -10,14 +10,14 @@ scala-swing                      1 versions: 1.0.1
 async                            2 versions: 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       13 versions: 2.2.1, 2.2.1-M3, 2.2.1-M2, 2.2.1-M1, 2.2.0, ... [8 more]
-specs2                           6 versions: 2.4, 2.3.13-scalaz-7.1.0-RC1, 2.3.13, 2.3.12-scalaz-7.1.0-M7, 2.3.12, ... [1 more]
+specs2                           8 versions: 2.4.1-scalaz-7.0.6, 2.4.1, 2.4, 2.3.13-scalaz-7.1.0-RC1, 2.3.13, ... [3 more]
 scalacheck                       9 versions: 1.9, 1.8, 1.11.5, 1.11.4, 1.11.3, ... [4 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       14 versions: 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, ... [9 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
 lift-json                        2 versions: 2.6-RC1, 2.6-M4
-play-json                       97 versions: 2.4-2014-08-13-7c7ce8a, 2.4-2014-08-12-e68eb09, 2.4-2014-08-11-dd2d4b1, 2.4-2014-08-10-8e2d199, 2.4-2014-08-09-8e2d199, ... [92 more]
+play-json                       98 versions: 2.4-2014-08-14-8f1ab55, 2.4-2014-08-13-7c7ce8a, 2.4-2014-08-12-e68eb09, 2.4-2014-08-11-dd2d4b1, 2.4-2014-08-10-8e2d199, ... [93 more]
 argonaut                         3 versions: 6.1-M4, 6.1-M3, 6.0.4
 raptureIO                        1 versions: 0.9.1
 json-lenses                      1 versions: 0.5.4
@@ -204,6 +204,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4-2014-08-11-dd2d4b1"
 "com.typesafe.play" %% "play-json" % "2.4-2014-08-12-e68eb09"
 "com.typesafe.play" %% "play-json" % "2.4-2014-08-13-7c7ce8a"
+"com.typesafe.play" %% "play-json" % "2.4-2014-08-14-8f1ab55"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -319,6 +320,8 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "2.3.13"
 "org.specs2" %% "specs2-core" % "2.3.13-scalaz-7.1.0-RC1"
 "org.specs2" %% "specs2-core" % "2.4"
+"org.specs2" %% "specs2-core" % "2.4.1"
+"org.specs2" %% "specs2-core" % "2.4.1-scalaz-7.0.6"
 "org.spire-math" %% "spire" % "0.7.4"
 "org.spire-math" %% "spire" % "0.7.5"
 "org.spire-math" %% "spire" % "0.8.0"
