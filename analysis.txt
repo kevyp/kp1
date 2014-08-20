@@ -13,7 +13,7 @@ scalatest                       14 versions: 2.2.2, 2.2.1, 2.2.1-M3, 2.2.1-M2, 2
 specs2                           8 versions: 2.4.1-scalaz-7.0.6, 2.4.1, 2.4, 2.3.13-scalaz-7.1.0-RC1, 2.3.13, ... [3 more]
 scalacheck                       9 versions: 1.9, 1.8, 1.11.5, 1.11.4, 1.11.3, ... [4 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
-scalikejdbc-interpolation       14 versions: 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, ... [9 more]
+scalikejdbc-interpolation       15 versions: 2.1.0.RC1, 2.0.7, 2.0.6, 2.0.5, 2.0.4, ... [10 more]
 spray-json                       1 versions: 1.2.6
 json4s-native                    2 versions: 3.2.9, 3.2.10
 lift-json                        2 versions: 2.6-RC1, 2.6-M4
@@ -319,6 +319,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.5"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.6"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.7"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.1.0.RC1"
 "org.specs2" %% "specs2-core" % "2.3.11"
 "org.specs2" %% "specs2-core" % "2.3.12"
 "org.specs2" %% "specs2-core" % "2.3.12-scalaz-7.1.0-M7"
