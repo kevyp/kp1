@@ -9,7 +9,7 @@ scala-parser-combinators         2 versions: 1.0.2, 1.0.1
 scala-swing                      1 versions: 1.0.1
 async                            2 versions: 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       14 versions: 2.2.2, 2.2.1, 2.2.1-M3, 2.2.1-M2, 2.2.1-M1, ... [9 more]
+scalatest                       15 versions: 2.2.3-SNAP1, 2.2.2, 2.2.1, 2.2.1-M3, 2.2.1-M2, ... [10 more]
 specs2                           8 versions: 2.4.1-scalaz-7.0.6, 2.4.1, 2.4, 2.3.13-scalaz-7.1.0-RC1, 2.3.13, ... [3 more]
 scalacheck                       9 versions: 1.9, 1.8, 1.11.5, 1.11.4, 1.11.3, ... [4 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
@@ -54,9 +54,9 @@ slick                           0 missing dependencies, deepest chain: 0
 twitter-json                    0 missing dependencies, deepest chain: 0 
 ghscala                         0 missing dependencies, deepest chain: 0 
 algebird-core                   0 missing dependencies, deepest chain: 0 
+finagle-core                    1 missing dependencies, deepest chain: 1 org.scala-tools.testing % specs
+ostrich                         3 missing dependencies, deepest chain: 2 com.twitter % util-eval -> org.scala-tools.testing % specs
 scalding-core                   5 missing dependencies, deepest chain: 1 com.twitter % bijection-core
-finagle-core                    7 missing dependencies, deepest chain: 4 com.twitter % util-jvm -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
-ostrich                         7 missing dependencies, deepest chain: 4 com.twitter % util-logging -> com.twitter % util-app -> com.twitter % util-core -> org.scala-tools.testing % specs
 
 Blocking modules
 
@@ -298,6 +298,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "2.2.1-M3"
 "org.scalatest" %% "scalatest" % "2.2.1"
 "org.scalatest" %% "scalatest" % "2.2.2"
+"org.scalatest" %% "scalatest" % "2.2.3-SNAP1"
 "org.scalatra" %% "scalatra" % "2.3.0"
 "org.scalatra" %% "scalatra" % "2.3.0.RC3"
 "org.scalatra.scalate" %% "scalate-core" % "1.7.0"
