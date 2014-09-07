@@ -56,7 +56,7 @@ ghscala                         0 missing dependencies, deepest chain: 0
 algebird-core                   0 missing dependencies, deepest chain: 0 
 finagle-core                    1 missing dependencies, deepest chain: 1 org.scala-tools.testing % specs
 ostrich                         3 missing dependencies, deepest chain: 2 com.twitter % util-eval -> org.scala-tools.testing % specs
-scalding-core                   5 missing dependencies, deepest chain: 1 com.twitter % bijection-core
+scalding-core                   4 missing dependencies, deepest chain: 1 com.twitter % scalding-date
 
 Blocking modules
 
@@ -64,7 +64,6 @@ org.scala-tools.testing % specs                    blocks  2 libraries: finagle-
 com.twitter % scalding-args                        blocks  1 libraries: scalding-core
 com.twitter % chill                                blocks  1 libraries: scalding-core
 com.twitter % scala-json                           blocks  1 libraries: ostrich
-com.twitter % bijection-core                       blocks  1 libraries: scalding-core
 com.twitter % scalding-date                        blocks  1 libraries: scalding-core
 com.twitter % algebird-core                        blocks  1 libraries: scalding-core
 com.github.xuwei-k % ghscala-core                  blocks nothing but itself
