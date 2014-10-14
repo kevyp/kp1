@@ -386,7 +386,7 @@ It contains a fixed list of libraries and will only detect any releases for thos
 (or their transitive dependencies).
 
 These libraries are currently checked (name, organization % module):
-      
+    
 MacWire                   com.softwaremill.macwire % macros
 akka-actor                com.typesafe.akka % akka-actor
 akka-osgi                 com.typesafe.akka % akka-osgi
