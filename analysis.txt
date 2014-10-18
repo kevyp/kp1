@@ -9,7 +9,7 @@ scala-parser-combinators         2 versions: 1.0.2, 1.0.1
 scala-swing                      1 versions: 1.0.1
 async                            2 versions: 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       16 versions: 2.2.3-SNAP2, 2.2.3-SNAP1, 2.2.2, 2.2.1, 2.2.1-M3, ... [11 more]
+scalatest                       17 versions: 3.0.0-SNAP1, 2.2.3-SNAP2, 2.2.3-SNAP1, 2.2.2, 2.2.1, ... [12 more]
 specs2                          18 versions: 2.4.6-scalaz-7.0.6, 2.4.6, 2.4.5-scalaz-7.0.6, 2.4.5, 2.4.4-scalaz-7.0.6, ... [13 more]
 scalacheck                      10 versions: 1.9, 1.8, 1.11.6, 1.11.5, 1.11.4, ... [5 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
@@ -330,6 +330,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "2.2.2"
 "org.scalatest" %% "scalatest" % "2.2.3-SNAP1"
 "org.scalatest" %% "scalatest" % "2.2.3-SNAP2"
+"org.scalatest" %% "scalatest" % "3.0.0-SNAP1"
 "org.scalatra" %% "scalatra" % "2.3.0"
 "org.scalatra" %% "scalatra" % "2.3.0.RC3"
 "org.scalatra.scalate" %% "scalate-core" % "1.7.0"
