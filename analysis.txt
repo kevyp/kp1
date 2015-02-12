@@ -9,7 +9,7 @@ scala-parser-combinators         3 versions: 1.0.3, 1.0.2, 1.0.1
 scala-swing                      3 versions: 2.0.0-M2, 2.0.0-M1, 1.0.1
 async                            3 versions: 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       22 versions: 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, 2.2.4, ... [17 more]
+scalatest                       24 versions: 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, 2.3.0-SNAP2, ... [19 more]
 specs2                          38 versions: 3.0-M3, 3.0-M2-scalaz-7.0.6, 3.0-M2, 3.0-M1, 3.0-M0, ... [33 more]
 scalacheck                      13 versions: 1.9, 1.8, 1.12.2, 1.12.1, 1.12.0, ... [8 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
@@ -17,7 +17,7 @@ scalikejdbc-interpolation       25 versions: 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.4, 
 spray-json                       3 versions: 1.3.1, 1.3.0, 1.2.6
 json4s-native                    3 versions: 3.2.9, 3.2.11, 3.2.10
 lift-json                        6 versions: 3.0-M3, 3.0-M2, 2.6, 2.6-RC2, 2.6-RC1, ... [1 more]
-play-json                      131 versions: 2.4.0-M2, 2.4.0-M1, 2.4-2014-08-19-5fd9847, 2.4-2014-08-18-5fd9847, 2.4-2014-08-16-03f91eb, ... [126 more]
+play-json                      132 versions: 2.4.0-M2, 2.4.0-M1, 2.4-2014-08-19-5fd9847, 2.4-2014-08-18-5fd9847, 2.4-2014-08-16-03f91eb, ... [127 more]
 twitter-json                     1 versions: 3.0.2
 argonaut                         4 versions: 6.1-M5, 6.1-M4, 6.1-M3, 6.0.4
 raptureIO                        2 versions: 0.9.1, 0.10.0
@@ -39,7 +39,7 @@ nscala-time                      5 versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0, 1.0.0
 nalloc                           1 versions: 0.1.0
 f0                               1 versions: 1.1.2
 scrimage                         5 versions: 1.4.2, 1.4.1, 1.4.0, 1.3.21, 1.3.20
-monifu                          34 versions: 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1, ... [29 more]
+monifu                          35 versions: 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1, ... [30 more]
 MacWire                          6 versions: 0.8.0, 0.7.3, 0.7.2, 0.7.1, 0.7, ... [1 more]
 scalamacrodebug                  1 versions: 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
@@ -159,6 +159,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.3.8-M5"
 "com.typesafe.play" %% "play-json" % "2.3.8-M6"
 "com.typesafe.play" %% "play-json" % "2.3.8-M7"
+"com.typesafe.play" %% "play-json" % "2.3.8"
 "com.typesafe.play" %% "play-json" % "2.3.8-26cc07bb21bdf7b58140d15e23dc5eae37434999"
 "com.typesafe.play" %% "play-json" % "2.3.8-2de45b3774b6757f4aae980f8b5b152c1d2b73a5"
 "com.typesafe.play" %% "play-json" % "2.3.8-2eefdea13fed88a535e1a76bd077b272f4228e08"
@@ -334,6 +335,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.monifu" %% "monifu" % "0.14.0.RC1"
 "org.monifu" %% "monifu" % "0.14.0.RC2"
 "org.monifu" %% "monifu" % "0.14.1"
+"org.monifu" %% "monifu" % "0.15.0"
 "org.monifu" %% "monifu" % "0.6"
 "org.monifu" %% "monifu" % "0.6.1"
 "org.monifu" %% "monifu" % "0.7.0"
@@ -404,6 +406,8 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "2.2.3-SNAP1"
 "org.scalatest" %% "scalatest" % "2.2.3-SNAP2"
 "org.scalatest" %% "scalatest" % "2.2.4"
+"org.scalatest" %% "scalatest" % "2.3.0-SNAP1"
+"org.scalatest" %% "scalatest" % "2.3.0-SNAP2"
 "org.scalatest" %% "scalatest" % "3.0.0-SNAP1"
 "org.scalatest" %% "scalatest" % "3.0.0-SNAP2"
 "org.scalatest" %% "scalatest" % "3.0.0-SNAP3"
