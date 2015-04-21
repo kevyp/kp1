@@ -10,14 +10,14 @@ scala-swing                      3 versions: 2.0.0-M2, 2.0.0-M1, 1.0.1
 async                            3 versions: 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       24 versions: 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, 2.3.0-SNAP2, ... [19 more]
-specs2                          68 versions: 3.5-scalaz-7.0.6, 3.5, 3.4-scalaz-7.0.6-20150414054958-dce2bc3, 3.4-scalaz-7.0.6, 3.4-20150416001459-48da756, ... [63 more]
+specs2                          69 versions: 3.5-scalaz-7.0.6, 3.5-20150421030134-582d033, 3.5, 3.4-scalaz-7.0.6-20150414054958-dce2bc3, 3.4-scalaz-7.0.6, ... [64 more]
 scalacheck                      13 versions: 1.9, 1.8, 1.12.2, 1.12.1, 1.12.0, ... [8 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       27 versions: 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, ... [22 more]
 spray-json                       3 versions: 1.3.1, 1.3.0, 1.2.6
 json4s-native                    4 versions: 3.3.0.RC1, 3.2.9, 3.2.11, 3.2.10
 lift-json                       12 versions: 3.0-M5-1, 3.0-M5, 3.0-M4-1, 3.0-M4, 3.0-M3, ... [7 more]
-play-json                      133 versions: 2.4.0-M3, 2.4.0-M2, 2.4.0-M1, 2.4-2014-08-19-5fd9847, 2.4-2014-08-18-5fd9847, ... [128 more]
+play-json                      134 versions: 2.4.0-RC1, 2.4.0-M3, 2.4.0-M2, 2.4.0-M1, 2.4-2014-08-19-5fd9847, ... [129 more]
 twitter-json                     1 versions: 3.0.2
 argonaut                         5 versions: 6.1-M6, 6.1-M5, 6.1-M4, 6.1-M3, 6.0.4
 raptureIO                        2 versions: 0.9.1, 0.10.0
@@ -279,6 +279,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4.0-M1"
 "com.typesafe.play" %% "play-json" % "2.4.0-M2"
 "com.typesafe.play" %% "play-json" % "2.4.0-M3"
+"com.typesafe.play" %% "play-json" % "2.4.0-RC1"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -544,6 +545,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "3.4-scalaz-7.0.6"
 "org.specs2" %% "specs2-core" % "3.4-scalaz-7.0.6-20150414054958-dce2bc3"
 "org.specs2" %% "specs2-core" % "3.5"
+"org.specs2" %% "specs2-core" % "3.5-20150421030134-582d033"
 "org.specs2" %% "specs2-core" % "3.5-scalaz-7.0.6"
 "org.spire-math" %% "spire" % "0.7.4"
 "org.spire-math" %% "spire" % "0.7.5"
