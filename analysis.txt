@@ -10,7 +10,7 @@ scala-swing                      3 versions: 2.0.0-M2, 2.0.0-M1, 1.0.1
 async                            3 versions: 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       24 versions: 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, 2.3.0-SNAP2, ... [19 more]
-specs2                          70 versions: 3.5-scalaz-7.0.6, 3.5-20150426232103-e164d12, 3.5-20150421030134-582d033, 3.5, 3.4-scalaz-7.0.6-20150414054958-dce2bc3, ... [65 more]
+specs2                          71 versions: 3.5-scalaz-7.0.6, 3.5-20150428120937-48c299f, 3.5-20150426232103-e164d12, 3.5-20150421030134-582d033, 3.5, ... [66 more]
 scalacheck                      13 versions: 1.9, 1.8, 1.12.2, 1.12.1, 1.12.0, ... [8 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       28 versions: 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, ... [23 more]
@@ -23,7 +23,7 @@ argonaut                         5 versions: 6.1-M6, 6.1-M5, 6.1-M4, 6.1-M3, 6.0
 raptureIO                        2 versions: 0.9.1, 0.10.0
 json-lenses                      2 versions: 0.6.0, 0.5.4
 spire                            6 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [1 more]
-scalaz                           7 versions: 7.1.1, 7.1.0, 7.1.0-RC2, 7.1.0-RC1, 7.1.0-M7, ... [2 more]
+scalaz                           8 versions: 7.2.0-M1, 7.1.1, 7.1.0, 7.1.0-RC2, 7.1.0-RC1, ... [3 more]
 shapeless                        9 versions: 2.2.0-RC4, 2.2.0-RC3, 2.2.0-RC2, 2.2.0-RC1, 2.1.0, ... [4 more]
 parboiled                        2 versions: 1.1.7, 1.1.6
 parboiled2                       5 versions: 2.1.0, 2.0.1, 2.0.0, 2.0.0-RC2, 2.0.0-RC1
@@ -35,7 +35,7 @@ scalafx                          9 versions: 8.0.5-R5, 8.0.40-R8, 8.0.31-R7, 8.0
 scalatra                         7 versions: 2.4.0.RC1, 2.4.0.M3, 2.4.0.M2, 2.4.0.M1, 2.3.1, ... [2 more]
 scalate-core                     2 versions: 1.7.1, 1.7.0
 platform-executing               1 versions: 0.5.0
-nscala-time                      5 versions: 1.8.0, 1.6.0, 1.4.0, 1.2.0, 1.0.0
+nscala-time                      6 versions: 2.0.0, 1.8.0, 1.6.0, 1.4.0, 1.2.0, ... [1 more]
 nalloc                           1 versions: 0.1.0
 f0                               1 versions: 1.1.2
 scrimage                         5 versions: 1.4.2, 1.4.1, 1.4.0, 1.3.21, 1.3.20
@@ -80,6 +80,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.github.nscala-time" %% "nscala-time" % "1.4.0"
 "com.github.nscala-time" %% "nscala-time" % "1.6.0"
 "com.github.nscala-time" %% "nscala-time" % "1.8.0"
+"com.github.nscala-time" %% "nscala-time" % "2.0.0"
 "com.github.scopt" %% "scopt" % "3.2.0"
 "com.github.scopt" %% "scopt" % "3.3.0"
 "com.googlecode.kiama" %% "kiama" % "1.5.3"
@@ -456,6 +457,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalaz" %% "scalaz-core" % "7.1.0-RC2"
 "org.scalaz" %% "scalaz-core" % "7.1.0"
 "org.scalaz" %% "scalaz-core" % "7.1.1"
+"org.scalaz" %% "scalaz-core" % "7.2.0-M1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta3"
@@ -553,6 +555,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "3.5"
 "org.specs2" %% "specs2-core" % "3.5-20150421030134-582d033"
 "org.specs2" %% "specs2-core" % "3.5-20150426232103-e164d12"
+"org.specs2" %% "specs2-core" % "3.5-20150428120937-48c299f"
 "org.specs2" %% "specs2-core" % "3.5-scalaz-7.0.6"
 "org.spire-math" %% "spire" % "0.7.4"
 "org.spire-math" %% "spire" % "0.7.5"
