@@ -24,7 +24,7 @@ raptureIO                        2 versions: 0.9.1, 0.10.0
 json-lenses                      2 versions: 0.6.0, 0.5.4
 spire                            6 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [1 more]
 scalaz                           9 versions: 7.2.0-M1, 7.1.2, 7.1.1, 7.1.0, 7.1.0-RC2, ... [4 more]
-shapeless                        9 versions: 2.2.0-RC4, 2.2.0-RC3, 2.2.0-RC2, 2.2.0-RC1, 2.1.0, ... [4 more]
+shapeless                       10 versions: 2.2.0-RC5, 2.2.0-RC4, 2.2.0-RC3, 2.2.0-RC2, 2.2.0-RC1, ... [5 more]
 parboiled                        2 versions: 1.1.7, 1.1.6
 parboiled2                       5 versions: 2.1.0, 2.0.1, 2.0.0, 2.0.0-RC2, 2.0.0-RC1
 scopt                            2 versions: 3.3.0, 3.2.0
@@ -74,6 +74,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.chuusai" %% "shapeless" % "2.2.0-RC2"
 "com.chuusai" %% "shapeless" % "2.2.0-RC3"
 "com.chuusai" %% "shapeless" % "2.2.0-RC4"
+"com.chuusai" %% "shapeless" % "2.2.0-RC5"
 "com.github.nscala-time" %% "nscala-time" % "1.0.0"
 "com.github.nscala-time" %% "nscala-time" % "1.2.0"
 "com.github.nscala-time" %% "nscala-time" % "1.4.0"
