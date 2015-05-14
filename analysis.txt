@@ -9,7 +9,7 @@ scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
 async                            3 versions: 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       24 versions: 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, 2.3.0-SNAP2, ... [19 more]
+scalatest                       25 versions: 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, 2.3.0-SNAP2, ... [20 more]
 specs2                          75 versions: 3.6-scalaz-7.0.7, 3.6, 3.5-scalaz-7.0.6, 3.5-20150429115212-9152a24, 3.5-20150429005731-d441bf4, ... [70 more]
 scalacheck                      13 versions: 1.9, 1.8, 1.12.2, 1.12.1, 1.12.0, ... [8 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
@@ -17,7 +17,7 @@ scalikejdbc-interpolation       28 versions: 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 
 spray-json                       4 versions: 1.3.2, 1.3.1, 1.3.0, 1.2.6
 json4s-native                    4 versions: 3.3.0.RC1, 3.2.9, 3.2.11, 3.2.10
 lift-json                       12 versions: 3.0-M5-1, 3.0-M5, 3.0-M4-1, 3.0-M4, 3.0-M3, ... [7 more]
-play-json                        6 versions: 2.4.0-RC2, 2.4.0-RC1, 2.4.0-M3, 2.4.0-M2, 2.4.0-M1, ... [1 more]
+play-json                        7 versions: 2.4.0-RC3, 2.4.0-RC2, 2.4.0-RC1, 2.4.0-M3, 2.4.0-M2, ... [2 more]
 twitter-json                     1 versions: 3.0.2
 argonaut                         6 versions: 6.1, 6.1-M6, 6.1-M5, 6.1-M4, 6.1-M3, ... [1 more]
 raptureIO                        2 versions: 0.9.1, 0.10.0
@@ -164,6 +164,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4.0-M3"
 "com.typesafe.play" %% "play-json" % "2.4.0-RC1"
 "com.typesafe.play" %% "play-json" % "2.4.0-RC2"
+"com.typesafe.play" %% "play-json" % "2.4.0-RC3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
@@ -318,6 +319,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "2.2.3-SNAP1"
 "org.scalatest" %% "scalatest" % "2.2.3-SNAP2"
 "org.scalatest" %% "scalatest" % "2.2.4"
+"org.scalatest" %% "scalatest" % "2.2.5"
 "org.scalatest" %% "scalatest" % "2.3.0-SNAP1"
 "org.scalatest" %% "scalatest" % "2.3.0-SNAP2"
 "org.scalatest" %% "scalatest" % "3.0.0-SNAP1"
