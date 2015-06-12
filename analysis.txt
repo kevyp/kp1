@@ -1,9 +1,13 @@
-51 libraries available for Scala 2.11 (see the end for sbt config lines)
+TargetVersion: Scala 2.11 LastVersion: Scala 2.10
+54 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                      11 versions: 2.4-M1, 2.3.9, 2.3.8, 2.3.7, 2.3.6, ... [6 more]
+akka-stream                     18 versions: 1.0-RC3, 1.0-RC2, 1.0-RC1, 1.0-M5, 1.0-M4, ... [13 more]
+akka-http                       14 versions: 1.0-RC3, 1.0-M5, 1.0-M4, 1.0-M3, 1.0-M2, ... [9 more]
 akka-osgi                       11 versions: 2.4-M1, 2.3.9, 2.3.8, 2.3.7, 2.3.6, ... [6 more]
 akka-slf4j                      11 versions: 2.4-M1, 2.3.9, 2.3.8, 2.3.7, 2.3.6, ... [6 more]
 akka-testkit                    11 versions: 2.4-M1, 2.3.9, 2.3.8, 2.3.7, 2.3.6, ... [6 more]
+slick                           10 versions: 3.0.0, 3.0.0-RC3, 3.0.0-RC2, 3.0.0-RC1, 3.0.0-M1, ... [5 more]
 scala-xml                        4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
@@ -54,14 +58,9 @@ twirl-api                        1 versions: 0.7.0
 
 Libraries missing
 
-f0                             has no previous version to analyze
-slick                           0 missing dependencies, deepest chain: 0 
-ghscala                         0 missing dependencies, deepest chain: 0 
 
 Blocking modules
 
-com.github.xuwei-k % ghscala-core                  blocks nothing but itself
-com.typesafe % slick                               blocks nothing but itself
 
 Sbt config lines for all available libraries in alphabetic order
 
@@ -140,6 +139,20 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-actor" % "2.3.8"
 "com.typesafe.akka" %% "akka-actor" % "2.3.9"
 "com.typesafe.akka" %% "akka-actor" % "2.4-M1"
+"com.typesafe.akka" %% "akka-http-experimental" % "0.10-M1"
+"com.typesafe.akka" %% "akka-http-experimental" % "0.10"
+"com.typesafe.akka" %% "akka-http-experimental" % "0.11"
+"com.typesafe.akka" %% "akka-http-experimental" % "0.5"
+"com.typesafe.akka" %% "akka-http-experimental" % "0.6"
+"com.typesafe.akka" %% "akka-http-experimental" % "0.7"
+"com.typesafe.akka" %% "akka-http-experimental" % "0.8"
+"com.typesafe.akka" %% "akka-http-experimental" % "0.9"
+"com.typesafe.akka" %% "akka-http-experimental" % "1.0-M1"
+"com.typesafe.akka" %% "akka-http-experimental" % "1.0-M2"
+"com.typesafe.akka" %% "akka-http-experimental" % "1.0-M3"
+"com.typesafe.akka" %% "akka-http-experimental" % "1.0-M4"
+"com.typesafe.akka" %% "akka-http-experimental" % "1.0-M5"
+"com.typesafe.akka" %% "akka-http-experimental" % "1.0-RC3"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.10"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.11"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.2"
@@ -162,6 +175,24 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.8"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.9"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4-M1"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.10-M1"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.10"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.11"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.3"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.4"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.5"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.6"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.7"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.8"
+"com.typesafe.akka" %% "akka-stream-experimental" % "0.9"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0-M1"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0-M2"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0-M3"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0-M4"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0-M5"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0-RC1"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0-RC2"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0-RC3"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.10"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.11"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.2"
@@ -188,6 +219,16 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.1"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2"
+"com.typesafe.slick" %% "slick" % "2.1.0-M2"
+"com.typesafe.slick" %% "slick" % "2.1.0-RC1"
+"com.typesafe.slick" %% "slick" % "2.1.0-RC2"
+"com.typesafe.slick" %% "slick" % "2.1.0-RC3"
+"com.typesafe.slick" %% "slick" % "2.1.0"
+"com.typesafe.slick" %% "slick" % "3.0.0-M1"
+"com.typesafe.slick" %% "slick" % "3.0.0-RC1"
+"com.typesafe.slick" %% "slick" % "3.0.0-RC2"
+"com.typesafe.slick" %% "slick" % "3.0.0-RC3"
+"com.typesafe.slick" %% "slick" % "3.0.0"
 "io.argonaut" %% "argonaut" % "6.0.4"
 "io.argonaut" %% "argonaut" % "6.1-M3"
 "io.argonaut" %% "argonaut" % "6.1-M4"
@@ -488,19 +529,19 @@ It contains a fixed list of libraries and will only detect any releases for thos
 (or their transitive dependencies).
 
 These libraries are currently checked (name, organization % module):
-    
+      
 MacWire                   com.softwaremill.macwire % macros
 akka-actor                com.typesafe.akka % akka-actor
+akka-http                 com.typesafe.akka % akka-http-experimental
 akka-osgi                 com.typesafe.akka % akka-osgi
 akka-slf4j                com.typesafe.akka % akka-slf4j
+akka-stream               com.typesafe.akka % akka-stream-experimental
 akka-testkit              com.typesafe.akka % akka-testkit
 algebird-core             com.twitter % algebird-core
 argonaut                  io.argonaut % argonaut
 async                     org.scala-lang.modules % scala-async
 dispatch-core             net.databinder % dispatch-core
-f0                        com.clarifi % f0
 finagle-core              com.twitter % finagle-core
-ghscala                   com.github.xuwei-k % ghscala-core
 json-lenses               net.virtual-void % json-lenses
 json4s-native             org.json4s % json4s-native
 kiama                     com.googlecode.kiama % kiama
@@ -533,7 +574,7 @@ scallop                   org.rogach % scallop
 scopt                     com.github.scopt % scopt
 scrimage                  com.sksamuel.scrimage % scrimage
 shapeless                 com.chuusai % shapeless
-slick                     com.typesafe % slick
+slick                     com.typesafe.slick % slick
 specs2                    org.specs2 % specs2-core
 spire                     org.spire-math % spire
 spray-can                 io.spray % spray-can
