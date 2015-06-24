@@ -36,7 +36,7 @@ scala-arm                        2 versions: 2.0.0-M1, 1.4
 scala-stm                        1 versions: 0.7
 scallop                          1 versions: 0.9.5
 scalafx                          9 versions: 8.0.5-R5, 8.0.40-R8, 8.0.31-R7, 8.0.20-R6, 8.0.0-R4, ... [4 more]
-scalatra                         7 versions: 2.4.0.RC1, 2.4.0.M3, 2.4.0.M2, 2.4.0.M1, 2.3.1, ... [2 more]
+scalatra                         8 versions: 2.4.0.RC1, 2.4.0.M3, 2.4.0.M2, 2.4.0.M1, 2.4.0-RC2-2, ... [3 more]
 scalate-core                     2 versions: 1.7.1, 1.7.0
 platform-executing               1 versions: 0.5.0
 nscala-time                      6 versions: 2.0.0, 1.8.0, 1.6.0, 1.4.0, 1.2.0, ... [1 more]
@@ -392,6 +392,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatra" %% "scalatra" % "2.3.0"
 "org.scalatra" %% "scalatra" % "2.3.0.RC3"
 "org.scalatra" %% "scalatra" % "2.3.1"
+"org.scalatra" %% "scalatra" % "2.4.0-RC2-2"
 "org.scalatra" %% "scalatra" % "2.4.0.M1"
 "org.scalatra" %% "scalatra" % "2.4.0.M2"
 "org.scalatra" %% "scalatra" % "2.4.0.M3"
