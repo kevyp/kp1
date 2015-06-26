@@ -1,12 +1,12 @@
 TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 54 libraries available for Scala 2.11 (see the end for sbt config lines)
 
-akka-actor                      11 versions: 2.4-M1, 2.3.9, 2.3.8, 2.3.7, 2.3.6, ... [6 more]
+akka-actor                      12 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [7 more]
 akka-stream                     19 versions: 1.0-RC4, 1.0-RC3, 1.0-RC2, 1.0-RC1, 1.0-M5, ... [14 more]
 akka-http                       15 versions: 1.0-RC4, 1.0-RC3, 1.0-M5, 1.0-M4, 1.0-M3, ... [10 more]
 akka-osgi                       11 versions: 2.4-M1, 2.3.9, 2.3.8, 2.3.7, 2.3.6, ... [6 more]
-akka-slf4j                      11 versions: 2.4-M1, 2.3.9, 2.3.8, 2.3.7, 2.3.6, ... [6 more]
-akka-testkit                    11 versions: 2.4-M1, 2.3.9, 2.3.8, 2.3.7, 2.3.6, ... [6 more]
+akka-slf4j                      12 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [7 more]
+akka-testkit                    12 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [7 more]
 slick                           10 versions: 3.0.0, 3.0.0-RC3, 3.0.0-RC2, 3.0.0-RC1, 3.0.0-M1, ... [5 more]
 scala-xml                        4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
@@ -46,8 +46,8 @@ monifu                          37 versions: 1.0-M2, 1.0-M1, 0.9.5, 0.9.4, 0.9.3
 MacWire                         12 versions: 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, ... [7 more]
 scalamacrodebug                  1 versions: 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
-finagle-core                     3 versions: 6.25.0, 6.24.1-MONOCACHE, 6.24.0
-ostrich                          1 versions: 9.8.0
+finagle-core                     4 versions: 6.26.0, 6.25.0, 6.24.1-MONOCACHE, 6.24.0
+ostrich                          2 versions: 9.9.0, 9.8.0
 algebird-core                    7 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.10.2, ... [2 more]
 scalding-core                    4 versions: 0.15.0, 0.14.0, 0.13.1, 0.13.0
 dispatch-core                    1 versions: 0.8.10
@@ -122,7 +122,9 @@ Sbt config lines for all available libraries in alphabetic order
 "com.twitter" %% "finagle-core" % "6.24.0"
 "com.twitter" %% "finagle-core" % "6.24.1-MONOCACHE"
 "com.twitter" %% "finagle-core" % "6.25.0"
+"com.twitter" %% "finagle-core" % "6.26.0"
 "com.twitter" %% "ostrich" % "9.8.0"
+"com.twitter" %% "ostrich" % "9.9.0"
 "com.twitter" %% "scala-json" % "3.0.2"
 "com.twitter" %% "scalding-core" % "0.13.0"
 "com.twitter" %% "scalding-core" % "0.13.1"
@@ -139,6 +141,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-actor" % "2.3.8"
 "com.typesafe.akka" %% "akka-actor" % "2.3.9"
 "com.typesafe.akka" %% "akka-actor" % "2.4-M1"
+"com.typesafe.akka" %% "akka-actor" % "2.4-M2"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.10-M1"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.10"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.11"
@@ -176,6 +179,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.8"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.9"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4-M1"
+"com.typesafe.akka" %% "akka-slf4j" % "2.4-M2"
 "com.typesafe.akka" %% "akka-stream-experimental" % "0.10-M1"
 "com.typesafe.akka" %% "akka-stream-experimental" % "0.10"
 "com.typesafe.akka" %% "akka-stream-experimental" % "0.11"
@@ -206,6 +210,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-testkit" % "2.3.8"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.9"
 "com.typesafe.akka" %% "akka-testkit" % "2.4-M1"
+"com.typesafe.akka" %% "akka-testkit" % "2.4-M2"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC1"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC2"
 "com.typesafe.play" %% "play-json" % "2.3.0"
