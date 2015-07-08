@@ -13,7 +13,7 @@ scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
 async                            4 versions: 0.9.4, 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       29 versions: 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, ... [24 more]
+scalatest                       30 versions: 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, ... [25 more]
 specs2                          79 versions: 3.6.2, 3.6.1-scalaz-7.0.6, 3.6.1, 3.6-scalaz-7.0.7, 3.6-20150519234533-6476871, ... [74 more]
 scalacheck                      14 versions: 1.9, 1.8, 1.12.3, 1.12.2, 1.12.1, ... [9 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
@@ -28,7 +28,7 @@ raptureIO                        2 versions: 0.9.1, 0.10.0
 json-lenses                      2 versions: 0.6.0, 0.5.4
 spire                            7 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [2 more]
 scalaz                          10 versions: 7.2.0-M2, 7.2.0-M1, 7.1.2, 7.1.1, 7.1.0, ... [5 more]
-shapeless                       13 versions: 2.2.1, 2.2.0, 2.2.0-RC6, 2.2.0-RC5, 2.2.0-RC4, ... [8 more]
+shapeless                       14 versions: 2.2.4, 2.2.1, 2.2.0, 2.2.0-RC6, 2.2.0-RC5, ... [9 more]
 parboiled                        2 versions: 1.1.7, 1.1.6
 parboiled2                       5 versions: 2.1.0, 2.0.1, 2.0.0, 2.0.0-RC2, 2.0.0-RC1
 scopt                            2 versions: 3.3.0, 3.2.0
@@ -77,6 +77,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.chuusai" %% "shapeless" % "2.2.0-RC6"
 "com.chuusai" %% "shapeless" % "2.2.0"
 "com.chuusai" %% "shapeless" % "2.2.1"
+"com.chuusai" %% "shapeless" % "2.2.4"
 "com.github.nscala-time" %% "nscala-time" % "1.0.0"
 "com.github.nscala-time" %% "nscala-time" % "1.2.0"
 "com.github.nscala-time" %% "nscala-time" % "1.4.0"
@@ -526,6 +527,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "3.0.0-M1"
 "org.scalatest" %% "scalatest" % "3.0.0-M4"
 "org.scalatest" %% "scalatest" % "3.0.0-M5"
+"org.scalatest" %% "scalatest" % "3.0.0-M6"
 "org.scalatest" %% "scalatest" % "3.0.0-SNAP1"
 "org.scalatest" %% "scalatest" % "3.0.0-SNAP2"
 "org.scalatest" %% "scalatest" % "3.0.0-SNAP3"
