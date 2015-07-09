@@ -4,9 +4,9 @@ TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 akka-actor                      12 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [7 more]
 akka-stream                     19 versions: 1.0-RC4, 1.0-RC3, 1.0-RC2, 1.0-RC1, 1.0-M5, ... [14 more]
 akka-http                       15 versions: 1.0-RC4, 1.0-RC3, 1.0-M5, 1.0-M4, 1.0-M3, ... [10 more]
-akka-osgi                       12 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [7 more]
-akka-slf4j                      12 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [7 more]
-akka-testkit                    12 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [7 more]
+akka-osgi                       13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
+akka-slf4j                      13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
+akka-testkit                    13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
 slick                           10 versions: 3.0.0, 3.0.0-RC3, 3.0.0-RC2, 3.0.0-RC1, 3.0.0-M1, ... [5 more]
 scala-xml                        4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
@@ -160,6 +160,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-http-experimental" % "1.0-RC4"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.10"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.11"
+"com.typesafe.akka" %% "akka-osgi" % "2.3.12"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.2"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.3"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.4"
@@ -172,6 +173,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-osgi" % "2.4-M2"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.10"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.11"
+"com.typesafe.akka" %% "akka-slf4j" % "2.3.12"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.2"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.3"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.4"
@@ -203,6 +205,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-stream-experimental" % "1.0-RC4"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.10"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.11"
+"com.typesafe.akka" %% "akka-testkit" % "2.3.12"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.2"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.3"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.4"
