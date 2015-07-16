@@ -7,7 +7,7 @@ akka-http                       16 versions: 1.0, 1.0-RC4, 1.0-RC3, 1.0-M5, 1.0-
 akka-osgi                       13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
 akka-slf4j                      13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
 akka-testkit                    13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
-slick                           10 versions: 3.0.0, 3.0.0-RC3, 3.0.0-RC2, 3.0.0-RC1, 3.0.0-M1, ... [5 more]
+slick                           11 versions: 3.1.0-M1, 3.0.0, 3.0.0-RC3, 3.0.0-RC2, 3.0.0-RC1, ... [6 more]
 scala-xml                        4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
@@ -375,6 +375,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.slick" %% "slick" % "3.0.0-RC2"
 "com.typesafe.slick" %% "slick" % "3.0.0-RC3"
 "com.typesafe.slick" %% "slick" % "3.0.0"
+"com.typesafe.slick" %% "slick" % "3.1.0-M1"
 "io.argonaut" %% "argonaut" % "6.0.4"
 "io.argonaut" %% "argonaut" % "6.1-M3"
 "io.argonaut" %% "argonaut" % "6.1-M4"
