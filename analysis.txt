@@ -2,7 +2,7 @@ TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 54 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                      13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
-akka-stream                     19 versions: 1.0-RC4, 1.0-RC3, 1.0-RC2, 1.0-RC1, 1.0-M5, ... [14 more]
+akka-stream                     20 versions: 1.0, 1.0-RC4, 1.0-RC3, 1.0-RC2, 1.0-RC1, ... [15 more]
 akka-http                       16 versions: 1.0, 1.0-RC4, 1.0-RC3, 1.0-M5, 1.0-M4, ... [11 more]
 akka-osgi                       13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
 akka-slf4j                      13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
@@ -205,6 +205,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-stream-experimental" % "1.0-RC2"
 "com.typesafe.akka" %% "akka-stream-experimental" % "1.0-RC3"
 "com.typesafe.akka" %% "akka-stream-experimental" % "1.0-RC4"
+"com.typesafe.akka" %% "akka-stream-experimental" % "1.0"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.10"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.11"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.12"
