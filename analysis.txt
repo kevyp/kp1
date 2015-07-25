@@ -8,13 +8,13 @@ akka-osgi                       13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7
 akka-slf4j                      13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
 akka-testkit                    13 versions: 2.4-M2, 2.4-M1, 2.3.9, 2.3.8, 2.3.7, ... [8 more]
 slick                           11 versions: 3.1.0-M1, 3.0.0, 3.0.0-RC3, 3.0.0-RC2, 3.0.0-RC1, ... [6 more]
-scala-xml                        4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
+scala-xml                        4 versions: 1.0.5, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
 async                            4 versions: 0.9.4, 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       31 versions: 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, ... [26 more]
-specs2                          83 versions: 3.6.2-20150723082059-c023894, 3.6.2-20150722230651-341faec, 3.6.2-20150714025313-9b19fc6, 3.6.2-20150710141157-023900f, 3.6.2, ... [78 more]
+specs2                          84 versions: 3.6.3, 3.6.2-20150723082059-c023894, 3.6.2-20150722230651-341faec, 3.6.2-20150714025313-9b19fc6, 3.6.2-20150710141157-023900f, ... [79 more]
 scalacheck                      14 versions: 1.9, 1.8, 1.12.3, 1.12.2, 1.12.1, ... [9 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       29 versions: 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.3, ... [24 more]
@@ -489,7 +489,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scala-lang.modules" %% "scala-xml" % "1.0.1"
 "org.scala-lang.modules" %% "scala-xml" % "1.0.2"
 "org.scala-lang.modules" %% "scala-xml" % "1.0.3"
-"org.scala-lang.modules" %% "scala-xml" % "1.0.4"
+"org.scala-lang.modules" %% "scala-xml" % "1.0.5"
 "org.scala-stm" %% "scala-stm" % "0.7"
 "org.scalacheck" %% "scalacheck" % "1.10.0"
 "org.scalacheck" %% "scalacheck" % "1.10.1"
@@ -704,6 +704,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "3.6.2-20150714025313-9b19fc6"
 "org.specs2" %% "specs2-core" % "3.6.2-20150722230651-341faec"
 "org.specs2" %% "specs2-core" % "3.6.2-20150723082059-c023894"
+"org.specs2" %% "specs2-core" % "3.6.3"
 "org.spire-math" %% "spire" % "0.10.1"
 "org.spire-math" %% "spire" % "0.7.4"
 "org.spire-math" %% "spire" % "0.7.5"
