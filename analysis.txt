@@ -11,7 +11,7 @@ slick                           11 versions: 3.1.0-M1, 3.0.0, 3.0.0-RC3, 3.0.0-R
 scala-xml                        4 versions: 1.0.5, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
-async                            4 versions: 0.9.4, 0.9.3, 0.9.2, 0.9.1
+async                            5 versions: 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       31 versions: 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, ... [26 more]
 specs2                          85 versions: 3.6.3-20150727123318-aea42fc, 3.6.3, 3.6.2-20150723082059-c023894, 3.6.2-20150722230651-341faec, 3.6.2-20150714025313-9b19fc6, ... [80 more]
@@ -480,6 +480,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scala-lang.modules" %% "scala-async" % "0.9.2"
 "org.scala-lang.modules" %% "scala-async" % "0.9.3"
 "org.scala-lang.modules" %% "scala-async" % "0.9.4"
+"org.scala-lang.modules" %% "scala-async" % "0.9.5"
 "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.1"
 "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.2"
 "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.3"
