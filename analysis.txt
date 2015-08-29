@@ -47,8 +47,8 @@ MacWire                         14 versions: 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 
 scalamacrodebug                  1 versions: 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
 scalactic                       26 versions: 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, ... [21 more]
-finagle-core                     5 versions: 6.27.0, 6.26.0, 6.25.0, 6.24.1-MONOCACHE, 6.24.0
-ostrich                          3 versions: 9.9.0, 9.8.0, 9.10.0
+finagle-core                     6 versions: 6.28.0, 6.27.0, 6.26.0, 6.25.0, 6.24.1-MONOCACHE, ... [1 more]
+ostrich                          4 versions: 9.9.0, 9.8.0, 9.11.0, 9.10.0
 algebird-core                    8 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.11.0, ... [3 more]
 scalding-core                    6 versions: 0.15.1-RC9, 0.15.1-RC13, 0.15.0, 0.14.0, 0.13.1, ... [1 more]
 dispatch-core                    1 versions: 0.8.10
@@ -131,7 +131,9 @@ Sbt config lines for all available libraries in alphabetic order
 "com.twitter" %% "finagle-core" % "6.25.0"
 "com.twitter" %% "finagle-core" % "6.26.0"
 "com.twitter" %% "finagle-core" % "6.27.0"
+"com.twitter" %% "finagle-core" % "6.28.0"
 "com.twitter" %% "ostrich" % "9.10.0"
+"com.twitter" %% "ostrich" % "9.11.0"
 "com.twitter" %% "ostrich" % "9.8.0"
 "com.twitter" %% "ostrich" % "9.9.0"
 "com.twitter" %% "scala-json" % "3.0.2"
