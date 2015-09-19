@@ -27,7 +27,7 @@ argonaut                         6 versions: 6.1, 6.1-M6, 6.1-M5, 6.1-M4, 6.1-M3
 raptureIO                        3 versions: 2.0.0-M1, 0.9.1, 0.10.0
 json-lenses                      3 versions: 0.6.1, 0.6.0, 0.5.4
 spire                            7 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [2 more]
-scalaz                          12 versions: 7.2.0-M3, 7.2.0-M2, 7.2.0-M1, 7.1.2, 7.1.1, ... [7 more]
+scalaz                          13 versions: 7.2.0-M3, 7.2.0-M2, 7.2.0-M1, 7.1.4, 7.1.2, ... [8 more]
 shapeless                       15 versions: 2.2.5, 2.2.4, 2.2.1, 2.2.0, 2.2.0-RC6, ... [10 more]
 parboiled                        2 versions: 1.1.7, 1.1.6
 parboiled2                       5 versions: 2.1.0, 2.0.1, 2.0.0, 2.0.0-RC2, 2.0.0-RC1
@@ -658,6 +658,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalaz" %% "scalaz-core" % "7.1.0"
 "org.scalaz" %% "scalaz-core" % "7.1.1"
 "org.scalaz" %% "scalaz-core" % "7.1.2"
+"org.scalaz" %% "scalaz-core" % "7.1.4"
 "org.scalaz" %% "scalaz-core" % "7.2.0-M1"
 "org.scalaz" %% "scalaz-core" % "7.2.0-M2"
 "org.scalaz" %% "scalaz-core" % "7.2.0-M3"
