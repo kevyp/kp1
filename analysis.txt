@@ -7,14 +7,14 @@ akka-http                       16 versions: 1.0, 1.0-RC4, 1.0-RC3, 1.0-M5, 1.0-
 akka-osgi                       19 versions: 2.4.0-RC3, 2.4.0-RC2, 2.4.0-RC1, 2.4-M3, 2.4-M2, ... [14 more]
 akka-slf4j                      19 versions: 2.4.0-RC3, 2.4.0-RC2, 2.4.0-RC1, 2.4-M3, 2.4-M2, ... [14 more]
 akka-testkit                    19 versions: 2.4.0-RC3, 2.4.0-RC2, 2.4.0-RC1, 2.4-M3, 2.4-M2, ... [14 more]
-slick                           16 versions: 3.1.0-RC1, 3.1.0-M2, 3.1.0-M1, 3.0.3, 3.0.2, ... [11 more]
+slick                           17 versions: 3.1.0-RC2, 3.1.0-RC1, 3.1.0-M2, 3.1.0-M1, 3.0.3, ... [12 more]
 scala-xml                        4 versions: 1.0.5, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
 scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
 async                            5 versions: 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       35 versions: 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, ... [30 more]
-specs2                          94 versions: 3.6.4-20150916230958-8339115, 3.6.4-20150914030917-1f41c5e, 3.6.4-20150901013911-1f41c5e, 3.6.4-20150831233848-1f41c5e, 3.6.4-20150813062946-0dbb642, ... [89 more]
+specs2                          95 versions: 3.6.4-20150923164409-7ac7257, 3.6.4-20150916230958-8339115, 3.6.4-20150914030917-1f41c5e, 3.6.4-20150901013911-1f41c5e, 3.6.4-20150831233848-1f41c5e, ... [90 more]
 scalacheck                      15 versions: 1.9, 1.8, 1.12.5, 1.12.3, 1.12.2, ... [10 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       30 versions: 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, ... [25 more]
@@ -421,6 +421,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.slick" %% "slick" % "3.1.0-M1"
 "com.typesafe.slick" %% "slick" % "3.1.0-M2"
 "com.typesafe.slick" %% "slick" % "3.1.0-RC1"
+"com.typesafe.slick" %% "slick" % "3.1.0-RC2"
 "io.argonaut" %% "argonaut" % "6.0.4"
 "io.argonaut" %% "argonaut" % "6.1-M3"
 "io.argonaut" %% "argonaut" % "6.1-M4"
@@ -787,6 +788,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "3.6.4-20150901013911-1f41c5e"
 "org.specs2" %% "specs2-core" % "3.6.4-20150914030917-1f41c5e"
 "org.specs2" %% "specs2-core" % "3.6.4-20150916230958-8339115"
+"org.specs2" %% "specs2-core" % "3.6.4-20150923164409-7ac7257"
 "org.spire-math" %% "spire" % "0.10.1"
 "org.spire-math" %% "spire" % "0.7.4"
 "org.spire-math" %% "spire" % "0.7.5"
