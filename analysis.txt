@@ -14,7 +14,7 @@ scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
 async                            5 versions: 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       35 versions: 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, ... [30 more]
-specs2                          96 versions: 3.6.4-20150927082714-7cac887, 3.6.4-20150923164409-7ac7257, 3.6.4-20150916230958-8339115, 3.6.4-20150914030917-1f41c5e, 3.6.4-20150901013911-1f41c5e, ... [91 more]
+specs2                          97 versions: 3.6.4-20150928232002-999c515, 3.6.4-20150927082714-7cac887, 3.6.4-20150923164409-7ac7257, 3.6.4-20150916230958-8339115, 3.6.4-20150914030917-1f41c5e, ... [92 more]
 scalacheck                      15 versions: 1.9, 1.8, 1.12.5, 1.12.3, 1.12.2, ... [10 more]
 squeryl                          2 versions: 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       30 versions: 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, ... [25 more]
@@ -47,8 +47,8 @@ MacWire                         15 versions: 2.0.0, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 
 scalamacrodebug                  1 versions: 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
 scalactic                       30 versions: 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, 3.0.0-SNAP1, ... [25 more]
-finagle-core                     6 versions: 6.28.0, 6.27.0, 6.26.0, 6.25.0, 6.24.1-MONOCACHE, ... [1 more]
-ostrich                          4 versions: 9.9.0, 9.8.0, 9.11.0, 9.10.0
+finagle-core                     7 versions: 6.29.0, 6.28.0, 6.27.0, 6.26.0, 6.25.0, ... [2 more]
+ostrich                          5 versions: 9.9.0, 9.8.0, 9.12.0, 9.11.0, 9.10.0
 algebird-core                    8 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.11.0, ... [3 more]
 scalding-core                    6 versions: 0.15.1-RC9, 0.15.1-RC13, 0.15.0, 0.14.0, 0.13.1, ... [1 more]
 dispatch-core                    1 versions: 0.8.10
@@ -134,8 +134,10 @@ Sbt config lines for all available libraries in alphabetic order
 "com.twitter" %% "finagle-core" % "6.26.0"
 "com.twitter" %% "finagle-core" % "6.27.0"
 "com.twitter" %% "finagle-core" % "6.28.0"
+"com.twitter" %% "finagle-core" % "6.29.0"
 "com.twitter" %% "ostrich" % "9.10.0"
 "com.twitter" %% "ostrich" % "9.11.0"
+"com.twitter" %% "ostrich" % "9.12.0"
 "com.twitter" %% "ostrich" % "9.8.0"
 "com.twitter" %% "ostrich" % "9.9.0"
 "com.twitter" %% "scala-json" % "3.0.2"
@@ -790,6 +792,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "3.6.4-20150916230958-8339115"
 "org.specs2" %% "specs2-core" % "3.6.4-20150923164409-7ac7257"
 "org.specs2" %% "specs2-core" % "3.6.4-20150927082714-7cac887"
+"org.specs2" %% "specs2-core" % "3.6.4-20150928232002-999c515"
 "org.spire-math" %% "spire" % "0.10.1"
 "org.spire-math" %% "spire" % "0.7.4"
 "org.spire-math" %% "spire" % "0.7.5"
