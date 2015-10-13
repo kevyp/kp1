@@ -1,5 +1,5 @@
 TargetVersion: Scala 2.11 LastVersion: Scala 2.10
-55 libraries available for Scala 2.11 (see the end for sbt config lines)
+66 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                      20 versions: 2.4.0, 2.4.0-RC3, 2.4.0-RC2, 2.4.0-RC1, 2.4-M3, ... [15 more]
 akka-stream                     20 versions: 1.0, 1.0-RC4, 1.0-RC3, 1.0-RC2, 1.0-RC1, ... [15 more]
@@ -27,6 +27,10 @@ argonaut                         6 versions: 6.1, 6.1-M6, 6.1-M5, 6.1-M4, 6.1-M3
 raptureIO                        3 versions: 2.0.0-M1, 0.9.1, 0.10.0
 json-lenses                      3 versions: 0.6.1, 0.6.0, 0.5.4
 spire                            7 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [2 more]
+cats                             3 versions: 0.2.0, 0.1.2, 0.1.1
+algebra                          3 versions: 0.3.1, 0.3.0, 0.2.1
+debox                            2 versions: 0.7.3, 0.7.2
+kind-projector                   2 versions: 0.6.3, 0.6.2
 scalaz                          13 versions: 7.2.0-M3, 7.2.0-M2, 7.2.0-M1, 7.1.4, 7.1.2, ... [8 more]
 shapeless                       15 versions: 2.2.5, 2.2.4, 2.2.1, 2.2.0, 2.2.0-RC6, ... [10 more]
 parboiled                        2 versions: 1.1.7, 1.1.6
@@ -45,6 +49,12 @@ scrimage                         5 versions: 1.4.2, 1.4.1, 1.4.0, 1.3.21, 1.3.20
 monifu                          49 versions: 1.0-RC3, 1.0-RC2, 1.0-RC1, 1.0-M9, 1.0-M8, ... [44 more]
 MacWire                         16 versions: 2.1.0, 2.0.0, 1.0.7, 1.0.6, 1.0.5, ... [11 more]
 scalamacrodebug                  1 versions: 0.4
+scodec-core                      6 versions: 1.8.2, 1.8.1, 1.7.1, 1.7.0, 1.7.0-RC2, ... [1 more]
+scodec-bits                      4 versions: 1.0.9, 1.0.6, 1.0.5, 1.0.10
+scodec-scalaz                    3 versions: 1.1.0, 1.0.0, 1.0.0-RC1
+scodec-stream                    4 versions: 0.9.0, 0.8.0, 0.7.1, 0.7.0
+scodec-protocols                11 versions: 0.9.0, 0.8.0, 0.7.1, 0.7.0, 0.6.2, ... [6 more]
+scodec-spire                     2 versions: 0.2.0, 0.1.0
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
 scalactic                       31 versions: 3.0.0-SNAP6, 3.0.0-SNAP5, 3.0.0-SNAP4, 3.0.0-SNAP3, 3.0.0-SNAP2, ... [26 more]
 finagle-core                     7 versions: 6.29.0, 6.28.0, 6.27.0, 6.26.0, 6.25.0, ... [2 more]
@@ -56,9 +66,11 @@ unfiltered                       7 versions: 0.9.0-beta1, 0.8.4, 0.8.3, 0.8.2, 0
 spray-routing                    5 versions: 1.3.3, 1.3.2-20140909, 1.3.2, 1.3.1-20140423, 1.3.1
 spray-can                        5 versions: 1.3.3, 1.3.2-20140909, 1.3.2, 1.3.1-20140423, 1.3.1
 twirl-api                        1 versions: 0.7.0
+fastparse                       11 versions: 0.3.0, 0.2.1, 0.2.0, 0.1.7, 0.1.6, ... [6 more]
 
 Libraries missing
 
+jawn                           has no previous version to analyze
 
 Blocking modules
 
@@ -95,6 +107,17 @@ Sbt config lines for all available libraries in alphabetic order
 "com.googlecode.kiama" %% "kiama" % "1.8.0"
 "com.jsuereth" %% "scala-arm" % "1.4"
 "com.jsuereth" %% "scala-arm" % "2.0.0-M1"
+"com.lihaoyi" %% "fastparse" % "0.1.0"
+"com.lihaoyi" %% "fastparse" % "0.1.1"
+"com.lihaoyi" %% "fastparse" % "0.1.2"
+"com.lihaoyi" %% "fastparse" % "0.1.3"
+"com.lihaoyi" %% "fastparse" % "0.1.4"
+"com.lihaoyi" %% "fastparse" % "0.1.5"
+"com.lihaoyi" %% "fastparse" % "0.1.6"
+"com.lihaoyi" %% "fastparse" % "0.1.7"
+"com.lihaoyi" %% "fastparse" % "0.2.0"
+"com.lihaoyi" %% "fastparse" % "0.2.1"
+"com.lihaoyi" %% "fastparse" % "0.3.0"
 "com.nocandysw" %% "platform-executing" % "0.5.0"
 "com.propensive" %% "rapture-io" % "0.10.0"
 "com.propensive" %% "rapture-io" % "0.9.1"
@@ -711,6 +734,36 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.2.7"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.2.8"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.2.9"
+"org.scodec" %% "scodec-bits" % "1.0.10"
+"org.scodec" %% "scodec-bits" % "1.0.5"
+"org.scodec" %% "scodec-bits" % "1.0.6"
+"org.scodec" %% "scodec-bits" % "1.0.9"
+"org.scodec" %% "scodec-core" % "1.7.0-RC1"
+"org.scodec" %% "scodec-core" % "1.7.0-RC2"
+"org.scodec" %% "scodec-core" % "1.7.0"
+"org.scodec" %% "scodec-core" % "1.7.1"
+"org.scodec" %% "scodec-core" % "1.8.1"
+"org.scodec" %% "scodec-core" % "1.8.2"
+"org.scodec" %% "scodec-protocols" % "0.10.1"
+"org.scodec" %% "scodec-protocols" % "0.10.2"
+"org.scodec" %% "scodec-protocols" % "0.11.0"
+"org.scodec" %% "scodec-protocols" % "0.12.0"
+"org.scodec" %% "scodec-protocols" % "0.6.0"
+"org.scodec" %% "scodec-protocols" % "0.6.1"
+"org.scodec" %% "scodec-protocols" % "0.6.2"
+"org.scodec" %% "scodec-protocols" % "0.7.0"
+"org.scodec" %% "scodec-protocols" % "0.7.1"
+"org.scodec" %% "scodec-protocols" % "0.8.0"
+"org.scodec" %% "scodec-protocols" % "0.9.0"
+"org.scodec" %% "scodec-scalaz" % "1.0.0-RC1"
+"org.scodec" %% "scodec-scalaz" % "1.0.0"
+"org.scodec" %% "scodec-scalaz" % "1.1.0"
+"org.scodec" %% "scodec-spire" % "0.1.0"
+"org.scodec" %% "scodec-spire" % "0.2.0"
+"org.scodec" %% "scodec-stream" % "0.7.0"
+"org.scodec" %% "scodec-stream" % "0.7.1"
+"org.scodec" %% "scodec-stream" % "0.8.0"
+"org.scodec" %% "scodec-stream" % "0.9.0"
 "org.specs2" %% "specs2-core" % "2.3.11"
 "org.specs2" %% "specs2-core" % "2.3.12"
 "org.specs2" %% "specs2-core" % "2.3.12-scalaz-7.1.0-M7"
@@ -808,6 +861,16 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "3.6.4-20150923164409-7ac7257"
 "org.specs2" %% "specs2-core" % "3.6.4-20150927082714-7cac887"
 "org.specs2" %% "specs2-core" % "3.6.4-20150928232002-999c515"
+"org.spire-math" %% "algebra" % "0.2.1"
+"org.spire-math" %% "algebra" % "0.3.0"
+"org.spire-math" %% "algebra" % "0.3.1"
+"org.spire-math" %% "cats" % "0.1.1"
+"org.spire-math" %% "cats" % "0.1.2"
+"org.spire-math" %% "cats" % "0.2.0"
+"org.spire-math" %% "debox" % "0.7.2"
+"org.spire-math" %% "debox" % "0.7.3"
+"org.spire-math" %% "kind-projector" % "0.6.2"
+"org.spire-math" %% "kind-projector" % "0.6.3"
 "org.spire-math" %% "spire" % "0.10.1"
 "org.spire-math" %% "spire" % "0.7.4"
 "org.spire-math" %% "spire" % "0.7.5"
@@ -833,13 +896,19 @@ akka-slf4j                com.typesafe.akka % akka-slf4j
 akka-stream               com.typesafe.akka % akka-stream-experimental
 akka-testkit              com.typesafe.akka % akka-testkit
 algebird-core             com.twitter % algebird-core
+algebra                   org.spire-math % algebra
 argonaut                  io.argonaut % argonaut
 async                     org.scala-lang.modules % scala-async
+cats                      org.spire-math % cats
+debox                     org.spire-math % debox
 dispatch-core             net.databinder % dispatch-core
+fastparse                 com.lihaoyi % fastparse
 finagle-core              com.twitter % finagle-core
+jawn                      org.spire-math % jawn
 json-lenses               net.virtual-void % json-lenses
 json4s-native             org.json4s % json4s-native
 kiama                     com.googlecode.kiama % kiama
+kind-projector            org.spire-math % kind-projector
 lift-json                 net.liftweb % lift-json
 monifu                    org.monifu % monifu
 nalloc                    org.nalloc % optional
@@ -867,6 +936,12 @@ scalaz                    org.scalaz % scalaz-core
 scalding-core             com.twitter % scalding-core
 scalikejdbc-interpolation org.scalikejdbc % scalikejdbc-interpolation
 scallop                   org.rogach % scallop
+scodec-bits               org.scodec % scodec-bits
+scodec-core               org.scodec % scodec-core
+scodec-protocols          org.scodec % scodec-protocols
+scodec-scalaz             org.scodec % scodec-scalaz
+scodec-spire              org.scodec % scodec-spire
+scodec-stream             org.scodec % scodec-stream
 scopt                     com.github.scopt % scopt
 scrimage                  com.sksamuel.scrimage % scrimage
 shapeless                 com.chuusai % shapeless
