@@ -1,5 +1,5 @@
 TargetVersion: Scala 2.11 LastVersion: Scala 2.10
-73 libraries available for Scala 2.11 (see the end for sbt config lines)
+75 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                      20 versions: 2.4.0, 2.4.0-RC3, 2.4.0-RC2, 2.4.0-RC1, 2.4-M3, ... [15 more]
 akka-stream                     20 versions: 1.0, 1.0-RC4, 1.0-RC3, 1.0-RC2, 1.0-RC1, ... [15 more]
@@ -74,6 +74,8 @@ jawn-json4s                      3 versions: 0.8.3, 0.8.2, 0.8.1
 jawn-play                        3 versions: 0.8.3, 0.8.2, 0.8.1
 jawn-rojoma                      3 versions: 0.8.3, 0.8.2, 0.8.1
 jawn-spray                       3 versions: 0.8.3, 0.8.2, 0.8.1
+monocle-core                     9 versions: 1.2.0-M1, 1.1.1, 1.1.0, 1.0.1, 1.0.0, ... [4 more]
+monocle-macro                    9 versions: 1.2.0-M1, 1.1.1, 1.1.0, 1.0.1, 1.0.0, ... [4 more]
 
 Libraries missing
 
@@ -98,6 +100,24 @@ Sbt config lines for all available libraries in alphabetic order
 "com.chuusai" %% "shapeless" % "2.2.1"
 "com.chuusai" %% "shapeless" % "2.2.4"
 "com.chuusai" %% "shapeless" % "2.2.5"
+"com.github.julien-truffaut" %% "monocle-core" % "0.4.0"
+"com.github.julien-truffaut" %% "monocle-core" % "0.5.0"
+"com.github.julien-truffaut" %% "monocle-core" % "0.5.1"
+"com.github.julien-truffaut" %% "monocle-core" % "1.0.0-M1"
+"com.github.julien-truffaut" %% "monocle-core" % "1.0.0"
+"com.github.julien-truffaut" %% "monocle-core" % "1.0.1"
+"com.github.julien-truffaut" %% "monocle-core" % "1.1.0"
+"com.github.julien-truffaut" %% "monocle-core" % "1.1.1"
+"com.github.julien-truffaut" %% "monocle-core" % "1.2.0-M1"
+"com.github.julien-truffaut" %% "monocle-macro" % "0.4.0"
+"com.github.julien-truffaut" %% "monocle-macro" % "0.5.0"
+"com.github.julien-truffaut" %% "monocle-macro" % "0.5.1"
+"com.github.julien-truffaut" %% "monocle-macro" % "1.0.0-M1"
+"com.github.julien-truffaut" %% "monocle-macro" % "1.0.0"
+"com.github.julien-truffaut" %% "monocle-macro" % "1.0.1"
+"com.github.julien-truffaut" %% "monocle-macro" % "1.1.0"
+"com.github.julien-truffaut" %% "monocle-macro" % "1.1.1"
+"com.github.julien-truffaut" %% "monocle-macro" % "1.2.0-M1"
 "com.github.nscala-time" %% "nscala-time" % "1.0.0"
 "com.github.nscala-time" %% "nscala-time" % "1.2.0"
 "com.github.nscala-time" %% "nscala-time" % "1.4.0"
@@ -956,6 +976,8 @@ kiama                     com.googlecode.kiama % kiama
 kind-projector            org.spire-math % kind-projector
 lift-json                 net.liftweb % lift-json
 monifu                    org.monifu % monifu
+monocle-core              com.github.julien-truffaut % monocle-core
+monocle-macro             com.github.julien-truffaut % monocle-macro
 nalloc                    org.nalloc % optional
 nscala-time               com.github.nscala-time % nscala-time
 ostrich                   com.twitter % ostrich
