@@ -31,7 +31,7 @@ cats                             3 versions: 0.2.0, 0.1.2, 0.1.1
 algebra                          3 versions: 0.3.1, 0.3.0, 0.2.1
 debox                            2 versions: 0.7.3, 0.7.2
 kind-projector                   4 versions: 0.7.1, 0.7.0, 0.6.3, 0.6.2
-scalaz                          13 versions: 7.2.0-M3, 7.2.0-M2, 7.2.0-M1, 7.1.4, 7.1.2, ... [8 more]
+scalaz                          14 versions: 7.2.0-M4, 7.2.0-M3, 7.2.0-M2, 7.2.0-M1, 7.1.4, ... [9 more]
 shapeless                       15 versions: 2.2.5, 2.2.4, 2.2.1, 2.2.0, 2.2.0-RC6, ... [10 more]
 parboiled                        2 versions: 1.1.7, 1.1.6
 parboiled2                       5 versions: 2.1.0, 2.0.1, 2.0.0, 2.0.0-RC2, 2.0.0-RC1
@@ -43,7 +43,7 @@ scalafx                         10 versions: 8.0.60-R9, 8.0.5-R5, 8.0.40-R8, 8.0
 scalatra                         9 versions: 2.4.0.RC3, 2.4.0.RC1, 2.4.0.M3, 2.4.0.M2, 2.4.0.M1, ... [4 more]
 scalate-core                     2 versions: 1.7.1, 1.7.0
 platform-executing               1 versions: 0.5.0
-nscala-time                      7 versions: 2.2.0, 2.0.0, 1.8.0, 1.6.0, 1.4.0, ... [2 more]
+nscala-time                      8 versions: 2.4.0, 2.2.0, 2.0.0, 1.8.0, 1.6.0, ... [3 more]
 nalloc                           1 versions: 0.1.0
 scrimage                         5 versions: 1.4.2, 1.4.1, 1.4.0, 1.3.21, 1.3.20
 monifu                          49 versions: 1.0-RC3, 1.0-RC2, 1.0-RC1, 1.0-M9, 1.0-M8, ... [44 more]
@@ -125,6 +125,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.github.nscala-time" %% "nscala-time" % "1.8.0"
 "com.github.nscala-time" %% "nscala-time" % "2.0.0"
 "com.github.nscala-time" %% "nscala-time" % "2.2.0"
+"com.github.nscala-time" %% "nscala-time" % "2.4.0"
 "com.github.scopt" %% "scopt" % "3.2.0"
 "com.github.scopt" %% "scopt" % "3.3.0"
 "com.googlecode.kiama" %% "kiama" % "1.5.3"
@@ -736,6 +737,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalaz" %% "scalaz-core" % "7.2.0-M1"
 "org.scalaz" %% "scalaz-core" % "7.2.0-M2"
 "org.scalaz" %% "scalaz-core" % "7.2.0-M3"
+"org.scalaz" %% "scalaz-core" % "7.2.0-M4"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.0.0-beta3"
