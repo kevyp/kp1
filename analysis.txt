@@ -26,7 +26,7 @@ twitter-json                     1 versions: 3.0.2
 argonaut                         6 versions: 6.1, 6.1-M6, 6.1-M5, 6.1-M4, 6.1-M3, ... [1 more]
 raptureIO                        3 versions: 2.0.0-M1, 0.9.1, 0.10.0
 json-lenses                      3 versions: 0.6.1, 0.6.0, 0.5.4
-spire                            7 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [2 more]
+spire                            8 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [3 more]
 cats                             3 versions: 0.2.0, 0.1.2, 0.1.1
 algebra                          3 versions: 0.3.1, 0.3.0, 0.2.1
 debox                            2 versions: 0.7.3, 0.7.2
@@ -947,6 +947,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "kind-projector" % "0.7.0"
 "org.spire-math" %% "kind-projector" % "0.7.1"
 "org.spire-math" %% "spire" % "0.10.1"
+"org.spire-math" %% "spire" % "0.11.0"
 "org.spire-math" %% "spire" % "0.7.4"
 "org.spire-math" %% "spire" % "0.7.5"
 "org.spire-math" %% "spire" % "0.8.0"
