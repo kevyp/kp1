@@ -52,7 +52,7 @@ scalamacrodebug                  1 versions: 0.4
 scodec-core                      6 versions: 1.8.2, 1.8.1, 1.7.1, 1.7.0, 1.7.0-RC2, ... [1 more]
 scodec-bits                      4 versions: 1.0.9, 1.0.6, 1.0.5, 1.0.10
 scodec-scalaz                    3 versions: 1.1.0, 1.0.0, 1.0.0-RC1
-scodec-stream                    4 versions: 0.9.0, 0.8.0, 0.7.1, 0.7.0
+scodec-stream                    5 versions: 0.9.0, 0.8.0, 0.7.1, 0.7.0, 0.10.0
 scodec-protocols                11 versions: 0.9.0, 0.8.0, 0.7.1, 0.7.0, 0.6.2, ... [6 more]
 scodec-spire                     2 versions: 0.2.0, 0.1.0
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
@@ -797,6 +797,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scodec" %% "scodec-scalaz" % "1.1.0"
 "org.scodec" %% "scodec-spire" % "0.1.0"
 "org.scodec" %% "scodec-spire" % "0.2.0"
+"org.scodec" %% "scodec-stream" % "0.10.0"
 "org.scodec" %% "scodec-stream" % "0.7.0"
 "org.scodec" %% "scodec-stream" % "0.7.1"
 "org.scodec" %% "scodec-stream" % "0.8.0"
