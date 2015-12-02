@@ -14,7 +14,7 @@ scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
 async                            7 versions: 0.9.6-RC2, 0.9.6-RC1, 0.9.5, 0.9.4, 0.9.3, ... [2 more]
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       46 versions: 3.0.0-SNAP9, 3.0.0-SNAP8, 3.0.0-SNAP7, 3.0.0-SNAP6, 3.0.0-SNAP5, ... [41 more]
-specs2                         106 versions: 3.6.6, 3.6.5-20151127125638-e36d453, 3.6.5-20151112214348-18646b2, 3.6.5-20151108070227-1e34889, 3.6.5-20151026032022-1930bd6, ... [101 more]
+specs2                         108 versions: 3.6.6-20151201123413-0e061ad, 3.6.6-20151201104535-5471f71, 3.6.6, 3.6.5-20151127125638-e36d453, 3.6.5-20151112214348-18646b2, ... [103 more]
 scalacheck                      15 versions: 1.9, 1.8, 1.12.5, 1.12.3, 1.12.2, ... [10 more]
 squeryl                          3 versions: 0.9.6-RC4, 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       33 versions: 2.3.1, 2.3.0, 2.2.9, 2.2.8, 2.2.7, ... [28 more]
@@ -946,6 +946,8 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "3.6.5-20151112214348-18646b2"
 "org.specs2" %% "specs2-core" % "3.6.5-20151127125638-e36d453"
 "org.specs2" %% "specs2-core" % "3.6.6"
+"org.specs2" %% "specs2-core" % "3.6.6-20151201104535-5471f71"
+"org.specs2" %% "specs2-core" % "3.6.6-20151201123413-0e061ad"
 "org.spire-math" %% "algebra" % "0.2.1"
 "org.spire-math" %% "algebra" % "0.3.0"
 "org.spire-math" %% "algebra" % "0.3.1"
