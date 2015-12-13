@@ -50,7 +50,7 @@ monifu                          50 versions: 1.0-RC4, 1.0-RC3, 1.0-RC2, 1.0-RC1,
 MacWire                         18 versions: 2.2.1, 2.2.0, 2.1.0, 2.0.0, 1.0.7, ... [13 more]
 scalamacrodebug                  1 versions: 0.4
 scodec-core                      7 versions: 1.8.3, 1.8.2, 1.8.1, 1.7.1, 1.7.0, ... [2 more]
-scodec-bits                      5 versions: 1.0.9, 1.0.6, 1.0.5, 1.0.11, 1.0.10
+scodec-bits                      6 versions: 1.0.9, 1.0.6, 1.0.5, 1.0.12, 1.0.11, ... [1 more]
 scodec-scalaz                    3 versions: 1.1.0, 1.0.0, 1.0.0-RC1
 scodec-stream                    5 versions: 0.9.0, 0.8.0, 0.7.1, 0.7.0, 0.11.0
 scodec-protocols                11 versions: 0.9.0, 0.8.0, 0.7.1, 0.7.0, 0.6.2, ... [6 more]
@@ -820,6 +820,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.3.2"
 "org.scodec" %% "scodec-bits" % "1.0.10"
 "org.scodec" %% "scodec-bits" % "1.0.11"
+"org.scodec" %% "scodec-bits" % "1.0.12"
 "org.scodec" %% "scodec-bits" % "1.0.5"
 "org.scodec" %% "scodec-bits" % "1.0.6"
 "org.scodec" %% "scodec-bits" % "1.0.9"
