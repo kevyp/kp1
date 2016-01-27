@@ -2,8 +2,8 @@ TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 75 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                      22 versions: 2.4.2-RC1, 2.4.1, 2.4.0, 2.4.0-RC3, 2.4.0-RC2, ... [17 more]
-akka-stream                     25 versions: 2.0.2, 2.0.1, 2.0, 2.0-M2, 2.0-M1, ... [20 more]
-akka-http                       22 versions: 2.4.2-RC1, 2.0.2, 2.0.1, 2.0, 2.0-M2, ... [17 more]
+akka-stream                     26 versions: 2.0.3, 2.0.2, 2.0.1, 2.0, 2.0-M2, ... [21 more]
+akka-http                       23 versions: 2.4.2-RC1, 2.0.3, 2.0.2, 2.0.1, 2.0, ... [18 more]
 akka-osgi                       22 versions: 2.4.2-RC1, 2.4.1, 2.4.0, 2.4.0-RC3, 2.4.0-RC2, ... [17 more]
 akka-slf4j                      22 versions: 2.4.2-RC1, 2.4.1, 2.4.0, 2.4.0-RC3, 2.4.0-RC2, ... [17 more]
 akka-testkit                    22 versions: 2.4.2-RC1, 2.4.1, 2.4.0, 2.4.0-RC3, 2.4.0-RC2, ... [17 more]
@@ -261,6 +261,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-http-experimental" % "2.0"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.0.1"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.0.2"
+"com.typesafe.akka" %% "akka-http-experimental" % "2.0.3"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.4.2-RC1"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.10"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.11"
@@ -331,6 +332,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-stream-experimental" % "2.0"
 "com.typesafe.akka" %% "akka-stream-experimental" % "2.0.1"
 "com.typesafe.akka" %% "akka-stream-experimental" % "2.0.2"
+"com.typesafe.akka" %% "akka-stream-experimental" % "2.0.3"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.10"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.11"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.12"
