@@ -34,7 +34,7 @@ kind-projector                   4 versions: 0.7.1, 0.7.0, 0.6.3, 0.6.2
 scalaz                          20 versions: 7.2.0, 7.2.0-RC1, 7.2.0-M5, 7.2.0-M4, 7.2.0-M3, ... [15 more]
 shapeless                       20 versions: 2.3.0, 2.3.0-RC4, 2.3.0-RC3, 2.3.0-RC2, 2.3.0-RC1, ... [15 more]
 parboiled                        2 versions: 1.1.7, 1.1.6
-parboiled2                       6 versions: 2.1.1, 2.1.0, 2.0.1, 2.0.0, 2.0.0-RC2, ... [1 more]
+parboiled2                       7 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.1, 2.0.0, ... [2 more]
 scopt                            3 versions: 3.4.0, 3.3.0, 3.2.0
 scala-arm                        2 versions: 2.0.0-M1, 1.4
 scala-stm                        1 versions: 0.7
@@ -658,6 +658,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.parboiled" %% "parboiled" % "2.0.1"
 "org.parboiled" %% "parboiled" % "2.1.0"
 "org.parboiled" %% "parboiled" % "2.1.1"
+"org.parboiled" %% "parboiled" % "2.1.2"
 "org.parboiled" %% "parboiled-scala" % "1.1.6"
 "org.parboiled" %% "parboiled-scala" % "1.1.7"
 "org.rogach" %% "scallop" % "0.9.5"
