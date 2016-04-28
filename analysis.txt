@@ -21,7 +21,7 @@ scalikejdbc-interpolation       38 versions: 2.4.0.RC1, 2.3.5, 2.3.4, 2.3.3, 2.3
 spray-json                       4 versions: 1.3.2, 1.3.1, 1.3.0, 1.2.6
 json4s-native                   10 versions: 3.3.0.RC6, 3.3.0.RC5, 3.3.0.RC4, 3.3.0.RC3, 3.3.0.RC2, ... [5 more]
 lift-json                       18 versions: 3.0-RC2, 3.0-RC1, 3.0-M8, 3.0-M7, 3.0-M6, ... [13 more]
-play-json                      153 versions: 2.5.2, 2.5.1, 2.5.0, 2.5.0-RC2, 2.5.0-RC1, ... [148 more]
+play-json                      154 versions: 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.5.0-RC2, ... [149 more]
 twitter-json                     1 versions: 3.0.2
 argonaut                         7 versions: 6.2-M1, 6.1, 6.1-M6, 6.1-M5, 6.1-M4, ... [2 more]
 raptureIO                        7 versions: 2.0.0-M5, 2.0.0-M4, 2.0.0-M3, 2.0.0-M2, 2.0.0-M1, ... [2 more]
@@ -57,8 +57,8 @@ scodec-protocols                12 versions: 0.9.0, 0.8.0, 0.7.1, 0.7.0, 0.6.2, 
 scodec-spire                     2 versions: 0.3.0, 0.1.0
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
 scalactic                       48 versions: 3.0.0-SNAP9, 3.0.0-SNAP8, 3.0.0-SNAP7, 3.0.0-SNAP6, 3.0.0-SNAP5, ... [43 more]
-finagle-core                    11 versions: 6.34.0, 6.33.0, 6.31.0, 6.30.0, 6.29.0, ... [6 more]
-ostrich                          9 versions: 9.9.0, 9.8.0, 9.17.0, 9.16.0, 9.14.0, ... [4 more]
+finagle-core                    12 versions: 6.35.0, 6.34.0, 6.33.0, 6.31.0, 6.30.0, ... [7 more]
+ostrich                         10 versions: 9.9.0, 9.8.0, 9.18.0, 9.17.0, 9.16.0, ... [5 more]
 algebird-core                    9 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.12.0, ... [4 more]
 scalding-core                   12 versions: 0.16.0-RC6, 0.16.0-RC5, 0.16.0-RC4, 0.16.0-RC3, 0.16.0-RC2, ... [7 more]
 dispatch-core                    1 versions: 0.8.10
@@ -223,6 +223,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.twitter" %% "finagle-core" % "6.31.0"
 "com.twitter" %% "finagle-core" % "6.33.0"
 "com.twitter" %% "finagle-core" % "6.34.0"
+"com.twitter" %% "finagle-core" % "6.35.0"
 "com.twitter" %% "ostrich" % "9.10.0"
 "com.twitter" %% "ostrich" % "9.11.0"
 "com.twitter" %% "ostrich" % "9.12.0"
@@ -230,6 +231,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.twitter" %% "ostrich" % "9.14.0"
 "com.twitter" %% "ostrich" % "9.16.0"
 "com.twitter" %% "ostrich" % "9.17.0"
+"com.twitter" %% "ostrich" % "9.18.0"
 "com.twitter" %% "ostrich" % "9.8.0"
 "com.twitter" %% "ostrich" % "9.9.0"
 "com.twitter" %% "scala-json" % "3.0.2"
@@ -545,6 +547,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.5.0"
 "com.typesafe.play" %% "play-json" % "2.5.1"
 "com.typesafe.play" %% "play-json" % "2.5.2"
+"com.typesafe.play" %% "play-json" % "2.5.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.3"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.0.4"
 "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.0"
