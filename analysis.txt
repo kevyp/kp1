@@ -1,12 +1,12 @@
 TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 75 libraries available for Scala 2.11 (see the end for sbt config lines)
 
-akka-actor                      30 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [25 more]
-akka-stream                      8 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [3 more]
-akka-http                       31 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [26 more]
-akka-osgi                       30 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [25 more]
-akka-slf4j                      30 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [25 more]
-akka-testkit                    30 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [25 more]
+akka-actor                      31 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [26 more]
+akka-stream                      9 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [4 more]
+akka-http                       32 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [27 more]
+akka-osgi                       31 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [26 more]
+akka-slf4j                      31 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [26 more]
+akka-testkit                    31 versions: 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, ... [26 more]
 slick                           20 versions: 3.1.1, 3.1.0, 3.1.0-RC3, 3.1.0-RC2, 3.1.0-RC1, ... [15 more]
 scala-xml                        4 versions: 1.0.5, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
@@ -17,7 +17,7 @@ scalatest                       56 versions: 3.0.0-SNAP9, 3.0.0-SNAP8, 3.0.0-SNA
 specs2                         142 versions: 3.8.3-scalaz-7.1, 3.8.3-20160519082857-24b5df2, 3.8.3-20160518133202-8923402, 3.8.3, 3.8.2-scalaz-7.1, ... [137 more]
 scalacheck                      17 versions: 1.9, 1.8, 1.13.1, 1.13.0, 1.12.5, ... [12 more]
 squeryl                          3 versions: 0.9.6-RC4, 0.9.6-RC3, 0.9.5-7
-scalikejdbc-interpolation       40 versions: 2.4.0.RC2, 2.4.0.RC1, 2.4.0, 2.3.5, 2.3.4, ... [35 more]
+scalikejdbc-interpolation       41 versions: 2.4.1, 2.4.0.RC2, 2.4.0.RC1, 2.4.0, 2.3.5, ... [36 more]
 spray-json                       4 versions: 1.3.2, 1.3.1, 1.3.0, 1.2.6
 json4s-native                   10 versions: 3.3.0.RC6, 3.3.0.RC5, 3.3.0.RC4, 3.3.0.RC3, 3.3.0.RC2, ... [5 more]
 lift-json                       19 versions: 3.0-RC3, 3.0-RC2, 3.0-RC1, 3.0-M8, 3.0-M7, ... [14 more]
@@ -269,6 +269,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-actor" % "2.4-M1"
 "com.typesafe.akka" %% "akka-actor" % "2.4-M2"
 "com.typesafe.akka" %% "akka-actor" % "2.4-M3"
+"com.typesafe.akka" %% "akka-actor" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-actor" % "2.4.0-RC1"
 "com.typesafe.akka" %% "akka-actor" % "2.4.0-RC2"
 "com.typesafe.akka" %% "akka-actor" % "2.4.0-RC3"
@@ -305,6 +306,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-http-experimental" % "2.0.2"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.0.3"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.0.4"
+"com.typesafe.akka" %% "akka-http-experimental" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.4.2-RC1"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.4.2-RC2"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.4.2-RC3"
@@ -330,6 +332,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-osgi" % "2.4-M1"
 "com.typesafe.akka" %% "akka-osgi" % "2.4-M2"
 "com.typesafe.akka" %% "akka-osgi" % "2.4-M3"
+"com.typesafe.akka" %% "akka-osgi" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-osgi" % "2.4.0-RC1"
 "com.typesafe.akka" %% "akka-osgi" % "2.4.0-RC2"
 "com.typesafe.akka" %% "akka-osgi" % "2.4.0-RC3"
@@ -360,6 +363,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-slf4j" % "2.4-M1"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4-M2"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4-M3"
+"com.typesafe.akka" %% "akka-slf4j" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.0-RC1"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.0-RC2"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.0-RC3"
@@ -373,6 +377,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.4"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.5"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.6"
+"com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-stream" % "2.4.2-RC1"
 "com.typesafe.akka" %% "akka-stream" % "2.4.2-RC2"
 "com.typesafe.akka" %% "akka-stream" % "2.4.2-RC3"
@@ -398,6 +403,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-testkit" % "2.4-M1"
 "com.typesafe.akka" %% "akka-testkit" % "2.4-M2"
 "com.typesafe.akka" %% "akka-testkit" % "2.4-M3"
+"com.typesafe.akka" %% "akka-testkit" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-testkit" % "2.4.0-RC1"
 "com.typesafe.akka" %% "akka-testkit" % "2.4.0-RC2"
 "com.typesafe.akka" %% "akka-testkit" % "2.4.0-RC3"
@@ -954,6 +960,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.4.0"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.4.0.RC1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.4.0.RC2"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.4.1"
 "org.scodec" %% "scodec-bits" % "1.0.10"
 "org.scodec" %% "scodec-bits" % "1.0.11"
 "org.scodec" %% "scodec-bits" % "1.0.12"
