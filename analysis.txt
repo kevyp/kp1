@@ -21,7 +21,7 @@ scalikejdbc-interpolation       42 versions: 2.4.2, 2.4.1, 2.4.0.RC2, 2.4.0.RC1,
 spray-json                       4 versions: 1.3.2, 1.3.1, 1.3.0, 1.2.6
 json4s-native                   11 versions: 3.4.0, 3.3.0.RC6, 3.3.0.RC5, 3.3.0.RC4, 3.3.0.RC3, ... [6 more]
 lift-json                       19 versions: 3.0-RC3, 3.0-RC2, 3.0-RC1, 3.0-M8, 3.0-M7, ... [14 more]
-play-json                      156 versions: 2.5.4, 2.5.3, 2.5.2, 2.5.1, 2.5.0, ... [151 more]
+play-json                      157 versions: 2.5.4, 2.5.3, 2.5.2, 2.5.1, 2.5.0, ... [152 more]
 twitter-json                     1 versions: 3.0.2
 argonaut                         9 versions: 6.2-M2, 6.2-M1, 6.1a, 6.1, 6.1-M6, ... [4 more]
 raptureIO                        8 versions: 2.0.0-M6, 2.0.0-M5, 2.0.0-M4, 2.0.0-M3, 2.0.0-M2, ... [3 more]
@@ -582,6 +582,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.play" %% "play-json" % "2.4.5"
 "com.typesafe.play" %% "play-json" % "2.4.6"
 "com.typesafe.play" %% "play-json" % "2.4.7"
+"com.typesafe.play" %% "play-json" % "2.4.8"
 "com.typesafe.play" %% "play-json" % "2.5.0-M1"
 "com.typesafe.play" %% "play-json" % "2.5.0-M2"
 "com.typesafe.play" %% "play-json" % "2.5.0-RC1"
