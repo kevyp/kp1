@@ -1,12 +1,12 @@
 TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 75 libraries available for Scala 2.11 (see the end for sbt config lines)
 
-akka-actor                      36 versions: 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, 2.4.5, ... [31 more]
-akka-stream                     14 versions: 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, 2.4.5, ... [9 more]
-akka-http                       37 versions: 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, 2.4.5, ... [32 more]
-akka-osgi                       36 versions: 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, 2.4.5, ... [31 more]
-akka-slf4j                      36 versions: 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, 2.4.5, ... [31 more]
-akka-testkit                    36 versions: 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, 2.4.5, ... [31 more]
+akka-actor                      37 versions: 2.4.9-RC2, 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, ... [32 more]
+akka-stream                     15 versions: 2.4.9-RC2, 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, ... [10 more]
+akka-http                       38 versions: 2.4.9-RC2, 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, ... [33 more]
+akka-osgi                       37 versions: 2.4.9-RC2, 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, ... [32 more]
+akka-slf4j                      37 versions: 2.4.9-RC2, 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, ... [32 more]
+akka-testkit                    37 versions: 2.4.9-RC2, 2.4.9-RC1, 2.4.8, 2.4.7, 2.4.6, ... [32 more]
 slick                           21 versions: 3.2.0-M1, 3.1.1, 3.1.0, 3.1.0-RC3, 3.1.0-RC2, ... [16 more]
 scala-xml                        4 versions: 1.0.5, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1
@@ -299,6 +299,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-actor" % "2.4.7"
 "com.typesafe.akka" %% "akka-actor" % "2.4.8"
 "com.typesafe.akka" %% "akka-actor" % "2.4.9-RC1"
+"com.typesafe.akka" %% "akka-actor" % "2.4.9-RC2"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.10-M1"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.10"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.11"
@@ -336,6 +337,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-http-experimental" % "2.4.7"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.4.8"
 "com.typesafe.akka" %% "akka-http-experimental" % "2.4.9-RC1"
+"com.typesafe.akka" %% "akka-http-experimental" % "2.4.9-RC2"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.10"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.11"
 "com.typesafe.akka" %% "akka-osgi" % "2.3.12"
@@ -372,6 +374,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-osgi" % "2.4.7"
 "com.typesafe.akka" %% "akka-osgi" % "2.4.8"
 "com.typesafe.akka" %% "akka-osgi" % "2.4.9-RC1"
+"com.typesafe.akka" %% "akka-osgi" % "2.4.9-RC2"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.10"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.11"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.12"
@@ -408,6 +411,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.7"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.8"
 "com.typesafe.akka" %% "akka-slf4j" % "2.4.9-RC1"
+"com.typesafe.akka" %% "akka-slf4j" % "2.4.9-RC2"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M2"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M3"
@@ -422,6 +426,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-stream" % "2.4.7"
 "com.typesafe.akka" %% "akka-stream" % "2.4.8"
 "com.typesafe.akka" %% "akka-stream" % "2.4.9-RC1"
+"com.typesafe.akka" %% "akka-stream" % "2.4.9-RC2"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.10"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.11"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.12"
@@ -458,6 +463,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-testkit" % "2.4.7"
 "com.typesafe.akka" %% "akka-testkit" % "2.4.8"
 "com.typesafe.akka" %% "akka-testkit" % "2.4.9-RC1"
+"com.typesafe.akka" %% "akka-testkit" % "2.4.9-RC2"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC1"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC2"
 "com.typesafe.play" %% "play-json" % "2.3.0"
