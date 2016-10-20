@@ -14,8 +14,8 @@ scala-swing                      4 versions: 2.0.0-M2, 2.0.0-M1, 1.0.2, 1.0.1
 async                            9 versions: 0.9.6-RC6, 0.9.6-RC5, 0.9.6-RC2, 0.9.6-RC1, 0.9.5, ... [4 more]
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
 scalatest                       61 versions: 3.0.1-SNAP1, 3.0.0-SNAP9, 3.0.0-SNAP8, 3.0.0-SNAP7, 3.0.0-SNAP6, ... [56 more]
-specs2                         167 versions: 3.8.5-scalaz-7.1.10, 3.8.5-20161006092037-b43b121, 3.8.5-20161004203431-50e99f0, 3.8.5-20160914090233-50e99f0, 3.8.5-20160913153617-aacd4a1, ... [162 more]
-scalacheck                      18 versions: 1.9, 1.8, 1.13.2, 1.13.1, 1.13.0, ... [13 more]
+specs2                         168 versions: 3.8.5.1, 3.8.5-scalaz-7.1.10, 3.8.5-20161006092037-b43b121, 3.8.5-20161004203431-50e99f0, 3.8.5-20160914090233-50e99f0, ... [163 more]
+scalacheck                      19 versions: 1.9, 1.8, 1.13.3, 1.13.2, 1.13.1, ... [14 more]
 squeryl                          4 versions: 0.9.7, 0.9.6-RC4, 0.9.6-RC3, 0.9.5-7
 scalikejdbc-interpolation       42 versions: 2.4.2, 2.4.1, 2.4.0.RC2, 2.4.0.RC1, 2.4.0, ... [37 more]
 spray-json                       4 versions: 1.3.2, 1.3.1, 1.3.0, 1.2.6
@@ -29,7 +29,7 @@ json-lenses                      3 versions: 0.6.1, 0.6.0, 0.5.4
 spire                            9 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [4 more]
 algebra                          6 versions: 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, ... [1 more]
 debox                            2 versions: 0.7.3, 0.7.2
-kind-projector                   8 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.7.1, ... [3 more]
+kind-projector                   9 versions: 0.9.2, 0.9.0, 0.8.2, 0.8.1, 0.8.0, ... [4 more]
 scalaz                          35 versions: 7.3.0-M5, 7.3.0-M4, 7.3.0-M3, 7.3.0-M2, 7.3.0-M1, ... [30 more]
 shapeless                       23 versions: 2.3.2, 2.3.1, 2.3.1-RC1, 2.3.0, 2.3.0-RC4, ... [18 more]
 parboiled                        2 versions: 1.1.7, 1.1.6
@@ -73,15 +73,15 @@ fs2                             10 versions: 0.9.1, 0.9.0, 0.9.0-RC2, 0.9.0-RC1,
 alleycats                        5 versions: 0.1.7, 0.1.6, 0.1.5, 0.1.4, 0.1.3
 catalysts                        2 versions: 0.0.3, 0.0.2
 cats                            10 versions: 0.7.2, 0.7.1, 0.7.0, 0.6.1, 0.6.0, ... [5 more]
-discipline                       7 versions: 0.7, 0.6, 0.5, 0.4.1, 0.4, ... [2 more]
+discipline                       8 versions: 0.7.1, 0.7, 0.6, 0.5, 0.4.1, ... [3 more]
 machinist                        3 versions: 0.5.0, 0.4.1, 0.3.0
 scodec-bits                      5 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0
 scodec-core                     12 versions: 1.6.0, 1.5.0, 1.4.0, 1.3.2, 1.3.1, ... [7 more]
 scodec-protocols                 4 versions: 0.5.0, 0.4.0, 0.2.0, 0.1.0
 scodec-stream                    6 versions: 0.6.0, 0.5.0, 0.4.0, 0.3.0, 0.2.0, ... [1 more]
-scodec-core-old                 11 versions: 1.9.0, 1.8.3, 1.8.2, 1.8.1, 1.7.1, ... [6 more]
+scodec-core-old                 12 versions: 1.9.0, 1.8.3, 1.8.2, 1.8.1, 1.7.1, ... [7 more]
 scodec-core-bits                 9 versions: 1.1.2, 1.1.1, 1.1.0, 1.0.9, 1.0.6, ... [4 more]
-simulacrum                      10 versions: 0.9.0, 0.8.0, 0.7.0, 0.6.1, 0.6.0, ... [5 more]
+simulacrum                      11 versions: 0.9.0, 0.8.0, 0.7.0, 0.6.1, 0.6.0, ... [6 more]
 enumeratum                      37 versions: 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, ... [32 more]
 
 Libraries missing
@@ -196,6 +196,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.github.julien-truffaut" %% "monocle-macro" % "1.2.2"
 "com.github.julien-truffaut" %% "monocle-macro" % "1.3.0"
 "com.github.mpilquist" %% "simulacrum" % "0.1.0"
+"com.github.mpilquist" %% "simulacrum" % "0.10.0"
 "com.github.mpilquist" %% "simulacrum" % "0.2.0"
 "com.github.mpilquist" %% "simulacrum" % "0.3.0"
 "com.github.mpilquist" %% "simulacrum" % "0.4.0"
@@ -945,6 +946,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalacheck" %% "scalacheck" % "1.13.0"
 "org.scalacheck" %% "scalacheck" % "1.13.1"
 "org.scalacheck" %% "scalacheck" % "1.13.2"
+"org.scalacheck" %% "scalacheck" % "1.13.3"
 "org.scalacheck" %% "scalacheck" % "1.8"
 "org.scalacheck" %% "scalacheck" % "1.9"
 "org.scalactic" %% "scalactic" % "2.2.0-M1"
@@ -1178,6 +1180,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scodec" %% "scodec-core" % "1.10.0"
 "org.scodec" %% "scodec-core" % "1.10.1"
 "org.scodec" %% "scodec-core" % "1.10.2"
+"org.scodec" %% "scodec-core" % "1.10.3"
 "org.scodec" %% "scodec-core" % "1.7.0-RC1"
 "org.scodec" %% "scodec-core" % "1.7.0-RC2"
 "org.scodec" %% "scodec-core" % "1.7.0"
@@ -1353,6 +1356,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "3.8.5-20161004203431-50e99f0"
 "org.specs2" %% "specs2-core" % "3.8.5-20161006092037-b43b121"
 "org.specs2" %% "specs2-core" % "3.8.5-scalaz-7.1.10"
+"org.specs2" %% "specs2-core" % "3.8.5.1"
 "org.spire-math" %% "algebra" % "0.2.1"
 "org.spire-math" %% "algebra" % "0.3.0"
 "org.spire-math" %% "algebra" % "0.3.1"
@@ -1430,6 +1434,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "kind-projector" % "0.8.1"
 "org.spire-math" %% "kind-projector" % "0.8.2"
 "org.spire-math" %% "kind-projector" % "0.9.0"
+"org.spire-math" %% "kind-projector" % "0.9.2"
 "org.spire-math" %% "spire" % "0.10.1"
 "org.spire-math" %% "spire" % "0.11.0"
 "org.spire-math" %% "spire" % "0.12.0"
@@ -1467,6 +1472,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.typelevel" %% "discipline" % "0.5"
 "org.typelevel" %% "discipline" % "0.6"
 "org.typelevel" %% "discipline" % "0.7"
+"org.typelevel" %% "discipline" % "0.7.1"
 "org.typelevel" %% "machinist" % "0.3.0"
 "org.typelevel" %% "machinist" % "0.4.1"
 "org.typelevel" %% "machinist" % "0.5.0"
