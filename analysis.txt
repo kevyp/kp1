@@ -87,6 +87,7 @@ enumeratum                      38 versions: 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 
 Libraries missing
 
 dogs                           has no previous version to analyze
+org.scala-lang.modules         has no previous version to analyze
 scodec-scalaz                  has no previous version to analyze
 scodec-spire                   has no previous version to analyze
 
@@ -1585,6 +1586,7 @@ monocle-core              com.github.julien-truffaut % monocle-core
 monocle-macro             com.github.julien-truffaut % monocle-macro
 nalloc                    org.nalloc % optional
 nscala-time               com.github.nscala-time % nscala-time
+org.scala-lang.modules    scala-java8-compat % org.scala-lang.modules
 ostrich                   com.twitter % ostrich
 parboiled                 org.parboiled % parboiled-scala
 parboiled2                org.parboiled % parboiled
