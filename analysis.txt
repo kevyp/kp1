@@ -17,7 +17,7 @@ scalatest                       61 versions: 3.0.1-SNAP1, 3.0.0-SNAP9, 3.0.0-SNA
 specs2                         170 versions: 3.8.6, 3.8.5.1-scalaz-7.1, 3.8.5.1, 3.8.5-scalaz-7.1.10, 3.8.5-20161006092037-b43b121, ... [165 more]
 scalacheck                      21 versions: 1.9, 1.8, 1.13.4, 1.13.3, 1.13.2, ... [16 more]
 squeryl                          4 versions: 0.9.7, 0.9.6-RC4, 0.9.6-RC3, 0.9.5-7
-scalikejdbc-interpolation       43 versions: 2.5.0.RC1, 2.4.2, 2.4.1, 2.4.0.RC2, 2.4.0.RC1, ... [38 more]
+scalikejdbc-interpolation       44 versions: 2.5.0.RC1, 2.5.0-RC2, 2.4.2, 2.4.1, 2.4.0.RC2, ... [39 more]
 spray-json                       4 versions: 1.3.2, 1.3.1, 1.3.0, 1.2.6
 json4s-native                   14 versions: 3.5.0.RC1, 3.4.2, 3.4.1, 3.4.0, 3.3.0.RC6, ... [9 more]
 lift-json                       20 versions: 3.0-RC4, 3.0-RC3, 3.0-RC2, 3.0-RC1, 3.0-M8, ... [15 more]
@@ -60,13 +60,13 @@ spray-routing                    6 versions: 1.3.4, 1.3.3, 1.3.2-20140909, 1.3.2
 spray-can                        6 versions: 1.3.4, 1.3.3, 1.3.2-20140909, 1.3.2, 1.3.1-20140423, ... [1 more]
 twirl-api                        1 versions: 0.7.0
 fastparse                       21 versions: 0.4.2, 0.4.1, 0.4.0, 0.3.7, 0.3.6, ... [16 more]
-jawn-parser                     14 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [9 more]
-jawn-ast                        14 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [9 more]
-jawn-argonaut                    8 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [3 more]
-jawn-json4s                      8 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [3 more]
-jawn-play                        8 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [3 more]
-jawn-rojoma                      8 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [3 more]
-jawn-spray                       8 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [3 more]
+jawn-parser                     15 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [10 more]
+jawn-ast                        15 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [10 more]
+jawn-argonaut                    9 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [4 more]
+jawn-json4s                      9 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [4 more]
+jawn-play                        9 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [4 more]
+jawn-rojoma                      9 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [4 more]
+jawn-spray                       9 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [4 more]
 monocle-core                    17 versions: 1.3.2, 1.3.1, 1.3.0, 1.2.2, 1.2.1, ... [12 more]
 monocle-macro                   17 versions: 1.3.2, 1.3.1, 1.3.0, 1.2.2, 1.2.1, ... [12 more]
 fs2                             11 versions: 0.9.2, 0.9.1, 0.9.0, 0.9.0-RC2, 0.9.0-RC1, ... [6 more]
@@ -1196,6 +1196,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.4.0.RC2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.4.1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.4.2"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.5.0-RC2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "2.5.0.RC1"
 "org.scodec" %% "scodec-bits" % "1.0.10"
 "org.scodec" %% "scodec-bits" % "1.0.11"
@@ -1399,6 +1400,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-argonaut" % "0.10.0"
 "org.spire-math" %% "jawn-argonaut" % "0.10.1"
 "org.spire-math" %% "jawn-argonaut" % "0.10.2"
+"org.spire-math" %% "jawn-argonaut" % "0.10.3"
 "org.spire-math" %% "jawn-argonaut" % "0.8.1"
 "org.spire-math" %% "jawn-argonaut" % "0.8.2"
 "org.spire-math" %% "jawn-argonaut" % "0.8.3"
@@ -1407,6 +1409,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-ast" % "0.10.0"
 "org.spire-math" %% "jawn-ast" % "0.10.1"
 "org.spire-math" %% "jawn-ast" % "0.10.2"
+"org.spire-math" %% "jawn-ast" % "0.10.3"
 "org.spire-math" %% "jawn-ast" % "0.6.0"
 "org.spire-math" %% "jawn-ast" % "0.7.0"
 "org.spire-math" %% "jawn-ast" % "0.7.1"
@@ -1421,6 +1424,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-json4s" % "0.10.0"
 "org.spire-math" %% "jawn-json4s" % "0.10.1"
 "org.spire-math" %% "jawn-json4s" % "0.10.2"
+"org.spire-math" %% "jawn-json4s" % "0.10.3"
 "org.spire-math" %% "jawn-json4s" % "0.8.1"
 "org.spire-math" %% "jawn-json4s" % "0.8.2"
 "org.spire-math" %% "jawn-json4s" % "0.8.3"
@@ -1429,6 +1433,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-parser" % "0.10.0"
 "org.spire-math" %% "jawn-parser" % "0.10.1"
 "org.spire-math" %% "jawn-parser" % "0.10.2"
+"org.spire-math" %% "jawn-parser" % "0.10.3"
 "org.spire-math" %% "jawn-parser" % "0.6.0"
 "org.spire-math" %% "jawn-parser" % "0.7.0"
 "org.spire-math" %% "jawn-parser" % "0.7.1"
@@ -1443,6 +1448,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-play" % "0.10.0"
 "org.spire-math" %% "jawn-play" % "0.10.1"
 "org.spire-math" %% "jawn-play" % "0.10.2"
+"org.spire-math" %% "jawn-play" % "0.10.3"
 "org.spire-math" %% "jawn-play" % "0.8.1"
 "org.spire-math" %% "jawn-play" % "0.8.2"
 "org.spire-math" %% "jawn-play" % "0.8.3"
@@ -1451,6 +1457,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-rojoma" % "0.10.0"
 "org.spire-math" %% "jawn-rojoma" % "0.10.1"
 "org.spire-math" %% "jawn-rojoma" % "0.10.2"
+"org.spire-math" %% "jawn-rojoma" % "0.10.3"
 "org.spire-math" %% "jawn-rojoma" % "0.8.1"
 "org.spire-math" %% "jawn-rojoma" % "0.8.2"
 "org.spire-math" %% "jawn-rojoma" % "0.8.3"
@@ -1459,6 +1466,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-spray" % "0.10.0"
 "org.spire-math" %% "jawn-spray" % "0.10.1"
 "org.spire-math" %% "jawn-spray" % "0.10.2"
+"org.spire-math" %% "jawn-spray" % "0.10.3"
 "org.spire-math" %% "jawn-spray" % "0.8.1"
 "org.spire-math" %% "jawn-spray" % "0.8.2"
 "org.spire-math" %% "jawn-spray" % "0.8.3"
