@@ -82,7 +82,7 @@ scodec-stream                    6 versions: 0.6.0, 0.5.0, 0.4.0, 0.3.0, 0.2.0, 
 scodec-core-old                 12 versions: 1.9.0, 1.8.3, 1.8.2, 1.8.1, 1.7.1, ... [7 more]
 scodec-core-bits                 9 versions: 1.1.2, 1.1.1, 1.1.0, 1.0.9, 1.0.6, ... [4 more]
 simulacrum                      11 versions: 0.9.0, 0.8.0, 0.7.0, 0.6.1, 0.6.0, ... [6 more]
-enumeratum                      39 versions: 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, ... [34 more]
+enumeratum                      41 versions: 1.5.1, 1.5.0, 1.4.9, 1.4.8, 1.4.7, ... [36 more]
 
 Libraries missing
 
@@ -146,6 +146,8 @@ Sbt config lines for all available libraries in alphabetic order
 "com.beachape" %% "enumeratum" % "1.4.7"
 "com.beachape" %% "enumeratum" % "1.4.8"
 "com.beachape" %% "enumeratum" % "1.4.9"
+"com.beachape" %% "enumeratum" % "1.5.0"
+"com.beachape" %% "enumeratum" % "1.5.1"
 "com.chuusai" %% "shapeless" % "1.2.4"
 "com.chuusai" %% "shapeless" % "2.0.0"
 "com.chuusai" %% "shapeless" % "2.1.0-RC1"
