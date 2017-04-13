@@ -1,19 +1,19 @@
 TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 82 libraries available for Scala 2.11 (see the end for sbt config lines)
 
-akka-actor                      53 versions: 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, 2.4.9, ... [48 more]
-akka-stream                     30 versions: 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, 2.4.9, ... [25 more]
+akka-actor                      54 versions: 2.5.0, 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, ... [49 more]
+akka-stream                     31 versions: 2.5.0, 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, ... [26 more]
 akka-http                       44 versions: 2.4.9, 2.4.9-RC2, 2.4.9-RC1, 2.4.8, 2.4.7, ... [39 more]
-akka-osgi                       53 versions: 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, 2.4.9, ... [48 more]
-akka-slf4j                      53 versions: 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, 2.4.9, ... [48 more]
-akka-testkit                    53 versions: 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, 2.4.9, ... [48 more]
+akka-osgi                       54 versions: 2.5.0, 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, ... [49 more]
+akka-slf4j                      54 versions: 2.5.0, 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, ... [49 more]
+akka-testkit                    54 versions: 2.5.0, 2.5.0-RC2, 2.5.0-RC1, 2.5-M2, 2.5-M1, ... [49 more]
 slick                           24 versions: 3.2.0, 3.2.0-RC1, 3.2.0-M2, 3.2.0-M1, 3.1.1, ... [19 more]
 scala-xml                        5 versions: 1.0.6, 1.0.5, 1.0.3, 1.0.2, 1.0.1
 scala-parser-combinators         4 versions: 1.0.5, 1.0.3, 1.0.2, 1.0.1
 scala-swing                      4 versions: 2.0.0, 2.0.0-M2, 2.0.0-M1, 1.0.1
 async                           10 versions: 0.9.6, 0.9.6-RC6, 0.9.6-RC5, 0.9.6-RC2, 0.9.6-RC1, ... [5 more]
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       66 versions: 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, 3.2.0-SNAP1, 3.0.1-SNAP1, ... [61 more]
+scalatest                       67 versions: 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, 3.2.0-SNAP1, ... [62 more]
 specs2                         186 versions: 3.8.9-20170404161946-46dd4cb, 3.8.9-20170330160759-0665464, 3.8.9, 3.8.8-20170228162720-a7d4c14, 3.8.8-20170222075022-d6a08b0, ... [181 more]
 scalacheck                      22 versions: 1.9, 1.8, 1.13.5, 1.13.4, 1.13.3, ... [17 more]
 squeryl                          5 versions: 0.9.8, 0.9.7, 0.9.6-RC4, 0.9.6-RC3, 0.9.5-7
@@ -49,7 +49,7 @@ monifu                          53 versions: 1.2, 1.1, 1.0, 1.0-RC4, 1.0-RC3, ..
 MacWire                         23 versions: 2.3.0, 2.2.5, 2.2.4, 2.2.3, 2.2.2, ... [18 more]
 scalamacrodebug                  2 versions: 0.4.1, 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
-scalactic                       61 versions: 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, 3.2.0-SNAP1, 3.0.1-SNAP1, ... [56 more]
+scalactic                       62 versions: 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, 3.2.0-SNAP1, ... [57 more]
 finagle-core                    20 versions: 6.43.0, 6.42.0, 6.41.0, 6.40.0, 6.39.0, ... [15 more]
 ostrich                         18 versions: 9.9.0, 9.8.0, 9.26.0, 9.25.0, 9.24.0, ... [13 more]
 algebird-core                   14 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.13.0, ... [9 more]
@@ -449,6 +449,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-actor" % "2.5-M2"
 "com.typesafe.akka" %% "akka-actor" % "2.5.0-RC1"
 "com.typesafe.akka" %% "akka-actor" % "2.5.0-RC2"
+"com.typesafe.akka" %% "akka-actor" % "2.5.0"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.10-M1"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.10"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.11"
@@ -546,6 +547,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-osgi" % "2.5-M2"
 "com.typesafe.akka" %% "akka-osgi" % "2.5.0-RC1"
 "com.typesafe.akka" %% "akka-osgi" % "2.5.0-RC2"
+"com.typesafe.akka" %% "akka-osgi" % "2.5.0"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.10"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.11"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.12"
@@ -599,6 +601,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-slf4j" % "2.5-M2"
 "com.typesafe.akka" %% "akka-slf4j" % "2.5.0-RC1"
 "com.typesafe.akka" %% "akka-slf4j" % "2.5.0-RC2"
+"com.typesafe.akka" %% "akka-slf4j" % "2.5.0"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M2"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M3"
@@ -629,6 +632,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-stream" % "2.5-M2"
 "com.typesafe.akka" %% "akka-stream" % "2.5.0-RC1"
 "com.typesafe.akka" %% "akka-stream" % "2.5.0-RC2"
+"com.typesafe.akka" %% "akka-stream" % "2.5.0"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.10"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.11"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.12"
@@ -682,6 +686,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-testkit" % "2.5-M2"
 "com.typesafe.akka" %% "akka-testkit" % "2.5.0-RC1"
 "com.typesafe.akka" %% "akka-testkit" % "2.5.0-RC2"
+"com.typesafe.akka" %% "akka-testkit" % "2.5.0"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC1"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC2"
 "com.typesafe.play" %% "play-json" % "2.3.0"
@@ -1159,6 +1164,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP2"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP3"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP4"
+"org.scalactic" %% "scalactic" % "3.2.0-SNAP5"
 "org.scalafx" %% "scalafx" % "1.0.0-R8"
 "org.scalafx" %% "scalafx" % "2.2.60-R9"
 "org.scalafx" %% "scalafx" % "2.2.67-R10"
@@ -1237,6 +1243,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP2"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP3"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP4"
+"org.scalatest" %% "scalatest" % "3.2.0-SNAP5"
 "org.scalatra" %% "scalatra" % "2.3.0"
 "org.scalatra" %% "scalatra" % "2.3.0.RC3"
 "org.scalatra" %% "scalatra" % "2.3.1"
