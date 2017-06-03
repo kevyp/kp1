@@ -39,7 +39,7 @@ scala-arm                        4 versions: 2.0.0-M1, 2.0, 2.0-RC1, 1.4
 scala-stm                        2 versions: 0.8, 0.7
 scallop                         17 versions: 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.7, ... [12 more]
 scalafx                         12 versions: 8.0.92-R10, 8.0.60-R9, 8.0.5-R5, 8.0.40-R8, 8.0.31-R7, ... [7 more]
-scalatra                        13 versions: 2.5.0, 2.5.0-RC1, 2.4.1, 2.4.0.RC3, 2.4.0.RC1, ... [8 more]
+scalatra                        14 versions: 2.5.1, 2.5.0, 2.5.0-RC1, 2.4.1, 2.4.0.RC3, ... [9 more]
 scalate-core                     5 versions: 1.8.0, 1.8.0-RC1, 1.8.0-M1, 1.7.1, 1.7.0
 platform-executing               1 versions: 0.5.0
 nscala-time                     14 versions: 2.8.0, 2.6.0, 2.4.0, 2.2.0, 2.16.0, ... [9 more]
@@ -69,7 +69,7 @@ jawn-rojoma                     10 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 
 jawn-spray                      10 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [5 more]
 monocle-core                    20 versions: 1.4.0, 1.4.0-M2, 1.4.0-M1, 1.3.2, 1.3.1, ... [15 more]
 monocle-macro                   20 versions: 1.4.0, 1.4.0-M2, 1.4.0-M1, 1.3.2, 1.3.1, ... [15 more]
-fs2                             16 versions: 0.9.6, 0.9.5, 0.9.5-RC1, 0.9.4, 0.9.3, ... [11 more]
+fs2                             18 versions: 0.9.7, 0.9.6, 0.9.5, 0.9.5-RC1, 0.9.4, ... [13 more]
 alleycats                        7 versions: 0.1.9, 0.1.8, 0.1.7, 0.1.6, 0.1.5, ... [2 more]
 catalysts                        4 versions: 0.0.5, 0.0.4, 0.0.3, 0.0.2
 cats                            13 versions: 0.9.0, 0.8.1, 0.8.0, 0.7.2, 0.7.1, ... [8 more]
@@ -96,6 +96,7 @@ Blocking modules
 
 Sbt config lines for all available libraries in alphabetic order
 
+"co.fs2" %% "fs2-core" % "0.10.0-M1"
 "co.fs2" %% "fs2-core" % "0.9.0-M1"
 "co.fs2" %% "fs2-core" % "0.9.0-M2"
 "co.fs2" %% "fs2-core" % "0.9.0-M3"
@@ -112,6 +113,7 @@ Sbt config lines for all available libraries in alphabetic order
 "co.fs2" %% "fs2-core" % "0.9.5-RC1"
 "co.fs2" %% "fs2-core" % "0.9.5"
 "co.fs2" %% "fs2-core" % "0.9.6"
+"co.fs2" %% "fs2-core" % "0.9.7"
 "com.beachape" %% "enumeratum" % "0.0.1"
 "com.beachape" %% "enumeratum" % "0.0.2"
 "com.beachape" %% "enumeratum" % "0.0.3"
@@ -1298,6 +1300,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatra" %% "scalatra" % "2.4.1"
 "org.scalatra" %% "scalatra" % "2.5.0-RC1"
 "org.scalatra" %% "scalatra" % "2.5.0"
+"org.scalatra" %% "scalatra" % "2.5.1"
 "org.scalatra.scalate" %% "scalate-core" % "1.7.0"
 "org.scalatra.scalate" %% "scalate-core" % "1.7.1"
 "org.scalatra.scalate" %% "scalate-core" % "1.8.0-M1"
