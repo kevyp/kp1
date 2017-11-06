@@ -42,7 +42,7 @@ scalafx                         13 versions: 8.0.92-R10, 8.0.60-R9, 8.0.5-R5, 8.
 scalatra                        16 versions: 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.5.0-RC1, ... [11 more]
 scalate-core                     5 versions: 1.8.0, 1.8.0-RC1, 1.8.0-M1, 1.7.1, 1.7.0
 platform-executing               1 versions: 0.5.0
-nscala-time                     14 versions: 2.8.0, 2.6.0, 2.4.0, 2.2.0, 2.16.0, ... [9 more]
+nscala-time                     15 versions: 2.8.0, 2.6.0, 2.4.0, 2.2.0, 2.18.0, ... [10 more]
 nalloc                           1 versions: 0.1.0
 scrimage                         5 versions: 1.4.2, 1.4.1, 1.4.0, 1.3.21, 1.3.20
 monifu                          53 versions: 1.2, 1.1, 1.0, 1.0-RC4, 1.0-RC3, ... [48 more]
@@ -262,6 +262,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.github.nscala-time" %% "nscala-time" % "2.12.0"
 "com.github.nscala-time" %% "nscala-time" % "2.14.0"
 "com.github.nscala-time" %% "nscala-time" % "2.16.0"
+"com.github.nscala-time" %% "nscala-time" % "2.18.0"
 "com.github.nscala-time" %% "nscala-time" % "2.2.0"
 "com.github.nscala-time" %% "nscala-time" % "2.4.0"
 "com.github.nscala-time" %% "nscala-time" % "2.6.0"
