@@ -1,37 +1,37 @@
 TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 82 libraries available for Scala 2.11 (see the end for sbt config lines)
 
-akka-actor                      66 versions: 2.5.8, 2.5.7, 2.5.6, 2.5.5, 2.5.4, ... [61 more]
-akka-stream                     43 versions: 2.5.8, 2.5.7, 2.5.6, 2.5.5, 2.5.4, ... [38 more]
+akka-actor                      67 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [62 more]
+akka-stream                     44 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [39 more]
 akka-http                       45 versions: 2.4.9, 2.4.9-RC2, 2.4.9-RC1, 2.4.8, 2.4.7, ... [40 more]
-akka-osgi                       66 versions: 2.5.8, 2.5.7, 2.5.6, 2.5.5, 2.5.4, ... [61 more]
-akka-slf4j                      66 versions: 2.5.8, 2.5.7, 2.5.6, 2.5.5, 2.5.4, ... [61 more]
-akka-testkit                    66 versions: 2.5.8, 2.5.7, 2.5.6, 2.5.5, 2.5.4, ... [61 more]
+akka-osgi                       67 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [62 more]
+akka-slf4j                      67 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [62 more]
+akka-testkit                    67 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [62 more]
 slick                           25 versions: 3.2.1, 3.2.0, 3.2.0-RC1, 3.2.0-M2, 3.2.0-M1, ... [20 more]
 scala-xml                        5 versions: 1.0.6, 1.0.5, 1.0.3, 1.0.2, 1.0.1
-scala-parser-combinators         5 versions: 1.0.6, 1.0.5, 1.0.3, 1.0.2, 1.0.1
+scala-parser-combinators         7 versions: 1.1.0, 1.0.7, 1.0.6, 1.0.5, 1.0.3, ... [2 more]
 scala-swing                      5 versions: 2.0.1, 2.0.0, 2.0.0-M2, 2.0.0-M1, 1.0.1
 async                           11 versions: 0.9.7, 0.9.6, 0.9.6-RC6, 0.9.6-RC5, 0.9.6-RC2, ... [6 more]
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       71 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [66 more]
-specs2                         212 versions: 4.0.2-f59ba9b-20171124131439, 4.0.2, 4.0.1, 4.0.0, 4.0.0-RC5, ... [207 more]
+scalatest                       74 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [69 more]
+specs2                         214 versions: 4.0.2-f59ba9b-20171124131439, 4.0.2-bc9c22b-20171213063838, 4.0.2-3eab439-20180109215419, 4.0.2, 4.0.1, ... [209 more]
 scalacheck                      22 versions: 1.9, 1.8, 1.13.5, 1.13.4, 1.13.3, ... [17 more]
-squeryl                          6 versions: 0.9.9, 0.9.8, 0.9.7, 0.9.6-RC4, 0.9.6-RC3, ... [1 more]
-scalikejdbc-interpolation       60 versions: 3.1.0, 3.0.2, 3.0.1, 3.0.0, 3.0.0-RC4, ... [55 more]
+squeryl                          7 versions: 0.9.9, 0.9.8, 0.9.7, 0.9.6-RC4, 0.9.6-RC3, ... [2 more]
+scalikejdbc-interpolation       62 versions: 3.2.0, 3.2.0-RC1, 3.1.0, 3.0.2, 3.0.1, ... [57 more]
 spray-json                       6 versions: 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0, ... [1 more]
 json4s-native                   20 versions: 3.6.0-M2, 3.6.0-M1, 3.5.3, 3.5.2, 3.5.1, ... [15 more]
 lift-json                       31 versions: 3.2.0-M2, 3.2.0-M1, 3.1.1, 3.1.0, 3.1.0-RC1, ... [26 more]
 play-json                      192 versions: 2.6.8, 2.6.7, 2.6.6, 2.6.5, 2.6.4, ... [187 more]
 twitter-json                     1 versions: 3.0.2
-argonaut                        13 versions: 6.2, 6.2-RC2, 6.2-RC1, 6.2-M3, 6.2-M2, ... [8 more]
+argonaut                        14 versions: 6.2.1, 6.2, 6.2-RC2, 6.2-RC1, 6.2-M3, ... [9 more]
 raptureIO                       11 versions: 2.0.0-M9, 2.0.0-M8, 2.0.0-M7, 2.0.0-M6, 2.0.0-M5, ... [6 more]
 json-lenses                      4 versions: 0.6.2, 0.6.1, 0.6.0, 0.5.4
 spire                           10 versions: 0.9.1, 0.9.0, 0.8.2, 0.8.0, 0.7.5, ... [5 more]
 algebra                          6 versions: 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, ... [1 more]
-debox                            2 versions: 0.7.3, 0.7.2
+debox                            3 versions: 0.8.0, 0.7.3, 0.7.2
 kind-projector                  12 versions: 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.0, ... [7 more]
-scalaz                          64 versions: 7.3.0-M9, 7.3.0-M8, 7.3.0-M7, 7.3.0-M6, 7.3.0-M5, ... [59 more]
-shapeless                       23 versions: 2.3.2, 2.3.1, 2.3.1-RC1, 2.3.0, 2.3.0-RC4, ... [18 more]
+scalaz                          69 versions: 7.3.0-M9, 7.3.0-M8, 7.3.0-M7, 7.3.0-M6, 7.3.0-M5, ... [64 more]
+shapeless                       24 versions: 2.3.3, 2.3.2, 2.3.1, 2.3.1-RC1, 2.3.0, ... [19 more]
 parboiled                        3 versions: 1.1.8, 1.1.7, 1.1.6
 parboiled2                       9 versions: 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, ... [4 more]
 scopt                            6 versions: 3.7.0, 3.6.0, 3.5.0, 3.4.0, 3.3.0, ... [1 more]
@@ -49,32 +49,32 @@ monifu                          53 versions: 1.2, 1.1, 1.0, 1.0-RC4, 1.0-RC3, ..
 MacWire                         23 versions: 2.3.0, 2.2.5, 2.2.4, 2.2.3, 2.2.2, ... [18 more]
 scalamacrodebug                  2 versions: 0.4.1, 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
-scalactic                       66 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [61 more]
-finagle-core                    27 versions: 7.1.0, 7.0.0, 6.45.0, 6.44.0, 6.43.0, ... [22 more]
+scalactic                       69 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [64 more]
+finagle-core                    29 versions: 7.1.0, 7.0.0, 6.45.0, 6.44.0, 6.43.0, ... [24 more]
 ostrich                         19 versions: 9.9.0, 9.8.0, 9.27.0, 9.26.0, 9.25.0, ... [14 more]
 algebird-core                   17 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.13.3, ... [12 more]
-scalding-core                   23 versions: 0.17.3, 0.17.2, 0.17.1, 0.17.0, 0.16.1-cascading3-RC3, ... [18 more]
+scalding-core                   24 versions: 0.17.4, 0.17.3, 0.17.2, 0.17.1, 0.17.0, ... [19 more]
 dispatch-core                    1 versions: 0.8.10
 unfiltered                       7 versions: 0.9.0-beta1, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [2 more]
 spray-routing                    6 versions: 1.3.4, 1.3.3, 1.3.2-20140909, 1.3.2, 1.3.1-20140423, ... [1 more]
 spray-can                        6 versions: 1.3.4, 1.3.3, 1.3.2-20140909, 1.3.2, 1.3.1-20140423, ... [1 more]
 twirl-api                        1 versions: 0.7.0
 fastparse                       24 versions: 1.0.0, 0.4.4, 0.4.3, 0.4.2, 0.4.1, ... [19 more]
-jawn-parser                     17 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [12 more]
-jawn-ast                        17 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [12 more]
-jawn-argonaut                   11 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [6 more]
-jawn-json4s                     11 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [6 more]
-jawn-play                       11 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [6 more]
-jawn-rojoma                     11 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [6 more]
-jawn-spray                      11 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [6 more]
-monocle-core                    22 versions: 1.5.0-cats-M2, 1.5.0-cats-M1, 1.4.0, 1.4.0-M2, 1.4.0-M1, ... [17 more]
-monocle-macro                   22 versions: 1.5.0-cats-M2, 1.5.0-cats-M1, 1.4.0, 1.4.0-M2, 1.4.0-M1, ... [17 more]
-fs2                             26 versions: 0.9.7, 0.9.6, 0.9.5, 0.9.5-RC1, 0.9.4, ... [21 more]
+jawn-parser                     18 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [13 more]
+jawn-ast                        18 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [13 more]
+jawn-argonaut                   12 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [7 more]
+jawn-json4s                     12 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [7 more]
+jawn-play                       12 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [7 more]
+jawn-rojoma                     12 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [7 more]
+jawn-spray                      12 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [7 more]
+monocle-core                    24 versions: 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0-cats, 1.5.0, 1.4.0, ... [19 more]
+monocle-macro                   24 versions: 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0-cats, 1.5.0, 1.4.0, ... [19 more]
+fs2                             32 versions: 0.9.7, 0.9.6, 0.9.5, 0.9.5-RC1, 0.9.4, ... [27 more]
 alleycats                        8 versions: 0.2.0, 0.1.9, 0.1.8, 0.1.7, 0.1.6, ... [3 more]
 catalysts                        4 versions: 0.0.5, 0.0.4, 0.0.3, 0.0.2
 cats                            13 versions: 0.9.0, 0.8.1, 0.8.0, 0.7.2, 0.7.1, ... [8 more]
 discipline                      11 versions: 0.8, 0.7.3, 0.7.2, 0.7.1, 0.7, ... [6 more]
-machinist                        6 versions: 0.6.2, 0.6.1, 0.6.0, 0.5.0, 0.4.1, ... [1 more]
+machinist                        7 versions: 0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.0, ... [2 more]
 scodec-bits                      5 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0
 scodec-core                     12 versions: 1.6.0, 1.5.0, 1.4.0, 1.3.2, 1.3.1, ... [7 more]
 scodec-protocols                 4 versions: 0.5.0, 0.4.0, 0.2.0, 0.1.0
@@ -97,6 +97,8 @@ Blocking modules
 Sbt config lines for all available libraries in alphabetic order
 
 "co.fs2" %% "fs2-core" % "0.10.0-M1"
+"co.fs2" %% "fs2-core" % "0.10.0-M10"
+"co.fs2" %% "fs2-core" % "0.10.0-M11"
 "co.fs2" %% "fs2-core" % "0.10.0-M2"
 "co.fs2" %% "fs2-core" % "0.10.0-M3"
 "co.fs2" %% "fs2-core" % "0.10.0-M4"
@@ -105,6 +107,10 @@ Sbt config lines for all available libraries in alphabetic order
 "co.fs2" %% "fs2-core" % "0.10.0-M7"
 "co.fs2" %% "fs2-core" % "0.10.0-M8"
 "co.fs2" %% "fs2-core" % "0.10.0-M9"
+"co.fs2" %% "fs2-core" % "0.10.0-RC1"
+"co.fs2" %% "fs2-core" % "0.10.0-RC2"
+"co.fs2" %% "fs2-core" % "0.10.0"
+"co.fs2" %% "fs2-core" % "0.10.1"
 "co.fs2" %% "fs2-core" % "0.9.0-M1"
 "co.fs2" %% "fs2-core" % "0.9.0-M2"
 "co.fs2" %% "fs2-core" % "0.9.0-M3"
@@ -197,6 +203,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.chuusai" %% "shapeless" % "2.3.1-RC1"
 "com.chuusai" %% "shapeless" % "2.3.1"
 "com.chuusai" %% "shapeless" % "2.3.2"
+"com.chuusai" %% "shapeless" % "2.3.3"
 "com.github.julien-truffaut" %% "monocle-core" % "0.4.0"
 "com.github.julien-truffaut" %% "monocle-core" % "0.5.0"
 "com.github.julien-truffaut" %% "monocle-core" % "0.5.1"
@@ -217,6 +224,8 @@ Sbt config lines for all available libraries in alphabetic order
 "com.github.julien-truffaut" %% "monocle-core" % "1.4.0-M1"
 "com.github.julien-truffaut" %% "monocle-core" % "1.4.0-M2"
 "com.github.julien-truffaut" %% "monocle-core" % "1.4.0"
+"com.github.julien-truffaut" %% "monocle-core" % "1.5.0"
+"com.github.julien-truffaut" %% "monocle-core" % "1.5.0-cats"
 "com.github.julien-truffaut" %% "monocle-core" % "1.5.0-cats-M1"
 "com.github.julien-truffaut" %% "monocle-core" % "1.5.0-cats-M2"
 "com.github.julien-truffaut" %% "monocle-macro" % "0.4.0"
@@ -239,6 +248,8 @@ Sbt config lines for all available libraries in alphabetic order
 "com.github.julien-truffaut" %% "monocle-macro" % "1.4.0-M1"
 "com.github.julien-truffaut" %% "monocle-macro" % "1.4.0-M2"
 "com.github.julien-truffaut" %% "monocle-macro" % "1.4.0"
+"com.github.julien-truffaut" %% "monocle-macro" % "1.5.0"
+"com.github.julien-truffaut" %% "monocle-macro" % "1.5.0-cats"
 "com.github.julien-truffaut" %% "monocle-macro" % "1.5.0-cats-M1"
 "com.github.julien-truffaut" %% "monocle-macro" % "1.5.0-cats-M2"
 "com.github.mpilquist" %% "simulacrum" % "0.1.0"
@@ -368,6 +379,8 @@ Sbt config lines for all available libraries in alphabetic order
 "com.twitter" %% "finagle-core" % "17.10.0"
 "com.twitter" %% "finagle-core" % "17.11.0"
 "com.twitter" %% "finagle-core" % "17.12.0"
+"com.twitter" %% "finagle-core" % "18.1.0"
+"com.twitter" %% "finagle-core" % "18.2.0"
 "com.twitter" %% "finagle-core" % "6.24.0"
 "com.twitter" %% "finagle-core" % "6.24.1-MONOCACHE"
 "com.twitter" %% "finagle-core" % "6.25.0"
@@ -435,6 +448,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.twitter" %% "scalding-core" % "0.17.1"
 "com.twitter" %% "scalding-core" % "0.17.2"
 "com.twitter" %% "scalding-core" % "0.17.3"
+"com.twitter" %% "scalding-core" % "0.17.4"
 "com.typesafe.akka" %% "akka-actor" % "2.3.10"
 "com.typesafe.akka" %% "akka-actor" % "2.3.11"
 "com.typesafe.akka" %% "akka-actor" % "2.3.12"
@@ -501,6 +515,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-actor" % "2.5.6"
 "com.typesafe.akka" %% "akka-actor" % "2.5.7"
 "com.typesafe.akka" %% "akka-actor" % "2.5.8"
+"com.typesafe.akka" %% "akka-actor" % "2.5.9"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.10-M1"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.10"
 "com.typesafe.akka" %% "akka-http-experimental" % "0.11"
@@ -612,6 +627,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-osgi" % "2.5.6"
 "com.typesafe.akka" %% "akka-osgi" % "2.5.7"
 "com.typesafe.akka" %% "akka-osgi" % "2.5.8"
+"com.typesafe.akka" %% "akka-osgi" % "2.5.9"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.10"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.11"
 "com.typesafe.akka" %% "akka-slf4j" % "2.3.12"
@@ -678,6 +694,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-slf4j" % "2.5.6"
 "com.typesafe.akka" %% "akka-slf4j" % "2.5.7"
 "com.typesafe.akka" %% "akka-slf4j" % "2.5.8"
+"com.typesafe.akka" %% "akka-slf4j" % "2.5.9"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M2"
 "com.typesafe.akka" %% "akka-stream" % "2.4-ARTERY-M3"
@@ -721,6 +738,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-stream" % "2.5.6"
 "com.typesafe.akka" %% "akka-stream" % "2.5.7"
 "com.typesafe.akka" %% "akka-stream" % "2.5.8"
+"com.typesafe.akka" %% "akka-stream" % "2.5.9"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.10"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.11"
 "com.typesafe.akka" %% "akka-testkit" % "2.3.12"
@@ -787,6 +805,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-testkit" % "2.5.6"
 "com.typesafe.akka" %% "akka-testkit" % "2.5.7"
 "com.typesafe.akka" %% "akka-testkit" % "2.5.8"
+"com.typesafe.akka" %% "akka-testkit" % "2.5.9"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC1"
 "com.typesafe.play" %% "play-json" % "2.3.0-RC2"
 "com.typesafe.play" %% "play-json" % "2.3.0"
@@ -1022,6 +1041,7 @@ Sbt config lines for all available libraries in alphabetic order
 "io.argonaut" %% "argonaut" % "6.2-RC1"
 "io.argonaut" %% "argonaut" % "6.2-RC2"
 "io.argonaut" %% "argonaut" % "6.2"
+"io.argonaut" %% "argonaut" % "6.2.1"
 "io.spray" %% "spray-can" % "1.3.1"
 "io.spray" %% "spray-can" % "1.3.1-20140423"
 "io.spray" %% "spray-can" % "1.3.2"
@@ -1209,6 +1229,8 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.3"
 "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.5"
 "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.6"
+"org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.7"
+"org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.0"
 "org.scala-lang.modules" %% "scala-swing" % "1.0.1"
 "org.scala-lang.modules" %% "scala-swing" % "2.0.0-M1"
 "org.scala-lang.modules" %% "scala-swing" % "2.0.0-M2"
@@ -1303,7 +1325,10 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalactic" %% "scalactic" % "3.0.2"
 "org.scalactic" %% "scalactic" % "3.0.3"
 "org.scalactic" %% "scalactic" % "3.0.4"
+"org.scalactic" %% "scalactic" % "3.0.5"
+"org.scalactic" %% "scalactic" % "3.1.0-SNAP6"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP1"
+"org.scalactic" %% "scalactic" % "3.2.0-SNAP10"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP2"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP3"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP4"
@@ -1387,7 +1412,10 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "3.0.2"
 "org.scalatest" %% "scalatest" % "3.0.3"
 "org.scalatest" %% "scalatest" % "3.0.4"
+"org.scalatest" %% "scalatest" % "3.0.5"
+"org.scalatest" %% "scalatest" % "3.1.0-SNAP6"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP1"
+"org.scalatest" %% "scalatest" % "3.2.0-SNAP10"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP2"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP3"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP4"
@@ -1433,6 +1461,8 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalaz" %% "scalaz-core" % "7.1.13"
 "org.scalaz" %% "scalaz-core" % "7.1.14"
 "org.scalaz" %% "scalaz-core" % "7.1.15"
+"org.scalaz" %% "scalaz-core" % "7.1.16"
+"org.scalaz" %% "scalaz-core" % "7.1.17"
 "org.scalaz" %% "scalaz-core" % "7.1.2"
 "org.scalaz" %% "scalaz-core" % "7.1.4"
 "org.scalaz" %% "scalaz-core" % "7.1.5"
@@ -1456,6 +1486,8 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalaz" %% "scalaz-core" % "7.2.15"
 "org.scalaz" %% "scalaz-core" % "7.2.16"
 "org.scalaz" %% "scalaz-core" % "7.2.17"
+"org.scalaz" %% "scalaz-core" % "7.2.18"
+"org.scalaz" %% "scalaz-core" % "7.2.19"
 "org.scalaz" %% "scalaz-core" % "7.2.2"
 "org.scalaz" %% "scalaz-core" % "7.2.3"
 "org.scalaz" %% "scalaz-core" % "7.2.4"
@@ -1474,6 +1506,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalaz" %% "scalaz-core" % "7.3.0-M16"
 "org.scalaz" %% "scalaz-core" % "7.3.0-M17"
 "org.scalaz" %% "scalaz-core" % "7.3.0-M18"
+"org.scalaz" %% "scalaz-core" % "7.3.0-M19"
 "org.scalaz" %% "scalaz-core" % "7.3.0-M2"
 "org.scalaz" %% "scalaz-core" % "7.3.0-M3"
 "org.scalaz" %% "scalaz-core" % "7.3.0-M4"
@@ -1542,6 +1575,8 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.0.1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.0.2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.1.0"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.2.0-RC1"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.2.0"
 "org.scodec" %% "scodec-bits" % "1.0.10"
 "org.scodec" %% "scodec-bits" % "1.0.11"
 "org.scodec" %% "scodec-bits" % "1.0.12"
@@ -1777,6 +1812,8 @@ Sbt config lines for all available libraries in alphabetic order
 "org.specs2" %% "specs2-core" % "4.0.0"
 "org.specs2" %% "specs2-core" % "4.0.1"
 "org.specs2" %% "specs2-core" % "4.0.2"
+"org.specs2" %% "specs2-core" % "4.0.2-3eab439-20180109215419"
+"org.specs2" %% "specs2-core" % "4.0.2-bc9c22b-20171213063838"
 "org.specs2" %% "specs2-core" % "4.0.2-f59ba9b-20171124131439"
 "org.spire-math" %% "algebra" % "0.2.1"
 "org.spire-math" %% "algebra" % "0.3.0"
@@ -1786,12 +1823,14 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "algebra" % "0.4.2"
 "org.spire-math" %% "debox" % "0.7.2"
 "org.spire-math" %% "debox" % "0.7.3"
+"org.spire-math" %% "debox" % "0.8.0"
 "org.spire-math" %% "jawn-argonaut" % "0.10.0"
 "org.spire-math" %% "jawn-argonaut" % "0.10.1"
 "org.spire-math" %% "jawn-argonaut" % "0.10.2"
 "org.spire-math" %% "jawn-argonaut" % "0.10.3"
 "org.spire-math" %% "jawn-argonaut" % "0.10.4"
 "org.spire-math" %% "jawn-argonaut" % "0.11.0"
+"org.spire-math" %% "jawn-argonaut" % "0.11.1"
 "org.spire-math" %% "jawn-argonaut" % "0.8.1"
 "org.spire-math" %% "jawn-argonaut" % "0.8.2"
 "org.spire-math" %% "jawn-argonaut" % "0.8.3"
@@ -1803,6 +1842,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-ast" % "0.10.3"
 "org.spire-math" %% "jawn-ast" % "0.10.4"
 "org.spire-math" %% "jawn-ast" % "0.11.0"
+"org.spire-math" %% "jawn-ast" % "0.11.1"
 "org.spire-math" %% "jawn-ast" % "0.6.0"
 "org.spire-math" %% "jawn-ast" % "0.7.0"
 "org.spire-math" %% "jawn-ast" % "0.7.1"
@@ -1820,6 +1860,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-json4s" % "0.10.3"
 "org.spire-math" %% "jawn-json4s" % "0.10.4"
 "org.spire-math" %% "jawn-json4s" % "0.11.0"
+"org.spire-math" %% "jawn-json4s" % "0.11.1"
 "org.spire-math" %% "jawn-json4s" % "0.8.1"
 "org.spire-math" %% "jawn-json4s" % "0.8.2"
 "org.spire-math" %% "jawn-json4s" % "0.8.3"
@@ -1831,6 +1872,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-parser" % "0.10.3"
 "org.spire-math" %% "jawn-parser" % "0.10.4"
 "org.spire-math" %% "jawn-parser" % "0.11.0"
+"org.spire-math" %% "jawn-parser" % "0.11.1"
 "org.spire-math" %% "jawn-parser" % "0.6.0"
 "org.spire-math" %% "jawn-parser" % "0.7.0"
 "org.spire-math" %% "jawn-parser" % "0.7.1"
@@ -1848,6 +1890,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-play" % "0.10.3"
 "org.spire-math" %% "jawn-play" % "0.10.4"
 "org.spire-math" %% "jawn-play" % "0.11.0"
+"org.spire-math" %% "jawn-play" % "0.11.1"
 "org.spire-math" %% "jawn-play" % "0.8.1"
 "org.spire-math" %% "jawn-play" % "0.8.2"
 "org.spire-math" %% "jawn-play" % "0.8.3"
@@ -1859,6 +1902,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-rojoma" % "0.10.3"
 "org.spire-math" %% "jawn-rojoma" % "0.10.4"
 "org.spire-math" %% "jawn-rojoma" % "0.11.0"
+"org.spire-math" %% "jawn-rojoma" % "0.11.1"
 "org.spire-math" %% "jawn-rojoma" % "0.8.1"
 "org.spire-math" %% "jawn-rojoma" % "0.8.2"
 "org.spire-math" %% "jawn-rojoma" % "0.8.3"
@@ -1870,6 +1914,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "jawn-spray" % "0.10.3"
 "org.spire-math" %% "jawn-spray" % "0.10.4"
 "org.spire-math" %% "jawn-spray" % "0.11.0"
+"org.spire-math" %% "jawn-spray" % "0.11.1"
 "org.spire-math" %% "jawn-spray" % "0.8.1"
 "org.spire-math" %% "jawn-spray" % "0.8.2"
 "org.spire-math" %% "jawn-spray" % "0.8.3"
@@ -1897,6 +1942,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.spire-math" %% "spire" % "0.8.2"
 "org.spire-math" %% "spire" % "0.9.0"
 "org.spire-math" %% "spire" % "0.9.1"
+"org.squeryl" %% "squeryl" % "0.9.10"
 "org.squeryl" %% "squeryl" % "0.9.5-7"
 "org.squeryl" %% "squeryl" % "0.9.6-RC3"
 "org.squeryl" %% "squeryl" % "0.9.6-RC4"
@@ -1945,6 +1991,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.typelevel" %% "machinist" % "0.6.0"
 "org.typelevel" %% "machinist" % "0.6.1"
 "org.typelevel" %% "machinist" % "0.6.2"
+"org.typelevel" %% "machinist" % "0.6.3"
 "org.typelevel" %% "scodec-bits" % "1.0.0"
 "org.typelevel" %% "scodec-bits" % "1.0.1"
 "org.typelevel" %% "scodec-bits" % "1.0.2"
