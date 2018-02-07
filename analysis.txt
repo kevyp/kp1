@@ -17,7 +17,7 @@ scalatest                       74 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNA
 specs2                         214 versions: 4.0.2-f59ba9b-20171124131439, 4.0.2-bc9c22b-20171213063838, 4.0.2-3eab439-20180109215419, 4.0.2, 4.0.1, ... [209 more]
 scalacheck                      22 versions: 1.9, 1.8, 1.13.5, 1.13.4, 1.13.3, ... [17 more]
 squeryl                          7 versions: 0.9.9, 0.9.8, 0.9.7, 0.9.6-RC4, 0.9.6-RC3, ... [2 more]
-scalikejdbc-interpolation       62 versions: 3.2.0, 3.2.0-RC1, 3.1.0, 3.0.2, 3.0.1, ... [57 more]
+scalikejdbc-interpolation       63 versions: 3.2.1, 3.2.0, 3.2.0-RC1, 3.1.0, 3.0.2, ... [58 more]
 spray-json                       6 versions: 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0, ... [1 more]
 json4s-native                   20 versions: 3.6.0-M2, 3.6.0-M1, 3.5.3, 3.5.2, 3.5.1, ... [15 more]
 lift-json                       31 versions: 3.2.0-M2, 3.2.0-M1, 3.1.1, 3.1.0, 3.1.0-RC1, ... [26 more]
@@ -1577,6 +1577,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.1.0"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.2.0-RC1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.2.0"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.2.1"
 "org.scodec" %% "scodec-bits" % "1.0.10"
 "org.scodec" %% "scodec-bits" % "1.0.11"
 "org.scodec" %% "scodec-bits" % "1.0.12"
