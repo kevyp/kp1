@@ -13,7 +13,7 @@ scala-parser-combinators         7 versions: 1.1.0, 1.0.7, 1.0.6, 1.0.5, 1.0.3, 
 scala-swing                      5 versions: 2.0.1, 2.0.0, 2.0.0-M2, 2.0.0-M1, 1.0.1
 async                           11 versions: 0.9.7, 0.9.6, 0.9.6-RC6, 0.9.6-RC5, 0.9.6-RC2, ... [6 more]
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       74 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [69 more]
+scalatest                       75 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [70 more]
 specs2                         215 versions: 4.0.2-f59ba9b-20171124131439, 4.0.2-bc9c22b-20171213063838, 4.0.2-3eab439-20180109215419, 4.0.2-26b9134-20180207173143, 4.0.2, ... [210 more]
 scalacheck                      22 versions: 1.9, 1.8, 1.13.5, 1.13.4, 1.13.3, ... [17 more]
 squeryl                          7 versions: 0.9.9, 0.9.8, 0.9.7, 0.9.6-RC4, 0.9.6-RC3, ... [2 more]
@@ -49,7 +49,7 @@ monifu                          53 versions: 1.2, 1.1, 1.0, 1.0-RC4, 1.0-RC3, ..
 MacWire                         23 versions: 2.3.0, 2.2.5, 2.2.4, 2.2.3, 2.2.2, ... [18 more]
 scalamacrodebug                  2 versions: 0.4.1, 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
-scalactic                       69 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [64 more]
+scalactic                       70 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [65 more]
 finagle-core                    29 versions: 7.1.0, 7.0.0, 6.45.0, 6.44.0, 6.43.0, ... [24 more]
 ostrich                         19 versions: 9.9.0, 9.8.0, 9.27.0, 9.26.0, 9.25.0, ... [14 more]
 algebird-core                   17 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.13.3, ... [12 more]
@@ -1325,6 +1325,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalactic" %% "scalactic" % "3.0.2"
 "org.scalactic" %% "scalactic" % "3.0.3"
 "org.scalactic" %% "scalactic" % "3.0.4"
+"org.scalactic" %% "scalactic" % "3.0.5-M1"
 "org.scalactic" %% "scalactic" % "3.0.5"
 "org.scalactic" %% "scalactic" % "3.1.0-SNAP6"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP1"
@@ -1412,6 +1413,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "3.0.2"
 "org.scalatest" %% "scalatest" % "3.0.3"
 "org.scalatest" %% "scalatest" % "3.0.4"
+"org.scalatest" %% "scalatest" % "3.0.5-M1"
 "org.scalatest" %% "scalatest" % "3.0.5"
 "org.scalatest" %% "scalatest" % "3.1.0-SNAP6"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP1"
