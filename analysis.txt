@@ -63,7 +63,7 @@ twirl-api                        1 versions: 0.7.0
 fastparse                       24 versions: 1.0.0, 0.4.4, 0.4.3, 0.4.2, 0.4.1, ... [19 more]
 scalatags                       18 versions: 0.6.7, 0.6.6, 0.6.5, 0.6.4, 0.6.3, ... [13 more]
 pprint                          19 versions: 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.4, ... [14 more]
-utest                           37 versions: 0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.4, ... [32 more]
+utest                           38 versions: 0.6.4, 0.6.3, 0.6.2, 0.6.1, 0.6.0, ... [33 more]
 jawn-parser                     18 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [13 more]
 jawn-ast                        18 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [13 more]
 jawn-argonaut                   12 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [7 more]
@@ -75,7 +75,7 @@ monocle-core                    24 versions: 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0
 monocle-macro                   24 versions: 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0-cats, 1.5.0, 1.4.0, ... [19 more]
 fs2                             33 versions: 0.9.7, 0.9.6, 0.9.5, 0.9.5-RC1, 0.9.4, ... [28 more]
 alleycats                        8 versions: 0.2.0, 0.1.9, 0.1.8, 0.1.7, 0.1.6, ... [3 more]
-catalysts                        4 versions: 0.0.5, 0.0.4, 0.0.3, 0.0.2
+catalysts                        5 versions: 0.6, 0.0.5, 0.0.4, 0.0.3, 0.0.2
 cats                            13 versions: 0.9.0, 0.8.1, 0.8.0, 0.7.2, 0.7.1, ... [8 more]
 discipline                      12 versions: 0.9.0, 0.8, 0.7.3, 0.7.2, 0.7.1, ... [7 more]
 machinist                        8 versions: 0.6.4, 0.6.3, 0.6.2, 0.6.1, 0.6.0, ... [3 more]
@@ -398,6 +398,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.lihaoyi" %% "utest" % "0.6.1"
 "com.lihaoyi" %% "utest" % "0.6.2"
 "com.lihaoyi" %% "utest" % "0.6.3"
+"com.lihaoyi" %% "utest" % "0.6.4"
 "com.nocandysw" %% "platform-executing" % "0.5.0"
 "com.propensive" %% "rapture-io" % "0.10.0"
 "com.propensive" %% "rapture-io" % "0.9.1"
@@ -2082,6 +2083,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.typelevel" %% "catalysts" % "0.0.3"
 "org.typelevel" %% "catalysts" % "0.0.4"
 "org.typelevel" %% "catalysts" % "0.0.5"
+"org.typelevel" %% "catalysts" % "0.6"
 "org.typelevel" %% "cats" % "0.4.0"
 "org.typelevel" %% "cats" % "0.4.1"
 "org.typelevel" %% "cats" % "0.5.0"
