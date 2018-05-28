@@ -1,5 +1,5 @@
 TargetVersion: Scala 2.11 LastVersion: Scala 2.10
-85 libraries available for Scala 2.11 (see the end for sbt config lines)
+86 libraries available for Scala 2.11 (see the end for sbt config lines)
 
 akka-actor                      70 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [65 more]
 akka-stream                     47 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [42 more]
@@ -57,8 +57,9 @@ algebird-core                   18 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.13.4,
 scalding-core                   24 versions: 0.17.4, 0.17.3, 0.17.2, 0.17.1, 0.17.0, ... [19 more]
 dispatch-core                    1 versions: 0.8.10
 unfiltered                       7 versions: 0.9.0-beta1, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [2 more]
-spray-routing                    4 versions: 1.3.4, 1.3.3, 1.3.2, 1.3.1
-spray-can                        4 versions: 1.3.4, 1.3.3, 1.3.2, 1.3.1
+spray-routing                    6 versions: 1.3.4, 1.3.3, 1.3.2-20140909, 1.3.2, 1.3.1-20140423, ... [1 more]
+spray-can                        6 versions: 1.3.4, 1.3.3, 1.3.2-20140909, 1.3.2, 1.3.1-20140423, ... [1 more]
+twirl-api                        1 versions: 0.7.0
 fastparse                       24 versions: 1.0.0, 0.4.4, 0.4.3, 0.4.2, 0.4.1, ... [19 more]
 scalatags                       18 versions: 0.6.7, 0.6.6, 0.6.5, 0.6.4, 0.6.3, ... [13 more]
 pprint                          19 versions: 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.4, ... [14 more]
@@ -93,11 +94,9 @@ dogs                           has no previous version to analyze
 org.scala-lang.modules         has no previous version to analyze
 scodec-scalaz                  has no previous version to analyze
 scodec-spire                   has no previous version to analyze
-twirl-api                       0 missing dependencies, deepest chain: 0 
 
 Blocking modules
 
-io.spray % twirl-api                               blocks nothing but itself
 
 Sbt config lines for all available libraries in alphabetic order
 
@@ -1171,7 +1170,9 @@ Sbt config lines for all available libraries in alphabetic order
 "io.argonaut" %% "argonaut" % "6.2"
 "io.argonaut" %% "argonaut" % "6.2.1"
 "io.spray" %% "spray-can" % "1.3.1"
+"io.spray" %% "spray-can" % "1.3.1-20140423"
 "io.spray" %% "spray-can" % "1.3.2"
+"io.spray" %% "spray-can" % "1.3.2-20140909"
 "io.spray" %% "spray-can" % "1.3.3"
 "io.spray" %% "spray-can" % "1.3.4"
 "io.spray" %% "spray-json" % "1.2.6"
@@ -1181,9 +1182,12 @@ Sbt config lines for all available libraries in alphabetic order
 "io.spray" %% "spray-json" % "1.3.3"
 "io.spray" %% "spray-json" % "1.3.4"
 "io.spray" %% "spray-routing" % "1.3.1"
+"io.spray" %% "spray-routing" % "1.3.1-20140423"
 "io.spray" %% "spray-routing" % "1.3.2"
+"io.spray" %% "spray-routing" % "1.3.2-20140909"
 "io.spray" %% "spray-routing" % "1.3.3"
 "io.spray" %% "spray-routing" % "1.3.4"
+"io.spray" %% "twirl-api" % "0.7.0"
 "net.databinder" %% "dispatch-core" % "0.8.10"
 "net.databinder" %% "unfiltered" % "0.7.1"
 "net.databinder" %% "unfiltered" % "0.8.0"
