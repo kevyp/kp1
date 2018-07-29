@@ -75,7 +75,7 @@ monocle-core                    25 versions: 1.5.1-cats, 1.5.0-cats-M2, 1.5.0-ca
 monocle-macro                   25 versions: 1.5.1-cats, 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0-cats, 1.5.0, ... [20 more]
 fs2                             38 versions: 1.0.0-M2, 1.0.0-M1, 0.9.7, 0.9.6, 0.9.5, ... [33 more]
 alleycats                        8 versions: 0.2.0, 0.1.9, 0.1.8, 0.1.7, 0.1.6, ... [3 more]
-catalysts                        5 versions: 0.6, 0.0.5, 0.0.4, 0.0.3, 0.0.2
+catalysts                        6 versions: 0.7, 0.6, 0.0.5, 0.0.4, 0.0.3, ... [1 more]
 cats                            13 versions: 0.9.0, 0.8.1, 0.8.0, 0.7.2, 0.7.1, ... [8 more]
 discipline                      13 versions: 0.9.0, 0.8, 0.7.3, 0.7.2, 0.7.1, ... [8 more]
 machinist                        9 versions: 0.6.5, 0.6.4, 0.6.3, 0.6.2, 0.6.1, ... [4 more]
@@ -2196,6 +2196,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.typelevel" %% "catalysts" % "0.0.4"
 "org.typelevel" %% "catalysts" % "0.0.5"
 "org.typelevel" %% "catalysts" % "0.6"
+"org.typelevel" %% "catalysts" % "0.7"
 "org.typelevel" %% "cats" % "0.4.0"
 "org.typelevel" %% "cats" % "0.4.1"
 "org.typelevel" %% "cats" % "0.5.0"
