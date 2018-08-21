@@ -73,7 +73,7 @@ jawn-rojoma                     16 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 
 jawn-spray                      16 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [11 more]
 monocle-core                    25 versions: 1.5.1-cats, 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0-cats, 1.5.0, ... [20 more]
 monocle-macro                   25 versions: 1.5.1-cats, 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0-cats, 1.5.0, ... [20 more]
-fs2                             39 versions: 1.0.0-M3, 1.0.0-M2, 1.0.0-M1, 0.9.7, 0.9.6, ... [34 more]
+fs2                             40 versions: 1.0.0-M4, 1.0.0-M3, 1.0.0-M2, 1.0.0-M1, 0.9.7, ... [35 more]
 alleycats                        8 versions: 0.2.0, 0.1.9, 0.1.8, 0.1.7, 0.1.6, ... [3 more]
 catalysts                        6 versions: 0.7, 0.6, 0.0.5, 0.0.4, 0.0.3, ... [1 more]
 cats                            13 versions: 0.9.0, 0.8.1, 0.8.0, 0.7.2, 0.7.1, ... [8 more]
@@ -139,6 +139,7 @@ Sbt config lines for all available libraries in alphabetic order
 "co.fs2" %% "fs2-core" % "1.0.0-M1"
 "co.fs2" %% "fs2-core" % "1.0.0-M2"
 "co.fs2" %% "fs2-core" % "1.0.0-M3"
+"co.fs2" %% "fs2-core" % "1.0.0-M4"
 "com.beachape" %% "enumeratum" % "0.0.1"
 "com.beachape" %% "enumeratum" % "0.0.2"
 "com.beachape" %% "enumeratum" % "0.0.3"
