@@ -63,7 +63,7 @@ twirl-api                        1 versions: 0.7.0
 fastparse                       24 versions: 1.0.0, 0.4.4, 0.4.3, 0.4.2, 0.4.1, ... [19 more]
 scalatags                       18 versions: 0.6.7, 0.6.6, 0.6.5, 0.6.4, 0.6.3, ... [13 more]
 pprint                          19 versions: 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.4, ... [14 more]
-utest                           38 versions: 0.6.4, 0.6.3, 0.6.2, 0.6.1, 0.6.0, ... [33 more]
+utest                           39 versions: 0.6.5, 0.6.4, 0.6.3, 0.6.2, 0.6.1, ... [34 more]
 jawn-parser                     22 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [17 more]
 jawn-ast                        22 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [17 more]
 jawn-argonaut                   16 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [11 more]
@@ -412,6 +412,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.lihaoyi" %% "utest" % "0.6.2"
 "com.lihaoyi" %% "utest" % "0.6.3"
 "com.lihaoyi" %% "utest" % "0.6.4"
+"com.lihaoyi" %% "utest" % "0.6.5"
 "com.nocandysw" %% "platform-executing" % "0.5.0"
 "com.propensive" %% "rapture-io" % "0.10.0"
 "com.propensive" %% "rapture-io" % "0.9.1"
