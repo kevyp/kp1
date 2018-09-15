@@ -33,8 +33,8 @@ debox                            3 versions: 0.8.0, 0.7.3, 0.7.2
 kind-projector                  14 versions: 0.9.7, 0.9.6, 0.9.5, 0.9.4, 0.9.3, ... [9 more]
 scalaz                          82 versions: 7.3.0-M9, 7.3.0-M8, 7.3.0-M7, 7.3.0-M6, 7.3.0-M5, ... [77 more]
 shapeless                       24 versions: 2.3.3, 2.3.2, 2.3.1, 2.3.1-RC1, 2.3.0, ... [19 more]
-parboiled                        3 versions: 1.1.8, 1.1.7, 1.1.6
-parboiled2                       9 versions: 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, ... [4 more]
+parboiled                        4 versions: 1.2.0, 1.1.8, 1.1.7, 1.1.6
+parboiled2                      10 versions: 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, ... [5 more]
 scopt                            6 versions: 3.7.0, 3.6.0, 3.5.0, 3.4.0, 3.3.0, ... [1 more]
 scala-arm                        4 versions: 2.0.0-M1, 2.0, 2.0-RC1, 1.4
 scala-stm                        2 versions: 0.8, 0.7
@@ -1367,9 +1367,11 @@ Sbt config lines for all available libraries in alphabetic order
 "org.parboiled" %% "parboiled" % "2.1.2"
 "org.parboiled" %% "parboiled" % "2.1.3"
 "org.parboiled" %% "parboiled" % "2.1.4"
+"org.parboiled" %% "parboiled" % "2.1.5"
 "org.parboiled" %% "parboiled-scala" % "1.1.6"
 "org.parboiled" %% "parboiled-scala" % "1.1.7"
 "org.parboiled" %% "parboiled-scala" % "1.1.8"
+"org.parboiled" %% "parboiled-scala" % "1.2.0"
 "org.rogach" %% "scallop" % "0.9.5"
 "org.rogach" %% "scallop" % "0.9.6"
 "org.rogach" %% "scallop" % "1.0.0"
