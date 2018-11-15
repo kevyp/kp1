@@ -38,7 +38,7 @@ parboiled2                      10 versions: 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 
 scopt                            6 versions: 3.7.0, 3.6.0, 3.5.0, 3.4.0, 3.3.0, ... [1 more]
 scala-arm                        4 versions: 2.0.0-M1, 2.0, 2.0-RC1, 1.4
 scala-stm                        2 versions: 0.8, 0.7
-scallop                         25 versions: 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.3, ... [20 more]
+scallop                         26 versions: 3.1.4, 3.1.3, 3.1.2, 3.1.1, 3.1.0, ... [21 more]
 scalafx                         16 versions: 8.0.92-R10, 8.0.60-R9, 8.0.5-R5, 8.0.40-R8, 8.0.31-R7, ... [11 more]
 scalatra                        21 versions: 2.6.3, 2.6.2, 2.6.1, 2.5.4, 2.5.3, ... [16 more]
 scalate-core                     9 versions: 1.9.1-RC1, 1.9.0, 1.9.0-RC2, 1.9.0-RC1, 1.8.0, ... [4 more]
@@ -1427,6 +1427,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.rogach" %% "scallop" % "3.1.1"
 "org.rogach" %% "scallop" % "3.1.2"
 "org.rogach" %% "scallop" % "3.1.3"
+"org.rogach" %% "scallop" % "3.1.4"
 "org.scala-lang.modules" %% "scala-async" % "0.9.1"
 "org.scala-lang.modules" %% "scala-async" % "0.9.2"
 "org.scala-lang.modules" %% "scala-async" % "0.9.3"
