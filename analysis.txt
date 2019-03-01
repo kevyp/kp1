@@ -14,7 +14,7 @@ scala-parser-combinators         8 versions: 1.1.1, 1.1.0, 1.0.7, 1.0.6, 1.0.5, 
 scala-swing                      8 versions: 2.1.0, 2.0.3, 2.0.2, 2.0.1, 2.0.0, ... [3 more]
 async                           11 versions: 0.9.7, 0.9.6, 0.9.6-RC6, 0.9.6-RC5, 0.9.6-RC2, ... [6 more]
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       82 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [77 more]
+scalatest                       83 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [78 more]
 specs2                         237 versions: 4.4.1, 4.4.0, 4.3.6, 4.3.5, 4.3.4, ... [232 more]
 scalacheck                      23 versions: 1.9, 1.8, 1.14.0, 1.13.5, 1.13.4, ... [18 more]
 squeryl                         10 versions: 0.9.9, 0.9.8, 0.9.7, 0.9.6-RC4, 0.9.6-RC3, ... [5 more]
@@ -50,7 +50,7 @@ monifu                          53 versions: 1.2, 1.1, 1.0, 1.0-RC4, 1.0-RC3, ..
 MacWire                         24 versions: 2.3.1, 2.3.0, 2.2.5, 2.2.4, 2.2.3, ... [19 more]
 scalamacrodebug                  2 versions: 0.4.1, 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
-scalactic                       77 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [72 more]
+scalactic                       78 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [73 more]
 finagle-core                    42 versions: 7.1.0, 7.0.0, 6.45.0, 6.44.0, 6.43.0, ... [37 more]
 ostrich                         19 versions: 9.9.0, 9.8.0, 9.27.0, 9.26.0, 9.25.0, ... [14 more]
 algebird-core                   19 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.13.5, ... [14 more]
@@ -73,7 +73,7 @@ jawn-rojoma                     16 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, 
 jawn-spray                      16 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [11 more]
 monocle-core                    26 versions: 1.6.0-M1, 1.5.1-cats, 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0-cats, ... [21 more]
 monocle-macro                   26 versions: 1.6.0-M1, 1.5.1-cats, 1.5.0-cats-M2, 1.5.0-cats-M1, 1.5.0-cats, ... [21 more]
-fs2                             49 versions: 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-RC2, ... [44 more]
+fs2                             50 versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, ... [45 more]
 alleycats                        8 versions: 0.2.0, 0.1.9, 0.1.8, 0.1.7, 0.1.6, ... [3 more]
 catalysts                        7 versions: 0.8, 0.7, 0.6, 0.0.5, 0.0.4, ... [2 more]
 cats                            13 versions: 0.9.0, 0.8.1, 0.8.0, 0.7.2, 0.7.1, ... [8 more]
@@ -149,6 +149,7 @@ Sbt config lines for all available libraries in alphabetic order
 "co.fs2" %% "fs2-core" % "1.0.1"
 "co.fs2" %% "fs2-core" % "1.0.2"
 "co.fs2" %% "fs2-core" % "1.0.3"
+"co.fs2" %% "fs2-core" % "1.0.4"
 "com.beachape" %% "enumeratum" % "0.0.1"
 "com.beachape" %% "enumeratum" % "0.0.2"
 "com.beachape" %% "enumeratum" % "0.0.3"
@@ -1598,6 +1599,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalactic" %% "scalactic" % "3.0.4"
 "org.scalactic" %% "scalactic" % "3.0.5-M1"
 "org.scalactic" %% "scalactic" % "3.0.5"
+"org.scalactic" %% "scalactic" % "3.0.6"
 "org.scalactic" %% "scalactic" % "3.0.6-SNAP1"
 "org.scalactic" %% "scalactic" % "3.0.6-SNAP2"
 "org.scalactic" %% "scalactic" % "3.0.6-SNAP3"
@@ -1696,6 +1698,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "3.0.4"
 "org.scalatest" %% "scalatest" % "3.0.5-M1"
 "org.scalatest" %% "scalatest" % "3.0.5"
+"org.scalatest" %% "scalatest" % "3.0.6"
 "org.scalatest" %% "scalatest" % "3.0.6-SNAP1"
 "org.scalatest" %% "scalatest" % "3.0.6-SNAP2"
 "org.scalatest" %% "scalatest" % "3.0.6-SNAP3"
