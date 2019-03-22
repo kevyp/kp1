@@ -3,8 +3,8 @@ TargetVersion: Scala 2.11 LastVersion: Scala 2.10
 
 akka-actor                      79 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [74 more]
 akka-stream                     56 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [51 more]
-akka-http-core                  50 versions: 3.0.0-RC1, 2.4.9, 2.4.9-RC2, 2.4.9-RC1, 2.4.8, ... [45 more]
-akka-http                       28 versions: 3.0.0-RC1, 10.1.7, 10.1.6, 10.1.5, 10.1.4, ... [23 more]
+akka-http-core                  51 versions: 3.0.0-RC1, 2.4.9, 2.4.9-RC2, 2.4.9-RC1, 2.4.8, ... [46 more]
+akka-http                       29 versions: 3.0.0-RC1, 10.1.8, 10.1.7, 10.1.6, 10.1.5, ... [24 more]
 akka-osgi                       79 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [74 more]
 akka-slf4j                      79 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [74 more]
 akka-testkit                    79 versions: 2.5.9, 2.5.8, 2.5.7, 2.5.6, 2.5.5, ... [74 more]
@@ -694,6 +694,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-http" % "10.1.5"
 "com.typesafe.akka" %% "akka-http" % "10.1.6"
 "com.typesafe.akka" %% "akka-http" % "10.1.7"
+"com.typesafe.akka" %% "akka-http" % "10.1.8"
 "com.typesafe.akka" %% "akka-http" % "3.0.0-RC1"
 "com.typesafe.akka" %% "akka-http-core" % "10.0.0-RC2"
 "com.typesafe.akka" %% "akka-http-core" % "10.0.0"
@@ -723,6 +724,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.typesafe.akka" %% "akka-http-core" % "10.1.5"
 "com.typesafe.akka" %% "akka-http-core" % "10.1.6"
 "com.typesafe.akka" %% "akka-http-core" % "10.1.7"
+"com.typesafe.akka" %% "akka-http-core" % "10.1.8"
 "com.typesafe.akka" %% "akka-http-core" % "2.4-ARTERY-M1"
 "com.typesafe.akka" %% "akka-http-core" % "2.4-ARTERY-M2"
 "com.typesafe.akka" %% "akka-http-core" % "2.4-ARTERY-M3"
