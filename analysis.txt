@@ -14,11 +14,11 @@ scala-parser-combinators         9 versions: 1.1.2, 1.1.1, 1.1.0, 1.0.7, 1.0.6, 
 scala-swing                      8 versions: 2.1.0, 2.0.3, 2.0.2, 2.0.1, 2.0.0, ... [3 more]
 async                           11 versions: 0.9.7, 0.9.6, 0.9.6-RC6, 0.9.6-RC5, 0.9.6-RC2, ... [6 more]
 scala-logging-slf4j              5 versions: 2.1.2, 2.1.1, 2.1.0, 2.0.4, 2.0.3
-scalatest                       89 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [84 more]
+scalatest                       90 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [85 more]
 specs2                         239 versions: 4.5.1, 4.5.0, 4.4.1, 4.4.0, 4.3.6, ... [234 more]
 scalacheck                      23 versions: 1.9, 1.8, 1.14.0, 1.13.5, 1.13.4, ... [18 more]
 squeryl                         10 versions: 0.9.9, 0.9.8, 0.9.7, 0.9.6-RC4, 0.9.6-RC3, ... [5 more]
-scalikejdbc-interpolation       71 versions: 3.3.3, 3.3.2, 3.3.1, 3.3.0, 3.3.0-RC1, ... [66 more]
+scalikejdbc-interpolation       72 versions: 3.3.4, 3.3.3, 3.3.2, 3.3.1, 3.3.0, ... [67 more]
 spray-json                       7 versions: 1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1, ... [2 more]
 json4s-native                   30 versions: 3.6.5, 3.6.4, 3.6.3, 3.6.2, 3.6.1, ... [25 more]
 lift-json                       31 versions: 3.2.0-M2, 3.2.0-M1, 3.1.1, 3.1.0, 3.1.0-RC1, ... [26 more]
@@ -41,7 +41,7 @@ scala-stm                        3 versions: 0.9, 0.8, 0.7
 scallop                         28 versions: 3.2.0, 3.1.5, 3.1.4, 3.1.3, 3.1.2, ... [23 more]
 scalafx                         16 versions: 8.0.92-R10, 8.0.60-R9, 8.0.5-R5, 8.0.40-R8, 8.0.31-R7, ... [11 more]
 scalatra                        23 versions: 2.6.5, 2.6.4, 2.6.3, 2.6.2, 2.6.1, ... [18 more]
-scalate-core                    10 versions: 1.9.1, 1.9.1-RC1, 1.9.0, 1.9.0-RC2, 1.9.0-RC1, ... [5 more]
+scalate-core                    11 versions: 1.9.2, 1.9.1, 1.9.1-RC1, 1.9.0, 1.9.0-RC2, ... [6 more]
 platform-executing               1 versions: 0.5.0
 nscala-time                     17 versions: 2.8.0, 2.6.0, 2.4.0, 2.22.0, 2.20.0, ... [12 more]
 nalloc                           1 versions: 0.1.0
@@ -50,7 +50,7 @@ monifu                          53 versions: 1.2, 1.1, 1.0, 1.0-RC4, 1.0-RC3, ..
 MacWire                         25 versions: 2.3.2, 2.3.1, 2.3.0, 2.2.5, 2.2.4, ... [20 more]
 scalamacrodebug                  2 versions: 0.4.1, 0.4
 kiama                            4 versions: 1.8.0, 1.7.0, 1.6.0, 1.5.3
-scalactic                       84 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [79 more]
+scalactic                       85 versions: 3.2.0-SNAP7, 3.2.0-SNAP5, 3.2.0-SNAP4, 3.2.0-SNAP3, 3.2.0-SNAP2, ... [80 more]
 finagle-core                    43 versions: 7.1.0, 7.0.0, 6.45.0, 6.44.0, 6.43.0, ... [38 more]
 ostrich                         19 versions: 9.9.0, 9.8.0, 9.27.0, 9.26.0, 9.25.0, ... [14 more]
 algebird-core                   19 versions: 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.13.5, ... [14 more]
@@ -63,7 +63,7 @@ twirl-api                        1 versions: 0.7.0
 fastparse                       31 versions: 2.1.0, 2.0.5, 2.0.4, 2.0.3, 2.0.2, ... [26 more]
 scalatags                       19 versions: 0.6.8, 0.6.7, 0.6.6, 0.6.5, 0.6.4, ... [14 more]
 pprint                          20 versions: 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, ... [15 more]
-utest                           40 versions: 0.6.6, 0.6.5, 0.6.4, 0.6.3, 0.6.2, ... [35 more]
+utest                           41 versions: 0.6.7, 0.6.6, 0.6.5, 0.6.4, 0.6.3, ... [36 more]
 jawn-parser                     22 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [17 more]
 jawn-ast                        22 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [17 more]
 jawn-argonaut                   16 versions: 0.9.0, 0.8.4, 0.8.3, 0.8.2, 0.8.1, ... [11 more]
@@ -84,8 +84,8 @@ scodec-core                     12 versions: 1.6.0, 1.5.0, 1.4.0, 1.3.2, 1.3.1, 
 scodec-protocols                 4 versions: 0.5.0, 0.4.0, 0.2.0, 0.1.0
 scodec-stream                    6 versions: 0.6.0, 0.5.0, 0.4.0, 0.3.0, 0.2.0, ... [1 more]
 scodec-core-old                 15 versions: 1.9.0, 1.8.3, 1.8.2, 1.8.1, 1.7.1, ... [10 more]
-scodec-core-bits                16 versions: 1.1.9, 1.1.8, 1.1.7, 1.1.6, 1.1.5, ... [11 more]
-simulacrum                      16 versions: 0.9.0, 0.8.0, 0.7.0, 0.6.1, 0.6.0, ... [11 more]
+scodec-core-bits                17 versions: 1.1.9, 1.1.8, 1.1.7, 1.1.6, 1.1.5, ... [12 more]
+simulacrum                      17 versions: 0.9.0, 0.8.0, 0.7.0, 0.6.1, 0.6.0, ... [12 more]
 enumeratum                      53 versions: 1.5.9, 1.5.8, 1.5.7, 1.5.6, 1.5.5, ... [48 more]
 
 Libraries missing
@@ -286,6 +286,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.github.mpilquist" %% "simulacrum" % "0.13.0"
 "com.github.mpilquist" %% "simulacrum" % "0.14.0"
 "com.github.mpilquist" %% "simulacrum" % "0.15.0"
+"com.github.mpilquist" %% "simulacrum" % "0.16.0"
 "com.github.mpilquist" %% "simulacrum" % "0.2.0"
 "com.github.mpilquist" %% "simulacrum" % "0.3.0"
 "com.github.mpilquist" %% "simulacrum" % "0.4.0"
@@ -439,6 +440,7 @@ Sbt config lines for all available libraries in alphabetic order
 "com.lihaoyi" %% "utest" % "0.6.4"
 "com.lihaoyi" %% "utest" % "0.6.5"
 "com.lihaoyi" %% "utest" % "0.6.6"
+"com.lihaoyi" %% "utest" % "0.6.7"
 "com.nocandysw" %% "platform-executing" % "0.5.0"
 "com.propensive" %% "rapture-io" % "0.10.0"
 "com.propensive" %% "rapture-io" % "0.9.1"
@@ -1630,6 +1632,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalactic" %% "scalactic" % "3.1.0-SNAP6"
 "org.scalactic" %% "scalactic" % "3.1.0-SNAP7"
 "org.scalactic" %% "scalactic" % "3.1.0-SNAP8"
+"org.scalactic" %% "scalactic" % "3.1.0-SNAP9"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP1"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP10"
 "org.scalactic" %% "scalactic" % "3.2.0-SNAP2"
@@ -1735,6 +1738,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatest" %% "scalatest" % "3.1.0-SNAP6"
 "org.scalatest" %% "scalatest" % "3.1.0-SNAP7"
 "org.scalatest" %% "scalatest" % "3.1.0-SNAP8"
+"org.scalatest" %% "scalatest" % "3.1.0-SNAP9"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP1"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP10"
 "org.scalatest" %% "scalatest" % "3.2.0-SNAP2"
@@ -1775,6 +1779,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalatra.scalate" %% "scalate-core" % "1.9.0"
 "org.scalatra.scalate" %% "scalate-core" % "1.9.1-RC1"
 "org.scalatra.scalate" %% "scalate-core" % "1.9.1"
+"org.scalatra.scalate" %% "scalate-core" % "1.9.2"
 "org.scalaz" %% "scalaz-core" % "7.0.6"
 "org.scalaz" %% "scalaz-core" % "7.0.7"
 "org.scalaz" %% "scalaz-core" % "7.0.8"
@@ -1932,6 +1937,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.3.1"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.3.2"
 "org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.3.3"
+"org.scalikejdbc" %% "scalikejdbc-interpolation" % "3.3.4"
 "org.scodec" %% "scodec-bits" % "1.0.10"
 "org.scodec" %% "scodec-bits" % "1.0.11"
 "org.scodec" %% "scodec-bits" % "1.0.12"
@@ -1940,6 +1946,7 @@ Sbt config lines for all available libraries in alphabetic order
 "org.scodec" %% "scodec-bits" % "1.0.9"
 "org.scodec" %% "scodec-bits" % "1.1.0"
 "org.scodec" %% "scodec-bits" % "1.1.1"
+"org.scodec" %% "scodec-bits" % "1.1.10"
 "org.scodec" %% "scodec-bits" % "1.1.2"
 "org.scodec" %% "scodec-bits" % "1.1.3"
 "org.scodec" %% "scodec-bits" % "1.1.4"
